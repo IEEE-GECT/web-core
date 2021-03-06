@@ -3,6 +3,7 @@ module.exports = {
     title: "IEEE | GEC Thrissur",
     description: "IEEE Website GEC Thrissur",
     author: "IEEE SB GEC Thrissur",
+    // siteUrl: "",
   },
   pathPrefix: "/IEEE-GECT-Website",
   plugins: [
@@ -79,7 +80,7 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
   ],

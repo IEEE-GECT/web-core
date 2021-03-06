@@ -1,6 +1,6 @@
 # IEEE GECT Website
 
-## Hosted [here👈](https://bytecrak07.github.io/IEEE-GECT-Website)
+## Hosted [here👈](https://bytecrak07.github.io/IEEE-GECT-Website/)
 
 ## 🚀 Quick start
 
