@@ -8,10 +8,24 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="" />
-    <h1>Hi people</h1>
-    <p>Welcome to our new Gatsby site.</p>
-    <p>
-      Appo nammuk pani thudangam makkale...
+    <div className="relative -mt-20" style={{ height: `calc(90vh - 90px)` }}>
+      <StaticImage
+        src="../images/group.jpg"
+        quality={100}
+        placeholder="blurred"
+        formats={["AUTO", "WEBP", "AVIF"]}
+        alt="cover"
+        className="inset-0"
+        style={{ position: "absolute" }}
+      />
+      <div className="bg-black opacity-40 absolute inset-0"></div>
+      <div className="absolute h-full w-full text-white flex items-center justify-center">
+        <h1 className="text-6xl font-bold">IEEE Student Branch GEC Thrissur</h1>
+      </div>
+    </div>
+
+    <p className="py-72">
+      Content
       <span role="img" aria-label="partying-face">
         🥳
       </span>
@@ -22,14 +36,6 @@ const IndexPage = () => (
         😇
       </span>
     </p>
-    <StaticImage
-      src="../images/work.png"
-      height={300}
-      quality={100}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="Work"
-      style={{ marginTop: `1.45rem` }}
-    />
   </Layout>
 )
 
