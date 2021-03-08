@@ -121,41 +121,44 @@ const tsParticlesConfig = {
       },
       image: [
         {
-          src: "https://ta.ieee.org/images/files/logos/cs-logo.gif",
-          width: 160,
-          height: 49,
+          src: "CS.png",
+          width: 150,
+          height: 46,
         },
         {
-          src: "https://ta.ieee.org/images/files/logos/pels-logo.png",
-          width: 375,
-          height: 149,
+          src: "IAS.png",
+          width: 150,
+          height: 94,
         },
         {
-          src: "https://ta.ieee.org/images/files/logos/pes-logo.gif",
-          width: 388,
-          height: 268,
+          src: "PELS.png",
+          width: 150,
+          height: 60,
         },
         {
-          src: "https://ta.ieee.org/images/files/logos/ras-logo.png",
+          src: "PES.png",
+          width: 150,
+          height: 104,
+        },
+        {
+          src: "RAS.png",
           width: 150,
           height: 55,
         },
         {
-          src: "https://ta.ieee.org/images/files/logos/tems-logo.jpg",
-          width: 326,
-          height: 136,
+          src: "SIGHT.png",
+          width: 150,
+          height: 67,
         },
         {
-          src:
-            "https://sight.ieee.org/wp-content/themes/ieee-sight-bones/library/images/logo-hero-ieee-sight.png",
-          width: 418,
-          height: 186,
+          src: "TEMS.png",
+          width: 150,
+          height: 46,
         },
         {
-          src:
-            "https://brand-experience.ieee.org/wp-content/uploads/2019/01/WIE_purple_pms526.png",
-          width: 205,
-          height: 159,
+          src: "WIE.png",
+          width: 150,
+          height: 116,
         },
       ],
       polygon: {

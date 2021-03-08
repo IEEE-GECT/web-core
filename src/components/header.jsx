@@ -1,4 +1,5 @@
 import * as React from "react"
+import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -23,17 +24,33 @@ const Header = () => {
     setScrollPosition(position)
   }
 
-  const ActiveLink = props => (
-    <li className="flex items-center h-full mx-2 border-b-4 border-ieee-blue text-ieee-blue cursor-pointer">
-      <span className="px-3 py-2 text-sm font-medium">{props.children}</span>
-    </li>
-  )
-
-  const IdleLink = props => (
-    <li className="flex items-center h-full mx-2 border-b-4 border-transparent hover:border-ieee-blue hover:text-ieee-blue cursor-pointer">
-      <span className="px-3 py-2 text-sm font-medium">{props.children}</span>
-    </li>
-  )
+  const NavLink = props => {
+    return (
+      <>
+        {window.location.pathname === props.to ? (
+          <li className="h-full mx-2 border-b-4 border-ieee-blue text-ieee-blue">
+            <Link to={props.to} className="flex items-center h-full">
+              <span className="px-3 py-2 text-sm font-medium">
+                {props.children}
+              </span>
+            </Link>
+          </li>
+        ) : (
+          <li className="h-full mx-2 border-b-4 border-transparent hover:border-ieee-blue hover:text-ieee-blue">
+            <Link to={props.to} className="flex items-center h-full">
+              <span className="px-3 py-2 text-sm font-medium">
+                {props.children}
+              </span>
+            </Link>
+          </li>
+        )}
+      </>
+    )
+  }
+  NavLink.propTypes = {
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  }
 
   return (
     <>
@@ -77,11 +94,11 @@ const Header = () => {
 
           {/* Links displayed after md */}
           <ul className="hidden md:flex text-gray-800 items-center">
-            <IdleLink>Link1</IdleLink>
-            <ActiveLink>Link2</ActiveLink>
-            <IdleLink>Link3</IdleLink>
-            <IdleLink>Link4</IdleLink>
-            <IdleLink>Link5</IdleLink>
+            <NavLink to="/link1">Link 1</NavLink>
+            <NavLink to="/link2">Link 2</NavLink>
+            <NavLink to="/link3">Link 3</NavLink>
+            <NavLink to="/link4">Link 4</NavLink>
+            <NavLink to="/link5">Link 5</NavLink>
           </ul>
         </div>
       </header>
@@ -120,11 +137,11 @@ const Header = () => {
 
           {/* Links displayed after md */}
           <ul className="hidden md:flex text-white items-center">
-            <IdleLink>Link1</IdleLink>
-            <IdleLink>Link2</IdleLink>
-            <IdleLink>Link3</IdleLink>
-            <IdleLink>Link4</IdleLink>
-            <IdleLink>Link5</IdleLink>
+            <NavLink to="/link1">Link 1</NavLink>
+            <NavLink to="/link2">Link 2</NavLink>
+            <NavLink to="/link3">Link 3</NavLink>
+            <NavLink to="/link4">Link 4</NavLink>
+            <NavLink to="/link5">Link 5</NavLink>
           </ul>
         </div>
       </header>

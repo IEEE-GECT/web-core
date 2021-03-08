@@ -1,4 +1,6 @@
 import * as React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes } from "@fortawesome/free-solid-svg-icons"
 
@@ -22,25 +24,37 @@ const SideBar = props => {
     // eslint-disable-next-line
   }, [])
 
-  const ActiveLink = props => (
-    <span
-      className={
-        "flex items-center py-2 px-8 mt-5 w-full cursor-pointer bg-ieee-blue-light text-ieee-blue border-l-4 border-ieee-blue"
-      }
-    >
-      <span className="mx-4 font-medium block">{props.children}</span>
-    </span>
-  )
-
-  const IdleLink = props => (
-    <span
-      className={
-        "flex items-center py-2 px-8 mt-5 w-full cursor-pointer text-gray-600 border-l-4 border-white hover:bg-ieee-blue-light hover:text-ieee-blue hover:border-ieee-blue"
-      }
-    >
-      <span className="mx-4 font-medium block">{props.children}</span>
-    </span>
-  )
+  const NavLink = props => {
+    return (
+      <>
+        {window.location.pathname === props.to ? (
+          <span
+            className={
+              "flex items-center py-2 px-8 mt-5 w-full cursor-pointer bg-ieee-blue-light text-ieee-blue border-l-4 border-ieee-blue"
+            }
+          >
+            <Link to={props.to} className="block w-full">
+              <span className="mx-4 font-medium block">{props.children}</span>
+            </Link>
+          </span>
+        ) : (
+          <span
+            className={
+              "flex items-center py-2 px-8 mt-5 w-full cursor-pointer text-gray-600 border-l-4 border-white hover:bg-ieee-blue-light hover:text-ieee-blue hover:border-ieee-blue"
+            }
+          >
+            <Link to={props.to} className="block w-full">
+              <span className="mx-4 font-medium block">{props.children}</span>
+            </Link>
+          </span>
+        )}
+      </>
+    )
+  }
+  NavLink.propTypes = {
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  }
 
   return (
     <>
@@ -64,15 +78,11 @@ const SideBar = props => {
         </div>
 
         <nav>
-          <ActiveLink>Link1</ActiveLink>
-
-          <IdleLink>Link2</IdleLink>
-
-          <IdleLink>Link3</IdleLink>
-
-          <IdleLink>Link4</IdleLink>
-
-          <IdleLink>Link5</IdleLink>
+          <NavLink to="/link1">Link 1</NavLink>
+          <NavLink to="/link2">Link 2</NavLink>
+          <NavLink to="/link3">Link 3</NavLink>
+          <NavLink to="/link4">Link 4</NavLink>
+          <NavLink to="/link5">Link 5</NavLink>
         </nav>
       </div>
     </>
