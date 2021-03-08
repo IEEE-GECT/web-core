@@ -2,10 +2,21 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons"
+import { tsParticles } from "tsparticles"
 
 import Header from "./header"
+import tsParticlesConfig from "./tsparticles.config"
 
 const Layout = ({ children }) => {
+  React.useEffect(() => {
+    tsParticles
+      .load("tsparticles", tsParticlesConfig)
+      .then()
+      .catch(error => {
+        console.error(error)
+      })
+  }, [])
+
   const GoToTop = () => {
     return (
       <button
@@ -24,7 +35,11 @@ const Layout = ({ children }) => {
   return (
     <>
       {/* For any full screen background */}
-      {/* <div className="fixed inset-0 bg-ieee-blue"></div> */}
+      <div
+        className="fixed inset-0"
+        id="tsparticles"
+        style={{ backgroundColor: "aliceblue" }}
+      ></div>
 
       <div className="relative">
         <Header />

@@ -26,18 +26,20 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <p className="py-72">
-      Content
-      <span role="img" aria-label="partying-face">
-        🥳
-      </span>
-      <span role="img" aria-label="partying-face">
-        🥳
-      </span>
-      <span role="img" aria-label="smiling-face-with-halo">
-        😇
-      </span>
-    </p>
+    <div className="py-10 px-2 sm:p-10">
+      <p className="py-72 bg-white rounded-lg shadow-2xl">
+        Content
+        <span role="img" aria-label="partying-face">
+          🥳
+        </span>
+        <span role="img" aria-label="partying-face">
+          🥳
+        </span>
+        <span role="img" aria-label="smiling-face-with-halo">
+          😇
+        </span>
+      </p>
+    </div>
   </Layout>
 )
 

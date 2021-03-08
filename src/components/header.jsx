@@ -42,7 +42,7 @@ const Header = () => {
 
       {/* Header to be displayed after 100px */}
       <header
-        className="bg-white fixed -top-40 w-full shadow rounded-b-lg px-6 z-30 transition-transform"
+        className="bg-white fixed -top-40 w-full shadow rounded-b-lg px-6 z-30 transition-transform duration-500"
         style={scrollPosition > 100 ? { transform: "translate(0, 10rem)" } : {}}
       >
         <div className="flex justify-between">
