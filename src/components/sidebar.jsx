@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes } from "@fortawesome/free-solid-svg-icons"
 
-const SideBar = props => {
+const SideBar = ({ route, setIsOpen }) => {
   const [display, setDisplay] = React.useState(false)
 
   const closeSideBar = () => {
     setDisplay(false)
-    window.setTimeout(() => props.setIsOpen(false), 500)
+    window.setTimeout(() => setIsOpen(false), 500)
   }
 
   React.useEffect(() => {
@@ -27,7 +27,7 @@ const SideBar = props => {
   const NavLink = props => {
     return (
       <>
-        {window.location.pathname === props.to ? (
+        {route === props.to ? (
           <span
             className={
               "flex items-center py-2 px-8 mt-5 w-full cursor-pointer bg-ieee-blue-light text-ieee-blue border-l-4 border-ieee-blue"

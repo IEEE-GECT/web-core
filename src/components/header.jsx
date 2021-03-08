@@ -7,7 +7,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 import SideBar from "./sidebar"
 
-const Header = () => {
+const Header = ({ route }) => {
   const [scrollPosition, setScrollPosition] = React.useState(0)
   const [isOpen, setIsOpen] = React.useState(false) // for sidebar
 
@@ -27,7 +27,7 @@ const Header = () => {
   const NavLink = props => {
     return (
       <>
-        {window.location.pathname === props.to ? (
+        {route === props.to ? (
           <li className="h-full mx-2 border-b-4 border-ieee-blue text-ieee-blue">
             <Link to={props.to} className="flex items-center h-full">
               <span className="px-3 py-2 text-sm font-medium">
@@ -55,12 +55,18 @@ const Header = () => {
   return (
     <>
       {/* Sidebar */}
-      {isOpen ? <SideBar setIsOpen={setIsOpen} /> : ""}
+      {isOpen ? <SideBar route={route} setIsOpen={setIsOpen} /> : ""}
 
       {/* Header to be displayed after 100px */}
       <header
-        className="bg-white fixed -top-40 w-full shadow rounded-b-lg px-6 z-30 transition-transform duration-500"
-        style={scrollPosition > 100 ? { transform: "translate(0, 10rem)" } : {}}
+        className={`bg-white fixed w-full shadow rounded-b-lg px-6 z-30 transition-transform duration-500 ${
+          route === "/" ? "-top-40" : "top-0"
+        }`}
+        style={
+          route === "/" && scrollPosition > 100
+            ? { transform: "translate(0, 10rem)" }
+            : {}
+        }
       >
         <div className="flex justify-between">
           <h1 className="sm:ml-10 text-2xl my-4">
@@ -103,48 +109,52 @@ const Header = () => {
         </div>
       </header>
 
-      {/* Header to be displayed first */}
-      <header className="bg-black bg-opacity-0 absolute top-0 w-full px-6 z-30">
-        <div className="flex justify-between">
-          <h1 className="sm:ml-10 text-2xl my-4">
-            <Link to="/">
-              <div className="pt-1 w-40 md:w-48">
-                <StaticImage
-                  src="../images/logo-white.png"
-                  quality={100}
-                  placeholder="tracedSVG"
-                  formats={["AUTO", "WEBP", "AVIF"]}
-                  alt="logo"
-                />
+      {/* Header to be displayed first if homepage */}
+      {route === "/" ? (
+        <header className="bg-black bg-opacity-0 absolute top-0 w-full px-6 z-30">
+          <div className="flex justify-between">
+            <h1 className="sm:ml-10 text-2xl my-4">
+              <Link to="/">
+                <div className="pt-1 w-40 md:w-48">
+                  <StaticImage
+                    src="../images/logo-white.png"
+                    quality={100}
+                    placeholder="tracedSVG"
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    alt="logo"
+                  />
+                </div>
+              </Link>
+            </h1>
+
+            {/* Sidebar button before md */}
+            {!isOpen ? (
+              <div className="flex items-center">
+                <button
+                  className="px-3 py-1.5 text-2xl rounded-lg border-2 text-white hover:text-black transition-colors border-white hover:bg-white focus:outline-none md:hidden"
+                  aria-label="Toggle-sidebar"
+                  onClick={() => setIsOpen(true)}
+                >
+                  <FontAwesomeIcon icon={faBars} />
+                </button>
               </div>
-            </Link>
-          </h1>
+            ) : (
+              ""
+            )}
 
-          {/* Sidebar button before md */}
-          {!isOpen ? (
-            <div className="flex items-center">
-              <button
-                className="px-3 py-1.5 text-2xl rounded-lg border-2 text-white hover:text-black transition-colors border-white hover:bg-white focus:outline-none md:hidden"
-                aria-label="Toggle-sidebar"
-                onClick={() => setIsOpen(true)}
-              >
-                <FontAwesomeIcon icon={faBars} />
-              </button>
-            </div>
-          ) : (
-            ""
-          )}
-
-          {/* Links displayed after md */}
-          <ul className="hidden md:flex text-white items-center">
-            <NavLink to="/link1">Link 1</NavLink>
-            <NavLink to="/link2">Link 2</NavLink>
-            <NavLink to="/link3">Link 3</NavLink>
-            <NavLink to="/link4">Link 4</NavLink>
-            <NavLink to="/link5">Link 5</NavLink>
-          </ul>
-        </div>
-      </header>
+            {/* Links displayed after md */}
+            <ul className="hidden md:flex text-white items-center">
+              <NavLink to="/link1">Link 1</NavLink>
+              <NavLink to="/link2">Link 2</NavLink>
+              <NavLink to="/link3">Link 3</NavLink>
+              <NavLink to="/link4">Link 4</NavLink>
+              <NavLink to="/link5">Link 5</NavLink>
+            </ul>
+          </div>
+        </header>
+      ) : (
+        ""
+      )}
     </>
   )
 }

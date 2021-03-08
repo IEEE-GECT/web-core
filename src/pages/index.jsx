@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout route="/">
     <SEO title="" />
     <div className="relative -mt-20" style={{ height: `calc(90vh - 90px)` }}>
       <StaticImage

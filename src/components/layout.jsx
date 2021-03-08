@@ -7,7 +7,7 @@ import { tsParticles } from "tsparticles"
 import Header from "./header"
 import tsParticlesConfig from "./tsparticles.config"
 
-const Layout = ({ children }) => {
+const Layout = ({ route, children }) => {
   React.useEffect(() => {
     tsParticles
       .load("tsparticles", tsParticlesConfig)
@@ -32,9 +32,9 @@ const Layout = ({ children }) => {
       </button>
     )
   }
+
   return (
     <>
-      {/* For any full screen background */}
       <div
         className="fixed inset-0"
         id="tsparticles"
@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
       ></div>
 
       <div className="relative">
-        <Header />
+        <Header route={route} />
 
         <div className="flex flex-col z-0 pt-20">
           <div className="text-center flex-grow">
@@ -60,6 +60,7 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
+  route: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 }
 
