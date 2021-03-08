@@ -20,7 +20,9 @@ const IndexPage = () => (
       />
       <div className="bg-black opacity-40 absolute inset-0"></div>
       <div className="absolute h-full w-full text-white flex items-center justify-center">
-        <h1 className="text-6xl font-bold">IEEE Student Branch GEC Thrissur</h1>
+        <h1 className="text-3xl sm:text-6xl font-bold">
+          IEEE Student Branch GEC Thrissur
+        </h1>
       </div>
     </div>
 

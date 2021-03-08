@@ -30,9 +30,9 @@ module.exports = {
         name: `IEEE Website GEC Thrissur`,
         short_name: `IEEE GECT`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `standalone`,
         icon: `src/images/icon.png`,
         icons: [
           {
@@ -84,10 +84,19 @@ module.exports = {
             purpose: `maskable`,
           },
         ],
+        cache_busting_mode: "none",
       },
     },
     // `gatsby-plugin-sitemap`,
-    `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        workboxConfig: {
+          globPatterns: ["**/icons*"],
+        },
+      },
+    },
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-postcss`,
   ],
 }
