@@ -2,11 +2,11 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const NotFoundPage = () => (
   <>
-    <SEO title="404: Not found" />
+    <Seo title="404: Not found" />
     <div className="fixed inset-0 bg-gray-200 flex items-center">
       <div className="container flex flex-col md:flex-row items-center justify-center px-5 text-gray-700 m-auto">
         <div className="max-w-md">

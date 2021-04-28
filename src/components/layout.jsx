@@ -6,6 +6,7 @@ import { tsParticles } from "tsparticles"
 
 import Header from "./header"
 import tsParticlesConfig from "./tsparticles.config"
+import Footer from "./footer"
 
 const Layout = ({ route, children }) => {
   React.useEffect(() => {
@@ -50,9 +51,10 @@ const Layout = ({ route, children }) => {
           </div>
 
           <GoToTop />
-          <footer className="p-3 text-center bg-gray-100 w-full">
+          {/* <footer className="p-3 text-center bg-gray-100 w-full">
             © {new Date().getFullYear()}, IEEE GEC Thrissur
-          </footer>
+          </footer> */}
+          <Footer />
         </div>
       </div>
     </>
