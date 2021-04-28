@@ -1,36 +1,58 @@
+import React from "react"
+import { Swiper, SwiperSlide } from "swiper/react"
+import SwiperCore, { EffectCoverflow, Navigation, Pagination } from "swiper"
 
-  import React from 'react';
-  import Swiper from 'react-id-swiper';
-  
+import "swiper/swiper-bundle.min.css"
 
-  const CoverflowEffect = () => {
-    const params = {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true
-      },
-      pagination: {
-        el: '.swiper-pagination'
-      }
-    }
+SwiperCore.use([EffectCoverflow, Navigation, Pagination])
 
-    return (
-      <Swiper {...params}>
-        <div style={{ backgroundImage:'url(https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg)'}}></div>
-        <div style={{ backgroundImage:'url(https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg)'}}></div>
-        <div style={{ backgroundImage:'url(https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg)'}}></div>
-        <div style={{ backgroundImage:'url(https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg)'}}></div>
-        <div style={{ backgroundImage:'url(https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg)'}}></div>
+const CoverflowEffect = () => {
+  return (
+    <>
+      <Swiper
+        effect="coverflow"
+        navigation
+        pagination
+        grabCursor
+        centeredSlides
+        slidesPerView={"auto"}
+        loop
+      >
+        <SwiperSlide style={{ maxWidth: 640 }}>
+          <div>
+            <img
+              src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+              alt="img"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide style={{ maxWidth: 640 }}>
+          <div>
+            <img
+              src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+              alt="img"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide style={{ maxWidth: 640 }}>
+          <div>
+            <img
+              src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+              alt="img"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide style={{ maxWidth: 640 }}>
+          <div>
+            <img
+              src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+              alt="img"
+            />
+          </div>
+        </SwiperSlide>
       </Swiper>
-    )
-  };
+    </>
+  )
+}
 
-  export default CoverflowEffect;
-    
+export default CoverflowEffect

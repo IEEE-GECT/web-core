@@ -2,11 +2,11 @@ import * as React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout route="/link4">
-    <SEO title="Link 4" />
+    <Seo title="Link 4" />
 
     <div className="pt-10 pb-5 px-2 sm:px-10">
       <p className="py-72 bg-white rounded-lg shadow-2xl">
