@@ -1,5 +1,7 @@
 # IEEE GECT Website
 
+[![Build & Deploy](https://github.com/ByteCrak07/IEEE-GECT-Website/actions/workflows/build_deploy.yml/badge.svg)](https://github.com/ByteCrak07/IEEE-GECT-Website/actions/workflows/build_deploy.yml)
+
 ## Hosted [here👈](https://bytecrak07.github.io/IEEE-GECT-Website/)
 
 ## 🚀 Quick start
