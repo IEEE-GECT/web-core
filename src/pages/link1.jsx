@@ -1,4 +1,5 @@
 import * as React from "react"
+import Cardgame, {event} from "../components/events.component"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -37,7 +38,17 @@ const IndexPage = () => (
         </span>
       </p>
     </div>
+
+    <div className="pt-10 pb-5 px-2 sm:px-10">
+      <div className="rounded-lg shadow-2xl glass-effect ">
+      <div className='ml-4 place-self-center'>
+        <Cardgame/>
+      </div>
+      </div>
+    </div>
+
   </Layout>
+
 )
 
 export default IndexPage
