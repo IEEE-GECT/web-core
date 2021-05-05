@@ -4,6 +4,8 @@ import Cardgame, {event} from "../components/events.component"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ShopCard from "../components/shoppingcard.component"
+import UikitCard from "../components/uikit-card.component"
 
 const IndexPage = () => (
   <Layout route="/link1">
@@ -46,6 +48,16 @@ const IndexPage = () => (
       </div>
       </div>
     </div>
+
+
+        <div className="max-w-7xl justify-center">
+          <UikitCard/>
+        </div>
+
+    <div className="grid grid-cols-2 self-center"><UikitCard/></div>
+
+    <ShopCard/>
+    <UikitCard/>
 
   </Layout>
 
