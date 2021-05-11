@@ -1,5 +1,7 @@
 import * as React from "react"
 import Cardgame, {event} from "../components/events.component"
+import CardOne from "../components/ex/c1"
+import Form1 from "../components/forms/form1.component"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -58,8 +60,13 @@ const IndexPage = () => (
 
     <ShopCard/>
     <UikitCard/>
+    <CardOne></CardOne>
+    <div>
+    <iframe id="typeform-full" width="100%" height="100%" frameborder="0" allow="camera; microphone; autoplay; encrypted-media;" src="https://form.typeform.com/to/mYRWPPsq?typeform-medium=embed-snippet"></iframe>
+    </div>
 
   </Layout>
+  
 
 )
 

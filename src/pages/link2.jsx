@@ -8,35 +8,7 @@ const IndexPage = () => (
   <Layout route="/link2">
     <Seo title="Link 2" />
 
-    <div className="pt-10 pb-5 px-2 sm:px-10">
-      <p className="py-72 bg-white rounded-lg shadow-2xl">
-        Content
-        <span role="img" aria-label="partying-face">
-          🥳
-        </span>
-        <span role="img" aria-label="partying-face">
-          🥳
-        </span>
-        <span role="img" aria-label="smiling-face-with-halo">
-          😇
-        </span>
-      </p>
-    </div>
-
-    <div className="pt-5 pb-10 px-2 sm:px-10">
-      <p className="py-72 bg-white rounded-lg shadow-2xl">
-        Content
-        <span role="img" aria-label="partying-face">
-          🥳
-        </span>
-        <span role="img" aria-label="partying-face">
-          🥳
-        </span>
-        <span role="img" aria-label="smiling-face-with-halo">
-          😇
-        </span>
-      </p>
-    </div>
+    <div className="h-screen"><iframe id="typeform-full" width="100%" height="100%" frameborder="0" allow="camera; microphone; autoplay; encrypted-media;" src="https://form.typeform.com/to/mYRWPPsq?typeform-medium=embed-snippet"></iframe></div>
   </Layout>
 )
 
