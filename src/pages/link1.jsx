@@ -56,7 +56,15 @@ const IndexPage = () => (
           <UikitCard/>
         </div>
 
-    <div className="grid grid-cols-2 self-center"><UikitCard/></div>
+    <div className="object-center"><UikitCard/></div>
+
+    <div className="pt-10 pb-5 px-2 sm:px-10 object-center">
+      <div className="rounded-lg shadow-2xl ">
+      
+      <UikitCard/>
+      
+      </div>
+    </div>
 
     <ShopCard/>
     <UikitCard/>

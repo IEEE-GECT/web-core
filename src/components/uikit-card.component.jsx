@@ -4,7 +4,7 @@ function UikitCard() {
         <>
             {/* Card is full width. Use in 12 col grid for best view. */}
             {/* Card code block start */}
-            <div className="flex flex-col-reverse lg:flex-row w-full bg-white dark:bg-gray-800 rounded-lg shadow-2xl glass-effect">
+            <div className="flex flex-col-reverse h-70% lg:flex-row w-full bg-white dark:bg-gray-800 rounded-lg shadow-2xl glass-effect">
                 <div className="w-full lg:w-1/2">
                     <div className="pt-4 lg:pt-6 pb-4 lg:pb-6 pl-4 lg:pl-6 pr-4 lg:pr-6">
                         <div className="flex justify-between items-center lg:items-start flex-row-reverse lg:flex-col">
@@ -12,9 +12,9 @@ function UikitCard() {
                             <h4 className="lg:mt-3 text-gray-600 dark:text-gray-400 text-base font-normal">23 December, Sunday</h4>
                         </div>
                         <h2 className="text-gray-800 dark:text-gray-100 mt-4 mb-2 tracking-normal text-xl lg:text-2xl font-bold">CES - The Global Stage for Innovation</h2>
-                        <p className="mb-6 font-normal text-gray-600 dark:text-gray-400 text-sm tracking-normal w-11/12 lg:w-9/12">The Consumer Technology Association’s CES 2020 will take place on 7-10 January at the Las Vegas Convention Center in Nevada. It will bring together over 150,000 delegates and 4,500 exhibitors to explore the business of consumer technologies.</p>
+                        <p className="mb-6 font-normal justify-center text-gray-600 dark:text-gray-400 text-sm tracking-normal w-11/12 lg:w-9/12">The Consumer Technology Association’s CES 2020 will take place on 7-10 January at the Las Vegas Convention Center in Nevada. It will bring together over 150,000 delegates and 4,500 exhibitors to explore the business of consumer technologies.The Consumer Technology Association’s CES 2020 will take place on 7-10 January at the Las Vegas Convention Center in Nevada. It will bring together over 150,000 delegates and 4,500 exhibitors to explore the business of consumer technologies.The Consumer Technology Association’s CES 2020 will take place on 7-10 January at the Las Vegas Convention Center in Nevada. It will bring together over 150,000 delegates and 4,500 exhibitors to explore the business of consumer technologies.The Consumer Technology Association’s CES 2020 will take place on 7-10 January at the Las Vegas Convention Center in Nevada. It will bring together over 150,000 delegates and 4,500 exhibitors to explore the business of consumer technologies.The Consumer Technology Association’s CES 2020 will take place on 7-10 January at the Las Vegas Convention Center in Nevada. It will bring together over 150,000 delegates and 4,500 exhibitors to explore the business of consumer technologies.</p>
                         <div className="flex lg:items-center items-start flex-col lg:flex-row">
-                            <div className="flex items-center">
+                            {/* <div className="flex items-center">
                                 <div className="border-2 border-white dark:border-gray-700 shadow rounded-full w-6 h-6">
                                     <img className="w-full h-full overflow-hidden object-cover rounded-full" src="https://dh-ui.s3.amazonaws.com/assets/webapp/layout/grid_cards/grid_card8.jpg" alt="avatar" />
                                 </div>
@@ -31,7 +31,7 @@ function UikitCard() {
                                     <img className="w-full h-full overflow-hidden object-cover rounded-full" src="https://dh-ui.s3.amazonaws.com/assets/webapp/layout/grid_cards/grid_card12.jpg" alt="avatar" />
                                 </div>
                                 <p className="text-gray-600 dark:text-gray-400 text-xs font-normal ml-1">+12 Attendees</p>
-                            </div>
+                            </div> */}
                             <div className="mt-4 lg:mt-0 ml-0 lg:ml-12 flex items-end">
                                 <span className="mr-1 text-gray-600 dark:text-gray-400">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-map-pin" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
