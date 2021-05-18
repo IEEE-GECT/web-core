@@ -50,17 +50,16 @@ export const Content = () => {
             </div>
             <div className="max-w-xl mb-6">
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Let us handle
+                IEEE TEMS 
                 <br className="hidden md:block" />
-                your next{' '}
+                Technology and Management{' '}
                 <span className="inline-block text-deep-purple-accent-400">
-                  destination
+                  Society
                 </span>
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae. explicabo.
+              envisions nurturing and promoting the involvement of managerial and entrepreneurial skills to power engineering and technology to the very best of possibilities.
+ It aims at nudging all aspiring managers and entrepreneurs in the right direction alongside providing an efficient and advanced support system enabling them to achieve their very best.
               </p>
             </div>
             <div>
