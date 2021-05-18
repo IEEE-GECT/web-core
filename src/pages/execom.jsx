@@ -5,8 +5,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Team } from "../components/team.component"
 const IndexPage = () => (
-  <Layout route="/link5">
-    <Seo title="Link 5" />
+  <Layout route="/execom">
+    <Seo title="Execom" />
 
     
 

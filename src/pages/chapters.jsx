@@ -5,8 +5,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
-  <Layout route="/link4">
-    <Seo title="Link 4" />
+  <Layout route="/chapters">
+    <Seo title="Chapters" />
 
     <div className="pt-10 pb-5 px-2 sm:px-10">
       <p className="py-72 bg-white rounded-lg shadow-2xl">

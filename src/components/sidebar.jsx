@@ -78,11 +78,10 @@ const SideBar = ({ route, setIsOpen }) => {
         </div>
 
         <nav>
-          <NavLink to="/link1">Link 1</NavLink>
-          <NavLink to="/link2">Link 2</NavLink>
-          <NavLink to="/link3">Link 3</NavLink>
-          <NavLink to="/link4">Link 4</NavLink>
-          <NavLink to="/link5">Link 5</NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/rural-la-carte">Registration</NavLink>
+          <NavLink to="/chapters">Chapters</NavLink>
+          <NavLink to="/execom">Execom</NavLink>
         </nav>
       </div>
     </>
