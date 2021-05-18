@@ -101,7 +101,7 @@ export const Team = () => {
           <div className="flex">
             <img
               className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-              src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://ik.imagekit.io/ieeeGec/20210204_175423_-_Amrutha_T_D_aa9gDGj-J.jpg?tr=w-1080,h-1080,fo-custom"
               alt="Person"
             />
             <div className="flex flex-col justify-center text-left">
@@ -134,7 +134,7 @@ export const Team = () => {
           <div className="flex">
             <img
               className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-              src="https://images.pexels.com/photos/3783255/pexels-photo-3783255.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://ik.imagekit.io/ieeeGec/arya_WVzjw97ZZ.jpg?tr=w-1080,h-1350,fo-auto"
               alt="Person"
             />
             <div className="flex flex-col justify-center text-left">
@@ -145,7 +145,7 @@ export const Team = () => {
           <div className="flex">
             <img
               className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="https://ik.imagekit.io/ieeeGec/maria_wZYatfccj.jpg?tr=w-1080,h-1080,fo-auto"
               alt="Person"
             />
             <div className="flex flex-col justify-center text-left">
@@ -200,7 +200,7 @@ export const Team = () => {
           <div className="flex">
             <img
               className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-              src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://ik.imagekit.io/ieeeGec/malayil_orkTkOeah.jpg?tr=w-1080,h-1080,fo-auto"
               alt="Person"
             />
             <div className="flex flex-col justify-center text-left">
@@ -211,7 +211,7 @@ export const Team = () => {
           <div className="flex">
             <img
               className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-              src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="https://ik.imagekit.io/ieeeGec/DSC_0202_-_Melvin_M_Thomas_DMTX_pj6p.jpg?tr=w-1080,h-1080,fo-auto"
               alt="Person"
             />
             <div className="flex flex-col justify-center text-left">
