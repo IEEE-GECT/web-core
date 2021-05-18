@@ -42,16 +42,16 @@ export const Team = () => {
             accusantium doloremque rem aperiam, eaque ipsa quae.
           </p>
         </div>
-        <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
           <div className="flex">
             <img
               className="object-cover w-20 h-20 mr-4 rounded-full shadow"
               src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Oliver Aguilerra</p>
-              <p className="text-sm text-gray-800">Product Manager</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Yohan Sunil Tharakan</p>
+              <p className="text-sm text-gray-800">Chair</p>
             </div>
           </div>
           <div className="flex">
@@ -60,9 +60,9 @@ export const Team = () => {
               src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Marta Clermont</p>
-              <p className="text-sm text-gray-800">Design Team Lead</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Leah Liz Paul</p>
+              <p className="text-sm text-gray-800">Secretary</p>
             </div>
           </div>
           <div className="flex">
@@ -71,9 +71,9 @@ export const Team = () => {
               src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Anthony Geek</p>
-              <p className="text-sm text-gray-800">CTO, Lorem Inc.</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Fathima Shirin</p>
+              <p className="text-sm text-gray-800">Treasurer</p>
             </div>
           </div>
           <div className="flex">
@@ -82,9 +82,9 @@ export const Team = () => {
               src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Alice Melbourne</p>
-              <p className="text-sm text-gray-800">Human Resources</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Paul B Kalarikkal</p>
+              <p className="text-sm text-gray-800">Vice Chair</p>
             </div>
           </div>
           <div className="flex">
@@ -93,9 +93,9 @@ export const Team = () => {
               src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Martin Garix</p>
-              <p className="text-sm text-gray-800">Bad boy</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Ananya M</p>
+              <p className="text-sm text-gray-800">Joint Secretary</p>
             </div>
           </div>
           <div className="flex">
@@ -104,9 +104,9 @@ export const Team = () => {
               src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Andrew Larkin</p>
-              <p className="text-sm text-gray-800">Backend Developer</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Amrutha T D</p>
+              <p className="text-sm text-gray-800">Joint Secretary</p>
             </div>
           </div>
           <div className="flex">
@@ -115,9 +115,9 @@ export const Team = () => {
               src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Sophie Denmo</p>
-              <p className="text-sm text-gray-800">Designer UI/UX</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Neha Susan Manoj</p>
+              <p className="text-sm text-gray-800">Joint Secretary</p>
             </div>
           </div>
           <div className="flex">
@@ -126,9 +126,9 @@ export const Team = () => {
               src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Benedict Caro</p>
-              <p className="text-sm text-gray-800">Frontend Developer</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Abhijith Valsan</p>
+              <p className="text-sm text-gray-800">ECC & PR Head</p>
             </div>
           </div>
           <div className="flex">
@@ -137,11 +137,90 @@ export const Team = () => {
               src="https://images.pexels.com/photos/3783255/pexels-photo-3783255.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt="Person"
             />
-            <div className="flex flex-col justify-center">
-              <p className="text-lg font-bold">Adam Molly</p>
-              <p className="text-sm text-gray-800">Full Stack Developer</p>
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Arya Ramachandran</p>
+              <p className="text-sm text-gray-800">MD Chair</p>
             </div>
           </div>
+          <div className="flex">
+            <img
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Maria Viji George</p>
+              <p className="text-sm text-gray-800">MD Vice Chair</p>
+            </div>
+          </div>
+          <div className="flex">
+            <img
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Hazrath Rahman</p>
+              <p className="text-sm text-gray-800">Joint Treasurer</p>
+            </div>
+          </div>
+          <div className="flex">
+            <img
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Aathiragouri S</p>
+              <p className="text-sm text-gray-800">Editor</p>
+            </div>
+          </div>
+          <div className="flex">
+            <img
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Roshan Silvester Lopez</p>
+              <p className="text-sm text-gray-800">Social Media Head</p>
+            </div>
+          </div>
+          <div className="flex">
+            <img
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              alt="Person"
+            />
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Dennis Mathew</p>
+              <p className="text-sm text-gray-800">LINK Representative</p>
+            </div>
+          </div>
+          <div className="flex">
+            <img
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Malayil Vivekanandan</p>
+              <p className="text-sm text-gray-800">Chief Webmaster</p>
+            </div>
+          </div>
+          <div className="flex">
+            <img
+              className="object-cover w-20 h-20 mr-4 rounded-full shadow"
+              src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+            <div className="flex flex-col justify-center text-left">
+              <p className="text-medium font-bold">Melvin Thomas</p>
+              <p className="text-sm text-gray-800">Photography Lead</p>
+            </div>
+          </div>
+      
+         
         </div>
       </div>
     );
