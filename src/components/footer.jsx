@@ -120,86 +120,90 @@ Looking forward to seeing you again!!</p>
 						</ul>
 					</div>
 					<div>
-						<p className="font-semibold tracking-wide text-gray-800">Apple</p>
+						<p className="font-semibold tracking-wide text-gray-800 ">Societies</p>
+						<div className="grid grid-cols-3">
+						<div className="col-span-1">
 						<ul className="mt-2 space-y-2">
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Media
-								</a>
-							</li>
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Brochure
-								</a>
-							</li>
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Nonprofit
-								</a>
-							</li>
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Educational
-								</a>
-							</li>
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Projects
-								</a>
-							</li>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							PES
+							</a>
+						</li>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							WIE
+							</a>
+						</li>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							IAS
+							</a>
+						</li>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							Soc 1
+							</a>
+						</li>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							Soc 2
+							</a>
+						</li>
 						</ul>
-					</div>
-					<div>
-						<p className="font-semibold tracking-wide text-gray-800" />
+						</div>
+						<div className="col-start-3 col-span-1">
+						
 						<ul className="mt-2 space-y-2">
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Infopreneur
-								</a>
-							</li>
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Personal
-								</a>
-							</li>
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Wiki
-								</a>
-							</li>
-							<li>
-								<a
-									href="/"
-									className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-								>
-									Forum
-								</a>
-							</li>
-						</ul>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							Soc 3
+							</a>
+						</li>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							Soc 4
+							</a>
+						</li>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							Soc 5
+							</a>
+						</li>
+						<li>
+							<a
+							href="/"
+							className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+							>
+							Soc 6
+							</a>
+						</li>
+							</ul>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>

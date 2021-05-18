@@ -58,8 +58,7 @@ export const Content = () => {
                 </span>
               </h2>
               <p className="text-base text-gray-700 md:text-lg">
-              envisions nurturing and promoting the involvement of managerial and entrepreneurial skills to power engineering and technology to the very best of possibilities.
- It aims at nudging all aspiring managers and entrepreneurs in the right direction alongside providing an efficient and advanced support system enabling them to achieve their very best.
+              envisions nurturing and promoting the role of managerial and entrepreneurial skills in  engineering and technology and aims at nudging all aspiring managers and entrepreneurs in the right direction with the aid of an efficient support system to achieve their very best.
               </p>
             </div>
             <div>
