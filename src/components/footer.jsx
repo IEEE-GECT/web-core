@@ -41,8 +41,8 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
-          <div>
+        <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4 sm:gr">
+          <div >
             <p className="font-semibold tracking-wide text-gray-800">
               Category
             </p>
@@ -129,7 +129,9 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <p className="font-semibold tracking-wide text-gray-800">Apples</p>
+            <p className="font-semibold tracking-wide text-gray-800 ">Apples</p>
+            <div className="grid grid-cols-3">
+              <div className="col-span-1">
             <ul className="mt-2 space-y-2">
               <li>
                 <a
@@ -172,9 +174,9 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
-          <div>
-            <p className="font-semibold tracking-wide text-gray-800">Cherry</p>
+              </div>
+              <div className="col-start-3 col-span-1">
+            
             <ul className="mt-2 space-y-2">
               <li>
                 <a
@@ -208,7 +210,9 @@ const Footer = () => {
                   Forum
                 </a>
               </li>
-            </ul>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
