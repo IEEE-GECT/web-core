@@ -5,10 +5,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
-  <Layout route="/link2">
-    <Seo title="Link 2" />
+  <Layout route="/link3">
+    <Seo title="Link 3" />
 
-    <div className="pt-10 pb-5 px-2 sm:px-10">
+    {/* <div className="pt-10 pb-5 px-2 sm:px-10">
       <p className="py-72 bg-white rounded-lg shadow-2xl">
         Content
         <span role="img" aria-label="partying-face">
@@ -36,7 +36,7 @@ const IndexPage = () => (
           😇
         </span>
       </p>
-    </div>
+    </div> */}
   </Layout>
 )
 
