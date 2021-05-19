@@ -93,47 +93,31 @@ const Footer = () => {
           </div>
           <div>
             <p className="font-semibold tracking-wide text-gray-800">
-              Business
+              Membership
             </p>
             <ul className="mt-2 space-y-2">
               <li>
                 <a
-                  href="/"
+                  href="https://www.ieee.org/membership/join/index.html"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  Web
+                  Join IEEE
                 </a>
               </li>
               <li>
                 <a
-                  href="/"
+                  href="https://www.ieee.org/membership-catalog/societies.html?N=4294925302"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  eCommerce
+                  Join a Society
                 </a>
               </li>
               <li>
                 <a
-                  href="/"
+                  href="https://www.ieee.org/membership/renew.html"
                   className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
-                  Business
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Entertainment
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Portfolio
+                  Renew Membership
                 </a>
               </li>
             </ul>

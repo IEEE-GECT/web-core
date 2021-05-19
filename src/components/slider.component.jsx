@@ -19,45 +19,132 @@ const CoverflowEffect = () => {
         loop
       >
         <SwiperSlide style={{ maxWidth: 640 }}>
-          <div>
+          <div
+            style={{
+              position: "relative",
+            }}
+          >
+            {/* <div
+              className="glass-effect"
+              style={{
+                position: "absolute",
+                top: 0,
+                borderRadius: "1rem 1rem 0 0",
+                background: "rgba(0,0,0,0.6)",
+                height: "15%",
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                boxShadow: "0 10% 50 black",
+              }}
+            >
+              <h2
+                className="text-base sm:text-3x1"
+                style={{
+                  color: "white",
+                  // fontSize: "2rem",
+                  fontWeight: 600,
+                  opacity: 1,
+                }}
+              >
+                Event
+              </h2>
+            </div> */}
+
             <img
+              className="bg-cover"
               style={{
                 borderRadius: "1rem",
               }}
-              src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+              src="https://ik.imagekit.io/ieeeGec/co2_vff7EJTGt.jpg"
               alt="img"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ maxWidth: 640 }}>
-          <div>
-            <img
+          <div
+            style={{
+              position: "relative",
+            }}
+          >
+            {/* <div
+              className="glass-effect"
               style={{
-                borderRadius: "2rem",
+                position: "absolute",
+                top: 0,
+                borderRadius: "1rem 1rem 0 0",
+                background: "rgba(0,0,0,0.6)",
+                height: "15%",
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                boxShadow: "0 10% 50 black",
               }}
-              src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+            >
+              <h2
+                className="text-base sm:text-3x1"
+                style={{
+                  color: "white",
+                  // fontSize: "2rem",
+                  fontWeight: 600,
+                  opacity: 1,
+                }}
+              >
+                Event
+              </h2>
+            </div> */}
+
+            <img
+              className="bg-contain"
+              style={{
+                borderRadius: "1rem",
+              }}
+              src="https://ik.imagekit.io/ieeeGec/co3_hviohpxAxd.jpg"
               alt="img"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ maxWidth: 640 }}>
-          <div>
-            <img
+          <div
+            style={{
+              position: "relative",
+            }}
+          >
+            {/* <div
+              className="glass-effect"
               style={{
-                borderRadius: "2rem",
+                position: "absolute",
+                top: 0,
+                borderRadius: "1rem 1rem 0 0",
+                background: "rgba(0,0,0,0.6)",
+                height: "15%",
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                boxShadow: "0 10% 50 black",
               }}
-              src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
-              alt="img"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide style={{ maxWidth: 640 }}>
-          <div>
+            >
+              <h2
+                className="text-base lg:text-3x1"
+                style={{
+                  color: "white",
+                  fontWeight: 600,
+                  opacity: 1,
+                }}
+              >
+                Event
+              </h2>
+            </div> */}
+
             <img
+              className="bg-auto"
               style={{
-                borderRadius: "2rem",
+                borderRadius: "1rem",
               }}
-              src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+              src="https://ik.imagekit.io/ieeeGec/temstribune_final_eMI96E0sb.jpg"
               alt="img"
             />
           </div>
