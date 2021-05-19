@@ -37,17 +37,15 @@ const Footer = () => {
               forward to seeing you again!!
             </p>
 
-            <p className="text-sm text-gray-800">
+            <p className="mt-4 text-sm text-gray-800">
               Government Engineering College
             </p>
             <p className="text-sm text-gray-800">
               Thrissur - 680 009, Kerala, India
             </p>
-            <p
-              className="mt-4 text-sm text-gray-800"
-              href="mailto:ieeesb@gectcr.ac.in"
-            >
-              e-mail: ieeesb@gectcr.ac.in
+            <p className="text-sm text-gray-800">
+              Email:{" "}
+              <a href="mailto:ieeesb@gectcr.ac.in">ieeesb@gectcr.ac.in</a>
             </p>
           </div>
         </div>
@@ -131,15 +129,15 @@ const Footer = () => {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="/chapters/#soc7"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
-                      PES
+                      TEMS
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/chapters/#soc2"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       WIE
@@ -147,26 +145,18 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/chapters/#soc1"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
-                      IAS
+                      PES
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/chapters/#soc3"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
-                      Soc 1
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      Soc 2
+                      CS
                     </a>
                   </li>
                 </ul>
@@ -175,34 +165,26 @@ const Footer = () => {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="/chapters/#soc4"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
-                      Soc 3
+                      RAS
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/chapters/#soc5"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
-                      Soc 4
+                      PELS
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/chapters/#soc6"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
-                      Soc 5
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      Soc 6
+                      IAS
                     </a>
                   </li>
                 </ul>

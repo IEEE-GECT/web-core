@@ -125,11 +125,11 @@ export const Team = () => {
         <div className="flex">
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src="https://ik.imagekit.io/ieeeGec/abhijith_x_LXolGMN.jpeg"
             alt="Person"
           />
           <div className="flex flex-col justify-center text-left">
-            <p className="text-medium font-bold">Abhijith Valsan</p>
+            <p className="text-medium font-bold">Abhijith V</p>
             <p className="text-sm text-gray-800">ECC & PR Head</p>
           </div>
         </div>
@@ -258,7 +258,7 @@ export const Team = () => {
         <div className="flex">
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="https://ik.imagekit.io/ieeeGec/leah_x3bCw2OTQ.jpg?tr=w-1080,h-1920,fo-auto"
+            src="https://ik.imagekit.io/ieeeGec/vinayak_L2wDMfgr_J.jpeg?tr=w-1080,h-1080,fo-auto"
             alt="Person"
           />
           <div className="flex flex-col justify-center text-left">
