@@ -17,25 +17,13 @@ const CoverflowEffect = () => {
         centeredSlides
         slidesPerView={"auto"}
         loop
-        // style={{
-        //   height: 500,
-        //   width: 500,
-        // }}
       >
         <SwiperSlide style={{ maxWidth: 640 }}>
-          <div
-          // style={{
-          //   position: realative,
-          // }}
-          >
-            {/* <hr
+          <div>
+            <img
               style={{
-                position: absolute,
-                top: 0,
-              //   // box-shadow:
-              // }}
-            /> */}
-            <img
+                borderRadius: "1rem",
+              }}
               src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
               alt="img"
             />
@@ -44,6 +32,9 @@ const CoverflowEffect = () => {
         <SwiperSlide style={{ maxWidth: 640 }}>
           <div>
             <img
+              style={{
+                borderRadius: "2rem",
+              }}
               src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
               alt="img"
             />
@@ -52,6 +43,9 @@ const CoverflowEffect = () => {
         <SwiperSlide style={{ maxWidth: 640 }}>
           <div>
             <img
+              style={{
+                borderRadius: "2rem",
+              }}
               src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
               alt="img"
             />
@@ -60,6 +54,9 @@ const CoverflowEffect = () => {
         <SwiperSlide style={{ maxWidth: 640 }}>
           <div>
             <img
+              style={{
+                borderRadius: "2rem",
+              }}
               src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
               alt="img"
             />

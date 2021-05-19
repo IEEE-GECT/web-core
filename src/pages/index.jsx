@@ -12,7 +12,7 @@ import HeroSection from "../components/hero-section"
 const IndexPage = () => (
   <Layout route="/">
     <Seo title="" />
-    <div className="relative -mt-20" style={{ height: `calc(90vh - 90px)` }}>
+    <div className="relative -mt-20" style={{ height: `100vh` }}>
       <StaticImage
         src="../images/group.jpg"
         quality={100}
