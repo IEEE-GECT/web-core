@@ -5,7 +5,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 const IndexPage = () => (
-  <Layout route="/e">
+  <Layout route="/e/rural-la-carte">
     <Seo title="Rural la carte" />
 
     <div className="h-screen">

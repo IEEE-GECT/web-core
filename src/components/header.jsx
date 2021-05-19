@@ -101,9 +101,10 @@ const Header = ({ route }) => {
           {/* Links displayed after md */}
           <ul className="hidden md:flex text-gray-800 items-center">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/rural-la-carte">Registration</NavLink>
             <NavLink to="/chapters">Chapters</NavLink>
             <NavLink to="/execom">Execom</NavLink>
+            <NavLink to="/e/rural-la-carte">Rural la carte</NavLink>
+            <NavLink to="/e/wordsworld">Wordsworld</NavLink>
           </ul>
         </div>
       </header>
@@ -143,10 +144,11 @@ const Header = ({ route }) => {
 
             {/* Links displayed after md */}
             <ul className="hidden md:flex text-white items-center">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/rural-la-carte">Registration</NavLink>
-            <NavLink to="/chapters">Chapters</NavLink>
-            <NavLink to="/execom">Execom</NavLink>
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="/chapters">Chapters</NavLink>
+              <NavLink to="/execom">Execom</NavLink>
+              <NavLink to="/e/rural-la-carte">Rural la carte</NavLink>
+              <NavLink to="/e/wordsworld">Wordsworld</NavLink>
             </ul>
           </div>
         </header>
