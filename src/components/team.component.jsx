@@ -195,7 +195,7 @@ export const Team = () => {
             alt="Person"
           />
           <div className="flex flex-col justify-center text-left">
-            <p className="text-medium font-bold">Dennis Mathew</p>
+            <p className="text-medium font-bold">Denni Mathew Jose</p>
             <p className="text-sm text-gray-800">LINK Representative</p>
           </div>
         </div>
@@ -402,7 +402,7 @@ export const Team = () => {
             alt="Person"
           />
           <div className="flex flex-col justify-center text-left">
-            <p className="text-medium font-bold">Dennis Mathew</p>
+            <p className="text-medium font-bold">Denni Mathew Jose</p>
           </div>
         </div>
         <div className="flex">

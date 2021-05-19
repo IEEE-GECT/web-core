@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout route="/e/wordsworld">
     <Seo title="Wordsworld" />
 
-    <div className="h-screen">
+    <div style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}>
       <iframe
         id="typeform-full"
         width="100%"
@@ -16,6 +16,7 @@ const IndexPage = () => (
         frameborder="0"
         allow="camera; microphone; autoplay; encrypted-media;"
         src="https://form.typeform.com/to/I9XaiGIp?typeform-medium=embed-snippet"
+        onLoad={() => window.scroll({ top: 0, left: 0 })}
       ></iframe>
     </div>
   </Layout>

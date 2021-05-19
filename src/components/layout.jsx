@@ -16,6 +16,12 @@ const Layout = ({ route, children }) => {
       .catch(error => {
         console.error(error)
       })
+
+    const resize = () => {
+      let vh = window.innerHeight * 0.01
+      document.documentElement.style.setProperty("--vh", `${vh}px`)
+    }
+    resize()
   }, [])
 
   const GoToTop = () => {
@@ -67,4 +73,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
