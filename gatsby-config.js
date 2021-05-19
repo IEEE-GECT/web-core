@@ -5,7 +5,7 @@ module.exports = {
     author: "IEEE SB GEC Thrissur",
     // siteUrl: "https://www.example.com",
   },
-  pathPrefix: "/IEEE-GECT-Website",
+  pathPrefix: "/web-core",
   plugins: [
     `gatsby-plugin-react-helmet`,
     // {
