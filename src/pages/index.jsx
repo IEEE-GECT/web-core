@@ -83,7 +83,7 @@ const IndexPage = () => (
             <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
               <img
                 class="object-cover object-center w-full h-full"
-                src="https://ik.imagekit.io/ieeeGec/undraw_Development_re_g5hq_P_qXoOLO-.png"
+                src="https://ik.imagekit.io/ieeeGec/about_v0_w_uFn4.png"
                 alt="stats"
               />
             </div>
