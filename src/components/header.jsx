@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faCaretDown } from "@fortawesome/free-solid-svg-icons"
 
 import SideBar from "./sidebar"
 
@@ -48,6 +48,72 @@ const Header = ({ route }) => {
     )
   }
   NavLink.propTypes = {
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  }
+
+  const DropDown = props => {
+    const [active, setActive] = React.useState(false)
+
+    let timeout
+    const onEnter = () => {
+      setActive(true)
+      clearTimeout(timeout)
+    }
+
+    const onLeave = () => {
+      timeout = setTimeout(() => setActive(false), 300)
+    }
+
+    return (
+      <>
+        <li
+          className="h-full relative mx-2 border-b-4 border-ieee-blue text-ieee-blue cursor-pointer"
+          onMouseEnter={onEnter}
+          onMouseLeave={onLeave}
+        >
+          <span className="flex items-center h-full">
+            <span className="px-3 py-2 text-sm font-medium">{props.title}</span>{" "}
+            <span>
+              <FontAwesomeIcon
+                icon={faCaretDown}
+                className={`transition duration-300 transform ${
+                  active ? "rotate-180" : ""
+                }`}
+              />
+            </span>
+          </span>
+
+          {/* Dropdown here */}
+          {active ? (
+            <div
+              className="absolute right-0 top-24 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+              aria-orientation="vertical"
+              aria-labelledby="menu-button"
+              tabindex="-1"
+            >
+              <div className="py-1">{props.children}</div>
+            </div>
+          ) : (
+            ""
+          )}
+        </li>
+      </>
+    )
+  }
+  DropDown.propTypes = {
+    title: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  }
+
+  const DropDownLink = props => {
+    return (
+      <Link to={props.to} className="text-gray-700 block px-4 py-2 text-sm">
+        {props.children}
+      </Link>
+    )
+  }
+  DropDownLink.propTypes = {
     to: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired,
   }
@@ -102,9 +168,16 @@ const Header = ({ route }) => {
           <ul className="hidden md:flex text-gray-800 items-center">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/chapters">Chapters</NavLink>
+            <DropDown title="Registrations">
+              <DropDownLink to="/e/rural-la-carte">Rural la carte</DropDownLink>
+              <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
+              <DropDownLink to="/e/level-up">Level Up</DropDownLink>
+              <DropDownLink to="/e/up-the-ante">Up the Ante</DropDownLink>
+              <DropDownLink to="/e/corporate-roadies">
+                Corporate Roadies
+              </DropDownLink>
+            </DropDown>
             <NavLink to="/execom">Execom</NavLink>
-            <NavLink to="/e/rural-la-carte">Rural la carte</NavLink>
-            <NavLink to="/e/wordsworld">Wordsworld</NavLink>
           </ul>
         </div>
       </header>
@@ -146,9 +219,18 @@ const Header = ({ route }) => {
             <ul className="hidden md:flex text-white items-center">
               <NavLink to="/">Home</NavLink>
               <NavLink to="/chapters">Chapters</NavLink>
+              <DropDown title="Registrations">
+                <DropDownLink to="/e/rural-la-carte">
+                  Rural la carte
+                </DropDownLink>
+                <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
+                <DropDownLink to="/e/level-up">Level Up</DropDownLink>
+                <DropDownLink to="/e/up-the-ante">Up the Ante</DropDownLink>
+                <DropDownLink to="/e/corporate-roadies">
+                  Corporate Roadies
+                </DropDownLink>
+              </DropDown>
               <NavLink to="/execom">Execom</NavLink>
-              <NavLink to="/e/rural-la-carte">Rural la carte</NavLink>
-              <NavLink to="/e/wordsworld">Wordsworld</NavLink>
             </ul>
           </div>
         </header>

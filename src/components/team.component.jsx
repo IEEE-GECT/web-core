@@ -119,7 +119,9 @@ export const Team = () => {
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Neha Susan Manoj</p>
-            <p className="text-sm text-gray-800">Joint Secretary</p>
+            <p className="text-sm text-gray-800">
+              Joint Secretary, WIE Vice Chair
+            </p>
           </div>
         </div>
         <div className="flex">
@@ -341,17 +343,6 @@ export const Team = () => {
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Biline K C</p>
             <p className="text-sm text-gray-800">WIE Chairman</p>
-          </div>
-        </div>
-        <div className="flex">
-          <img
-            className="object-cover w-20 h-20 mr-4 rounded-full shadow"
-            src="https://ik.imagekit.io/ieeeGec/IMG_20200915_180940_387_-_NEHA_SUSAN_MANOJ_cQweEFs-u.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
-          />
-          <div className="flex flex-col justify-center text-left">
-            <p className="text-medium font-bold">Neha Susan Manoj</p>
-            <p className="text-sm text-gray-800">WIE Vice Chair</p>
           </div>
         </div>
         <div className="flex">
