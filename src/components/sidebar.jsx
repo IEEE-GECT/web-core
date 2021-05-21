@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTimes } from "@fortawesome/free-solid-svg-icons"
+import { faTimes, faCaretDown } from "@fortawesome/free-solid-svg-icons"
 
 const SideBar = ({ route, setIsOpen }) => {
   const [display, setDisplay] = React.useState(false)
@@ -56,10 +56,71 @@ const SideBar = ({ route, setIsOpen }) => {
     children: PropTypes.node.isRequired,
   }
 
+  const DropDown = props => {
+    const [active, setActive] = React.useState(false)
+
+    return (
+      <>
+        <span
+          className={`flex items-center py-2 px-8 mt-5 w-full cursor-pointer ${
+            route.startsWith(props.to)
+              ? "bg-ieee-blue-light text-ieee-blue border-l-4 border-ieee-blue"
+              : "text-gray-600 border-l-4 border-white hover:bg-ieee-blue-light hover:text-ieee-blue hover:border-ieee-blue"
+          } `}
+        >
+          <li
+            className="block w-full"
+            role="none"
+            onClick={() => setActive(!active)}
+          >
+            <span className="flex items-center h-full">
+              <span className="mx-4 font-medium block">{props.title}</span>{" "}
+              <span>
+                <FontAwesomeIcon
+                  icon={faCaretDown}
+                  className={`transition duration-300 transform ${
+                    active ? "rotate-180" : ""
+                  }`}
+                />
+              </span>
+            </span>
+          </li>
+        </span>
+
+        {/* Dropdown here */}
+        {active ? <div className="w-full">{props.children}</div> : ""}
+      </>
+    )
+  }
+  DropDown.propTypes = {
+    title: PropTypes.string.isRequired,
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  }
+
+  const DropDownLink = props => {
+    return (
+      <Link
+        to={props.to}
+        className={`block pl-16 py-2 text-sm font-medium ${
+          route === props.to
+            ? "text-ieee-blue"
+            : "text-gray-700 hover:text-ieee-blue"
+        }`}
+      >
+        {props.children}
+      </Link>
+    )
+  }
+  DropDownLink.propTypes = {
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  }
+
   return (
     <>
       <div
-        className="fixed inset-0 bg-black opacity-0 transition-opacity duration-500 z-40"
+        className="fixed inset-0 bg-black opacity-0 transition-opacity duration-500 z-40 md:hidden"
         style={display ? { opacity: 0.6 } : {}}
       ></div>
       <div
@@ -78,11 +139,20 @@ const SideBar = ({ route, setIsOpen }) => {
         </div>
 
         <nav>
-          <NavLink to="/link1">Link 1</NavLink>
-          <NavLink to="/link2">Link 2</NavLink>
-          <NavLink to="/link3">Link 3</NavLink>
-          <NavLink to="/link4">Link 4</NavLink>
-          <NavLink to="/link5">Link 5</NavLink>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/chapters">Chapters</NavLink>
+          <DropDown to="/e" title="Registrations">
+            <DropDownLink to="/e/rural-la-carte">Rural la carte</DropDownLink>
+            <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
+            <DropDownLink to="/e/kyuriosity">Kyuriosity</DropDownLink>
+            <DropDownLink to="/e/technocrat">Technocrat</DropDownLink>
+            <DropDownLink to="/e/level-up">Level Up</DropDownLink>
+            <DropDownLink to="/e/up-the-ante">Up the Ante</DropDownLink>
+            <DropDownLink to="/e/corporate-roadies">
+              Corporate Roadies
+            </DropDownLink>
+          </DropDown>
+          <NavLink to="/execom">Execom</NavLink>
         </nav>
       </div>
     </>

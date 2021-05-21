@@ -3,17 +3,17 @@ module.exports = {
     title: "IEEE | GEC Thrissur",
     description: "IEEE Website GEC Thrissur",
     author: "IEEE SB GEC Thrissur",
-    // siteUrl: "https://www.example.com",
+    siteUrl: "http://ieee.gectcr.ac.in",
   },
-  pathPrefix: "/IEEE-GECT-Website",
+  pathPrefix: "/web-core",
   plugins: [
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-plugin-react-helmet-canonical-urls`,
-    //   options: {
-    //     siteUrl: `https://www.example.com`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `http://ieee.gectcr.ac.in`,
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -87,7 +87,7 @@ module.exports = {
         cache_busting_mode: "none",
       },
     },
-    // `gatsby-plugin-sitemap`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-offline",
       options: {

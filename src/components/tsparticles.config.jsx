@@ -121,42 +121,42 @@ const tsParticlesConfig = {
       },
       image: [
         {
-          src: "CS.png",
+          src: "/CS.png",
           width: 150,
           height: 46,
         },
         {
-          src: "IAS.png",
+          src: "/IAS.png",
           width: 150,
           height: 94,
         },
         {
-          src: "PELS.png",
+          src: "/PELS.png",
           width: 150,
           height: 60,
         },
         {
-          src: "PES.png",
+          src: "/PES.png",
           width: 150,
           height: 104,
         },
         {
-          src: "RAS.png",
+          src: "/RAS.png",
           width: 150,
           height: 55,
         },
         {
-          src: "SIGHT.png",
+          src: "/SIGHT.png",
           width: 150,
           height: 67,
         },
         {
-          src: "TEMS.png",
+          src: "/TEMS.png",
           width: 150,
           height: 46,
         },
         {
-          src: "WIE.png",
+          src: "/WIE.png",
           width: 150,
           height: 116,
         },

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faCaretDown } from "@fortawesome/free-solid-svg-icons"
 
 import SideBar from "./sidebar"
 
@@ -48,6 +48,80 @@ const Header = ({ route }) => {
     )
   }
   NavLink.propTypes = {
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  }
+
+  const DropDown = props => {
+    const [active, setActive] = React.useState(false)
+
+    let timeout
+    const onEnter = () => {
+      setActive(true)
+      clearTimeout(timeout)
+    }
+
+    const onLeave = () => {
+      timeout = setTimeout(() => setActive(false), 300)
+    }
+
+    return (
+      <>
+        <li
+          className={`h-full relative mx-2 cursor-pointer border-b-4 ${
+            route.startsWith(props.to)
+              ? "border-ieee-blue text-ieee-blue"
+              : "border-transparent hover:border-ieee-blue hover:text-ieee-blue"
+          }`}
+          role="none"
+          onMouseEnter={onEnter}
+          onMouseLeave={onLeave}
+        >
+          <span className="flex items-center h-full">
+            <span className="px-3 py-2 text-sm font-medium">{props.title}</span>{" "}
+            <span>
+              <FontAwesomeIcon
+                icon={faCaretDown}
+                className={`transition duration-300 transform ${
+                  active ? "rotate-180" : ""
+                }`}
+              />
+            </span>
+          </span>
+
+          {/* Dropdown here */}
+          {active ? (
+            <div className="absolute right-0 top-24 w-56 rounded-md shadow-xl bg-white focus:outline-none">
+              <div className="py-1">{props.children}</div>
+            </div>
+          ) : (
+            ""
+          )}
+        </li>
+      </>
+    )
+  }
+  DropDown.propTypes = {
+    title: PropTypes.string.isRequired,
+    to: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+  }
+
+  const DropDownLink = props => {
+    return (
+      <Link
+        to={props.to}
+        className={`block px-4 py-2 text-sm font-medium ${
+          route === props.to
+            ? "text-ieee-blue"
+            : "text-gray-700 hover:text-ieee-blue"
+        }`}
+      >
+        {props.children}
+      </Link>
+    )
+  }
+  DropDownLink.propTypes = {
     to: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired,
   }
@@ -100,18 +174,27 @@ const Header = ({ route }) => {
 
           {/* Links displayed after md */}
           <ul className="hidden md:flex text-gray-800 items-center">
-            <NavLink to="/link1">Link 1</NavLink>
-            <NavLink to="/link2">Link 2</NavLink>
-            <NavLink to="/link3">Link 3</NavLink>
-            <NavLink to="/link4">Link 4</NavLink>
-            <NavLink to="/link5">Link 5</NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/chapters">Chapters</NavLink>
+            <DropDown to="/e" title="Registrations">
+              <DropDownLink to="/e/rural-la-carte">Rural la carte</DropDownLink>
+              <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
+              <DropDownLink to="/e/kyuriosity">Kyuriosity</DropDownLink>
+              <DropDownLink to="/e/technocrat">Technocrat</DropDownLink>
+              <DropDownLink to="/e/level-up">Level Up</DropDownLink>
+              <DropDownLink to="/e/up-the-ante">Up the Ante</DropDownLink>
+              <DropDownLink to="/e/corporate-roadies">
+                Corporate Roadies
+              </DropDownLink>
+            </DropDown>
+            <NavLink to="/execom">Execom</NavLink>
           </ul>
         </div>
       </header>
 
       {/* Header to be displayed first if homepage */}
       {route === "/" ? (
-        <header className="bg-black bg-opacity-0 absolute top-0 w-full px-6 z-30">
+        <header className="absolute top-0 w-full px-6 z-30">
           <div className="flex justify-between">
             <h1 className="sm:ml-10 text-2xl my-4">
               <Link to="/">
@@ -144,11 +227,22 @@ const Header = ({ route }) => {
 
             {/* Links displayed after md */}
             <ul className="hidden md:flex text-white items-center">
-              <NavLink to="/link1">Link 1</NavLink>
-              <NavLink to="/link2">Link 2</NavLink>
-              <NavLink to="/link3">Link 3</NavLink>
-              <NavLink to="/link4">Link 4</NavLink>
-              <NavLink to="/link5">Link 5</NavLink>
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="/chapters">Chapters</NavLink>
+              <DropDown to="/e" title="Registrations">
+                <DropDownLink to="/e/rural-la-carte">
+                  Rural la carte
+                </DropDownLink>
+                <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
+                <DropDownLink to="/e/kyuriosity">Kyuriosity</DropDownLink>
+                <DropDownLink to="/e/technocrat">Technocrat</DropDownLink>
+                <DropDownLink to="/e/level-up">Level Up</DropDownLink>
+                <DropDownLink to="/e/up-the-ante">Up the Ante</DropDownLink>
+                <DropDownLink to="/e/corporate-roadies">
+                  Corporate Roadies
+                </DropDownLink>
+              </DropDown>
+              <NavLink to="/execom">Execom</NavLink>
             </ul>
           </div>
         </header>
