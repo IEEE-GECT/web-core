@@ -1,26 +1,27 @@
 import * as React from "react"
-// import { Link } from "gatsby"
+import { createWidget } from "@typeform/embed"
+import "@typeform/embed/build/css/widget.css"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
-const IndexPage = () => (
-  <Layout route="/e/rural-la-carte">
-    <Seo title="Rural la carte" />
+const EventPage = () => {
+  const container = React.useRef()
 
-    <div style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}>
-      <iframe
-        id="typeform-full"
-        title="Rural la carte"
-        width="100%"
-        height="100%"
-        frameBorder="0"
-        allow="camera; microphone; autoplay; encrypted-media;"
-        src="https://bit.ly/3ouE80w"
-        onLoad={() => window.scroll({ top: 0, left: 0 })}
-      ></iframe>
-    </div>
-  </Layout>
-)
+  React.useEffect(() => {
+    createWidget("yE5vGoaO", { container: container.current })
+  }, [])
 
-export default IndexPage
+  return (
+    <Layout route="/e/rural-la-carte">
+      <Seo title="Rural la carte" />
+
+      <div
+        style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}
+        ref={container}
+      ></div>
+    </Layout>
+  )
+}
+
+export default EventPage

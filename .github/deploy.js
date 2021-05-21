@@ -21,10 +21,10 @@ if (args[2] !== undefined) {
     .catch(err => console.log(err))
 
   ftpDeploy.on("uploading", function (data) {
-    console.log("\x1b[32m", "\bUploaded file: ", data.filename)
+    console.log("\x1b[32m", "Uploaded file: ", data.filename)
     console.log(
       "\x1b[33m",
-      "\bFiles remaining: ",
+      "Files remaining: ",
       data.totalFilesCount - data.transferredFileCount,
       "\n"
     )

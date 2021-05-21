@@ -103,14 +103,16 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
-    {
-      resolve: "gatsby-plugin-offline",
-      options: {
-        workboxConfig: {
-          globPatterns: ["**/icons*"],
-        },
-      },
-    },
+    // Commented this plugin to prevent service worker as our server does not support https as of now
+    // Uncomment it when https is availables
+    // {
+    //   resolve: "gatsby-plugin-offline",
+    //   options: {
+    //     workboxConfig: {
+    //       globPatterns: ["**/icons*"],
+    //     },
+    //   },
+    // },
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-postcss`,
   ],
