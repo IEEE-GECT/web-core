@@ -1,26 +1,27 @@
 import * as React from "react"
-// import { Link } from "gatsby"
+import { createWidget } from "@typeform/embed"
+import "@typeform/embed/build/css/widget.css"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
-const IndexPage = () => (
-  <Layout route="/e/corporate-roadies">
-    <Seo title="Corporate Roadies" />
+const EventPage = () => {
+  const container = React.useRef()
 
-    <div style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}>
-      <iframe
-        id="typeform-full"
-        title="Corporate Roadies"
-        width="100%"
-        height="100%"
-        frameBorder="0"
-        allow="camera; microphone; autoplay; encrypted-media;"
-        src="https://form.typeform.com/to/QiyA4D7O?typeform-medium=embed-snippet"
-        onLoad={() => window.scroll({ top: 0, left: 0 })}
-      ></iframe>
-    </div>
-  </Layout>
-)
+  React.useEffect(() => {
+    createWidget("QiyA4D7O", { container: container.current })
+  }, [])
 
-export default IndexPage
+  return (
+    <Layout route="/e/corporate-roadies">
+      <Seo title="Corporate Roadies" />
+
+      <div
+        style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}
+        ref={container}
+      ></div>
+    </Layout>
+  )
+}
+
+export default EventPage
