@@ -1,6 +1,6 @@
 # IEEE GECT Official Website
 
-[![Build & Deploy](https://github.com/ByteCrak07/IEEE-GECT-Website/actions/workflows/build_deploy.yml/badge.svg)](https://github.com/ByteCrak07/IEEE-GECT-Website/actions/workflows/build_deploy.yml)
+[![Build & Deploy](https://github.com/IEEE-GECT/web-core/actions/workflows/build_deploy.yml/badge.svg)](https://github.com/IEEE-GECT/web-core/actions/workflows/build_deploy.yml)
 
 ## Hosted [here👈](http://ieee.gectcr.ac.in)
 
