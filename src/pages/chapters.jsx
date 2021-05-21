@@ -93,7 +93,7 @@ const IndexPage = () => (
       <div className="pt-10 px-4 lg:w-1/2">
         <img
           className="h-64 lg:rounded-lg lg:h-full"
-          src="https://www.showsbee.com/newmaker/www/u/2020/20201/com_img/IEEE-Computer-Society.png"
+          src="https://ik.imagekit.io/ieeeGec/tr:w-500,h-200,c-force/cs_d6ktKY0Eg.png"
           alt="CS"
         />
       </div>
@@ -165,7 +165,7 @@ const IndexPage = () => (
       <div className="p-4 lg:w-1/2">
         <img
           className="h-64 bg-cover lg:rounded-lg lg:h-full"
-          src="http://sites.ieee.org/nicaragua/files/2011/05/Logo-IAS.png"
+          src="https://ik.imagekit.io/ieeeGec/tr:w-450,h-250,c-force/ias-new_nY15EeChm.png"
           alt="IAS"
         />
       </div>
