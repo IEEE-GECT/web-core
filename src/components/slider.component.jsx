@@ -9,10 +9,15 @@ import "swiper/swiper-bundle.min.css"
 SwiperCore.use([EffectCoverflow, Navigation, Pagination])
 
 const CoverflowEffect = () => {
+  const [height, setHeight] = React.useState(0)
+  React.useEffect(() => {
+    setHeight(window.innerHeight)
+  }, [])
+
   return (
     <>
       <Swiper
-        slidesPerView={window.innerWidth > 640 ? 3 : 1}
+        slidesPerView={height > 640 ? 3 : 1}
         spaceBetween={30}
         pagination={{
           clickable: true,

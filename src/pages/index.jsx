@@ -102,13 +102,7 @@ const IndexPage = () => (
             </h1>
 
             <div className="flex justify-center align-center ">
-              <div
-                className="min-w-full md:w-4/6"
-                // style={{
-                //   height: "100%",
-                //   width: "70%",
-                // }}
-              >
+              <div className="min-w-full md:w-4/6">
                 <CoverflowEffect />
                 <p className="text-xs pt-1 sm:text-sm">
                   Click on Event Poster to Register
