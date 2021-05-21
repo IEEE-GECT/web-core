@@ -68,7 +68,12 @@ const Header = ({ route }) => {
     return (
       <>
         <li
-          className="h-full relative mx-2 border-b-4 border-ieee-blue text-ieee-blue cursor-pointer"
+          className={`h-full relative mx-2 cursor-pointer border-b-4 ${
+            route.startsWith(props.to)
+              ? "border-ieee-blue text-ieee-blue"
+              : "border-transparent hover:border-ieee-blue hover:text-ieee-blue"
+          }`}
+          role="none"
           onMouseEnter={onEnter}
           onMouseLeave={onLeave}
         >
@@ -86,12 +91,7 @@ const Header = ({ route }) => {
 
           {/* Dropdown here */}
           {active ? (
-            <div
-              className="absolute right-0 top-24 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
-              aria-orientation="vertical"
-              aria-labelledby="menu-button"
-              tabindex="-1"
-            >
+            <div className="absolute right-0 top-24 w-56 rounded-md shadow-xl bg-white focus:outline-none">
               <div className="py-1">{props.children}</div>
             </div>
           ) : (
@@ -103,12 +103,20 @@ const Header = ({ route }) => {
   }
   DropDown.propTypes = {
     title: PropTypes.string.isRequired,
+    to: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired,
   }
 
   const DropDownLink = props => {
     return (
-      <Link to={props.to} className="text-gray-700 block px-4 py-2 text-sm">
+      <Link
+        to={props.to}
+        className={`block px-4 py-2 text-sm font-medium ${
+          route === props.to
+            ? "text-ieee-blue"
+            : "text-gray-700 hover:text-ieee-blue"
+        }`}
+      >
         {props.children}
       </Link>
     )
@@ -168,7 +176,7 @@ const Header = ({ route }) => {
           <ul className="hidden md:flex text-gray-800 items-center">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/chapters">Chapters</NavLink>
-            <DropDown title="Registrations">
+            <DropDown to="/e" title="Registrations">
               <DropDownLink to="/e/rural-la-carte">Rural la carte</DropDownLink>
               <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
               <DropDownLink to="/e/kyuriosity">Kyuriosity</DropDownLink>
@@ -186,7 +194,7 @@ const Header = ({ route }) => {
 
       {/* Header to be displayed first if homepage */}
       {route === "/" ? (
-        <header className="bg-black bg-opacity-0 absolute top-0 w-full px-6 z-30">
+        <header className="absolute top-0 w-full px-6 z-30">
           <div className="flex justify-between">
             <h1 className="sm:ml-10 text-2xl my-4">
               <Link to="/">
@@ -221,7 +229,7 @@ const Header = ({ route }) => {
             <ul className="hidden md:flex text-white items-center">
               <NavLink to="/">Home</NavLink>
               <NavLink to="/chapters">Chapters</NavLink>
-              <DropDown title="Registrations">
+              <DropDown to="/e" title="Registrations">
                 <DropDownLink to="/e/rural-la-carte">
                   Rural la carte
                 </DropDownLink>

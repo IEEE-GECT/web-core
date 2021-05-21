@@ -14,13 +14,14 @@ const IndexPage = () => (
     >
       <div className="p-4 lg:w-1/2">
         <img
-          classname="h-64 bg-cover lg:rounded-lg lg:h-full"
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
           src="https://tse2.mm.bing.net/th?id=OIP.aOF0x2AZ9v1tDkPfEvWVsgHaC5&pid=Api&P=0&w=463&h=182"
+          alt="TEMS"
         />
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
         <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
-          IEEE <span class="text-indigo-600">TEMS</span>
+          IEEE <span className="text-indigo-600">TEMS</span>
         </h2>
         <p className="mt-4 text-gray-600">
           IEEE Technology and Management Society aims at promoting the
@@ -39,13 +40,14 @@ const IndexPage = () => (
     >
       <div className="p-8 lg:w-1/2">
         <img
-          classname="h-64 bg-cover lg:rounded-lg lg:h-full"
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
           src="https://tse3.mm.bing.net/th?id=OIP.oWeG9XjWuUqyEptz_qe5kAHaCe&pid=Api&P=0&w=551&h=184"
+          alt="PES"
         />
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
         <h2 className=" text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray ">
-          IEEE <span class="text-indigo-600">PES </span>
+          IEEE <span className="text-indigo-600">PES </span>
         </h2>
 
         <p className="mt-4 text-gray-600">
@@ -63,15 +65,16 @@ const IndexPage = () => (
     >
       <div className="p-8 lg:w-1/2 ">
         <img
-          classname="  lg:rounded-lg lg:h-full"
+          className="lg:rounded-lg lg:h-full"
           src="https://witi.com/img/logos/ieeewomeninengineering.jpg"
           width="1400"
           height="1400"
+          alt="WIE"
         />
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
         <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
-          IEEE <span class="text-indigo-600">WIE</span>
+          IEEE <span className="text-indigo-600">WIE</span>
         </h2>
         <p className="mt-4 text-gray-600">
           IEEE Women in Engineering is an affinity group under the IEEE that
@@ -89,13 +92,14 @@ const IndexPage = () => (
     >
       <div className="pt-10 px-4 lg:w-1/2">
         <img
-          classname="h-64 lg:rounded-lg lg:h-full"
+          className="h-64 lg:rounded-lg lg:h-full"
           src="https://www.showsbee.com/newmaker/www/u/2020/20201/com_img/IEEE-Computer-Society.png"
+          alt="CS"
         />
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
         <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
-          IEEE <span class="text-indigo-600">CS</span>
+          IEEE <span className="text-indigo-600">CS</span>
         </h2>
         <p className="mt-4 text-gray-600">
           IEEE Computer Society is the exclusive society for advancements in
@@ -112,13 +116,14 @@ const IndexPage = () => (
     >
       <div className="p-8 lg:w-1/2">
         <img
-          classname="h-64 bg-cover lg:rounded-lg lg:h-full"
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
           src="https://tse1.mm.bing.net/th?id=OIP.9rdwi78qQlSeewmPZqbxrAHaCu&pid=Api&P=0&w=421&h=156"
+          alt="RAS"
         />
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
         <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
-          IEEE <span class="text-indigo-600">RAS</span>
+          IEEE <span className="text-indigo-600">RAS</span>
         </h2>
         <p className="mt-4 text-gray-600">
           IEEE Robotics and Automation society aims at promoting innovation and
@@ -135,13 +140,14 @@ const IndexPage = () => (
     >
       <div className="p-8 lg:w-1/2">
         <img
-          classname="h-64 bg-cover lg:rounded-lg lg:h-full"
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
           src="https://tse3.mm.bing.net/th?id=OIP.OuQkBwlNqc38IrEu6wDnEgHaC8&pid=Api&P=0&w=375&h=149"
+          alt="PELS"
         />
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
         <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
-          IEEE <span class="text-indigo-600">PELS</span>
+          IEEE <span className="text-indigo-600">PELS</span>
         </h2>
         <p className="mt-4 text-gray-600">
           IEEE Power Electronics Society is a society under IEEE specialising in
@@ -158,13 +164,14 @@ const IndexPage = () => (
     >
       <div className="p-4 lg:w-1/2">
         <img
-          classname="h-64 bg-cover lg:rounded-lg lg:h-full"
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
           src="http://sites.ieee.org/nicaragua/files/2011/05/Logo-IAS.png"
+          alt="IAS"
         />
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
         <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
-          IEEE <span class="text-indigo-600">IAS</span>
+          IEEE <span className="text-indigo-600">IAS</span>
         </h2>
         <p className="mt-4 text-gray-600">
           IEEE Industry Applications Society specialises in industrial
