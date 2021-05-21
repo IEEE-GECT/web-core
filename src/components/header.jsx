@@ -176,7 +176,7 @@ const Header = ({ route }) => {
           <ul className="hidden md:flex text-gray-800 items-center">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/chapters">Chapters</NavLink>
-            <DropDown to="/e" title="Registrations">
+            <DropDown to="/e/" title="Registrations">
               <DropDownLink to="/e/rural-la-carte">Rural la carte</DropDownLink>
               <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
               <DropDownLink to="/e/kyuriosity">Kyuriosity</DropDownLink>
@@ -229,7 +229,7 @@ const Header = ({ route }) => {
             <ul className="hidden md:flex text-white items-center">
               <NavLink to="/">Home</NavLink>
               <NavLink to="/chapters">Chapters</NavLink>
-              <DropDown to="/e" title="Registrations">
+              <DropDown to="/e/" title="Registrations">
                 <DropDownLink to="/e/rural-la-carte">
                   Rural la carte
                 </DropDownLink>
