@@ -1,4 +1,4 @@
-name: Build & Deploy
+name: Build
 
 on:
   push:
@@ -22,5 +22,3 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
-      - name: Deploy
-        run: npm run deploy -- ${{ secrets.FTP_HOST }} ${{ secrets.FTP_USER }} ${{ secrets.FTP_PASSWORD }}
