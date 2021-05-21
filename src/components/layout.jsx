@@ -56,7 +56,8 @@ const Layout = ({ route, children }) => {
             <main>{children}</main>
           </div>
 
-          <GoToTop />
+          {route.startsWith("/e/") ? "" : <GoToTop />}
+
           {/* <footer className="p-3 text-center bg-gray-100 w-full">
             © {new Date().getFullYear()}, IEEE GEC Thrissur
           </footer> */}

@@ -2,9 +2,7 @@ name: Build & Deploy
 
 on:
   push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+    branches: [release]
 
 jobs:
   build:
@@ -22,9 +20,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install Packages
         run: npm ci
-      - name: Build and Deploy
-        run: |
-          git config user.email ${{ secrets.EMAIL }}
-          git config user.name ${{ secrets.USERNAME }}
-          git remote set-url origin https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ secrets.USERNAME }}/IEEE-GECT-Website.git
-          npm run deploy
+      - name: Build
+        run: npm run build
+      - name: Deploy
+        run: npm run deploy -- ${{ secrets.FTP_HOST }} ${{ secrets.FTP_USER }} ${{ secrets.FTP_PASSWORD }}

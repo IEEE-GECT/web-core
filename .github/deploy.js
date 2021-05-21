@@ -17,7 +17,7 @@ if (args[2] !== undefined) {
 
   ftpDeploy
     .deploy(config)
-    .then(res => console.log("\x1b[32m", "\nDeployed successfully..."))
+    .then(res => console.log("\x1b[32m", "\nDeployed\n"))
     .catch(err => console.log(err))
 
   ftpDeploy.on("uploading", function (data) {
@@ -25,9 +25,9 @@ if (args[2] !== undefined) {
     console.log(
       "\x1b[33m",
       "\bFiles remaining: ",
-      data.totalFilesCount - data.transferredFileCount
+      data.totalFilesCount - data.transferredFileCount,
+      "\n"
     )
-    console.log("\n")
   })
 
   ftpDeploy.on("upload-error", function (data) {
