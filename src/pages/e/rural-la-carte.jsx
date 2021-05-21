@@ -11,9 +11,10 @@ const IndexPage = () => (
     <div style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}>
       <iframe
         id="typeform-full"
+        title="Rural la carte"
         width="100%"
         height="100%"
-        frameborder="0"
+        frameBorder="0"
         allow="camera; microphone; autoplay; encrypted-media;"
         src="https://bit.ly/3ouE80w"
         onLoad={() => window.scroll({ top: 0, left: 0 })}

@@ -7,7 +7,6 @@ import Seo from "../components/seo"
 
 import CoverflowEffect from "../components/slider.component"
 import { Content } from "../components/tems.component"
-import HeroSection from "../components/hero-section"
 
 const IndexPage = () => (
   <Layout route="/">
@@ -38,14 +37,14 @@ const IndexPage = () => (
 
     <div className="pt-5 pb-10 px-2 sm:px-10">
       <div className="rounded-lg shadow-2xl glass-effect">
-        <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto flex flex-wrap">
-            <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
-              <div class="w-full sm:p-4 px-4 mb-6">
-                <h1 class="title-font font-medium text-3xl mb-2 text-gray-900">
+        <section className="text-gray-600 body-font">
+          <div className="container px-5 py-24 mx-auto flex flex-wrap">
+            <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+              <div className="w-full sm:p-4 px-4 mb-6">
+                <h1 className="title-font font-medium text-3xl mb-2 text-gray-900">
                   About Us
                 </h1>
-                <div class="leading-relaxed text-justify text-medium">
+                <div className="leading-relaxed text-justify text-medium">
                   Ever since it's inception,the IEEE SB GECT has always been a
                   very active presence in the institution. Being the very first
                   technical society student branch of the institution, the SB
@@ -57,32 +56,34 @@ const IndexPage = () => (
                   Section, courtesy to it's consistently top-notch activities!!
                 </div>
               </div>
-              <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                <h2 class="title-font font-medium text-3xl text-gray-900">
+              <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                <h2 className="title-font font-medium text-3xl text-gray-900">
                   212
                 </h2>
-                <p class="leading-relaxed">Active Members</p>
+                <p className="leading-relaxed">Active Members</p>
               </div>
-              <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                <h2 class="title-font font-medium text-3xl text-gray-900">7</h2>
-                <p class="leading-relaxed">Societies</p>
+              <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                <h2 className="title-font font-medium text-3xl text-gray-900">
+                  7
+                </h2>
+                <p className="leading-relaxed">Societies</p>
               </div>
-              <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                <h2 class="title-font font-medium text-3xl text-gray-900">
+              <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                <h2 className="title-font font-medium text-3xl text-gray-900">
                   35
                 </h2>
-                <p class="leading-relaxed">Awards</p>
+                <p className="leading-relaxed">Awards</p>
               </div>
-              <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                <h2 class="title-font font-medium text-3xl text-gray-900">
+              <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                <h2 className="title-font font-medium text-3xl text-gray-900">
                   200+
                 </h2>
-                <p class="leading-relaxed">Events</p>
+                <p className="leading-relaxed">Events</p>
               </div>
             </div>
-            <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+            <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
               <img
-                class="object-cover object-center w-full h-full"
+                className="object-cover object-center w-full h-full"
                 src="https://ik.imagekit.io/ieeeGec/about_v0_w_uFn4.png"
                 alt="stats"
               />
@@ -94,9 +95,9 @@ const IndexPage = () => (
 
     <div className="pt-5 pb-10 px-2 sm:px-10">
       <div className="rounded-lg shadow-2xl glass-effect">
-        <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto">
-            <h1 class="font-medium text-3xl mb-8 text-gray-900 text-left ml-8 ">
+        <section className="text-gray-600 body-font">
+          <div className="container px-5 py-24 mx-auto">
+            <h1 className="font-medium text-3xl mb-8 text-gray-900 text-left ml-8 ">
               Upcoming Events
             </h1>
 

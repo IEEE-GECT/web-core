@@ -1,34 +1,21 @@
 import * as React from "react"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Footer = () => {
   return (
     <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
         <div className="md:max-w-md lg:col-span-2">
-          <a
-            href="/"
-            aria-label="Go home"
-            title="Company"
-            className="inline-flex items-center"
-          >
-            <svg
-              className="w-8 text-deep-purple-accent-400"
-              viewBox="0 0 24 24"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              stroke="currentColor"
-              fill="none"
-            >
-              <rect x="3" y="1" width="7" height="12" />
-              <rect x="3" y="17" width="7" height="6" />
-              <rect x="14" y="1" width="7" height="6" />
-              <rect x="14" y="11" width="7" height="12" />
-            </svg>
-            <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-              IEEE SB GECT
-            </span>
+          <a href="/" aria-label="Go home" className="inline-flex items-center">
+            <StaticImage
+              src="../images/logo-blue.png"
+              quality={100}
+              width={160}
+              placeholder="tracedSVG"
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="logo"
+            />
           </a>
           <div className="mt-4 lg:max-w-sm">
             <p className="text-sm text-gray-800">
@@ -128,64 +115,64 @@ const Footer = () => {
               <div className="col-span-1">
                 <ul className="mt-2 space-y-2">
                   <li>
-                    <a
-                      href="/chapters/#soc7"
+                    <Link
+                      to="/chapters/#soc7"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       TEMS
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/chapters/#soc2"
+                    <Link
+                      to="/chapters/#soc2"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       WIE
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/chapters/#soc1"
+                    <Link
+                      to="/chapters/#soc1"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       PES
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/chapters/#soc3"
+                    <Link
+                      to="/chapters/#soc3"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       CS
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="col-start-3 col-span-1">
                 <ul className="mt-2 space-y-2">
                   <li>
-                    <a
-                      href="/chapters/#soc4"
+                    <Link
+                      to="/chapters/#soc4"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       RAS
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/chapters/#soc5"
+                    <Link
+                      to="/chapters/#soc5"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       PELS
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="/chapters/#soc6"
+                    <Link
+                      to="/chapters/#soc6"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       IAS
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -200,7 +187,9 @@ const Footer = () => {
         <div className="flex items-center mt-4 space-x-4 sm:mt-0">
           <a
             href="https://www.linkedin.com/in/ieee-sb-gec-thrissur-9b93041a8/"
+            aria-label="LinkedIn"
             target="_blank"
+            rel="noreferrer"
             className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
           >
             <svg
@@ -215,7 +204,9 @@ const Footer = () => {
           </a>
           <a
             href="https://www.instagram.com/ieeesbgect/"
+            aria-label="Instagram"
             target="_blank"
+            rel="noreferrer"
             className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
           >
             <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -225,13 +216,15 @@ const Footer = () => {
           </a>
           <a
             href="https://www.facebook.com/ieeesbgectcr/"
+            aria-label="Facebook"
             targe="_blank"
+            rel="noreferrer"
             className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
               <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
             </svg>
-          </a>{" "}
+          </a>
         </div>
       </div>
     </div>
