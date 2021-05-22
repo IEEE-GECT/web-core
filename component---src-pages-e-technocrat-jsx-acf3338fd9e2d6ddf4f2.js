@@ -1,0 +1,2 @@
+(self.webpackChunkieee_gect=self.webpackChunkieee_gect||[]).push([[927],{1114:function(e,t,c){"use strict";c.r(t);var r=c(7294),n=c(4836),a=c(7445),u=c(4615);t.default=function(){var e=r.useRef();return r.useEffect((function(){(0,n.createWidget)("Cls9F1XH",{container:e.current})}),[]),r.createElement(a.Z,{route:"/e/technocrat"},r.createElement(u.Z,{title:"Technocrat"}),r.createElement("div",{style:{height:"calc(var(--vh, 1vh) * 100 - 5rem )"},ref:e}))}}}]);
+//# sourceMappingURL=component---src-pages-e-technocrat-jsx-acf3338fd9e2d6ddf4f2.js.map

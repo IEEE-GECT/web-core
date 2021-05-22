@@ -1,0 +1,2 @@
+(self.webpackChunkieee_gect=self.webpackChunkieee_gect||[]).push([[246],{1663:function(e,t,r){"use strict";r.r(t);var c=r(7294),i=r(4836),n=r(7445),u=r(4615);t.default=function(){var e=c.useRef();return c.useEffect((function(){(0,i.createWidget)("afqESRli",{container:e.current})}),[]),c.createElement(n.Z,{route:"/e/kyuriosity"},c.createElement(u.Z,{title:"Kyuriosity"}),c.createElement("div",{style:{height:"calc(var(--vh, 1vh) * 100 - 5rem )"},ref:e}))}}}]);
+//# sourceMappingURL=component---src-pages-e-kyuriosity-jsx-642536aaa5dcdb85aa75.js.map
