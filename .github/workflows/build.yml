@@ -18,7 +18,21 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
+
+      - name: Cache node_modules and build
+        id: node_build-cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+            public
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-
+
       - name: Install Packages
-        run: npm ci
-      - name: Build
-        run: npm run build
+        if: steps.node_build-cache.outputs.cache-hit != 'true'
+        run: npm install
+      - name: Gatsby Build
+        run: |
+          npm run clean
+          npm run build

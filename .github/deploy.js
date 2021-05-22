@@ -17,7 +17,7 @@ if (args[2] !== undefined) {
 
   ftpDeploy
     .deploy(config)
-    .then(res => console.log("\x1b[32m", "\nDeployed\n"))
+    .then(res => console.log("\x1b[32m", "Deployed\n"))
     .catch(err => console.log(err))
 
   ftpDeploy.on("uploading", function (data) {

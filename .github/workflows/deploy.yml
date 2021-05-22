@@ -10,15 +10,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+
+      - name: Using node_modules and build cache
+        id: node_build-cache
+        uses: actions/cache@v2
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: Deploy
-        run: npm run deploy -- ${{ secrets.FTP_HOST }} ${{ secrets.FTP_USER }} ${{ secrets.FTP_PASSWORD }}
+          path: |
+            node_modules
+            public
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-
+
+      - if: steps.node_build-cache.outputs.cache-hit == 'true'
+        name: Deploy
+        run: |
+          echo "Cache found"
+          echo "Starting deployment"
+          npm run deploy -- ${{ secrets.FTP_HOST }} ${{ secrets.FTP_USER }} ${{ secrets.FTP_PASSWORD }}
+
+      - if: steps.node_build-cache.outputs.cache-hit != 'true'
+        name: Deploy fail
+        run: |
+          echo "Cache not found!"
+          exit 1
