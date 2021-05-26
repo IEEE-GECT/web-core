@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description
   let defaultTitle = site.siteMetadata?.title
   let defaultImage =
-    "https://www.wexinc.com/wp-content/uploads/2018/02/INNOVATION-600x315.jpg"
+    "https://ik.imagekit.io/ieeeGec/tr:w-1655,h-1655,cm-extract,x-406,y-406/GECT_VVJgnJ5CI.png"
   if (!title) {
     title = defaultTitle
     defaultTitle = ""
