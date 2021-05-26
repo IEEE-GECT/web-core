@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description
   let defaultTitle = site.siteMetadata?.title
   let defaultImage =
-    "https://ik.imagekit.io/ieeeGec/tr:w-1574,h-1574,cm-extract,x-453,y-449:w-1080,h-1080,c-force/GECT_VVJgnJ5CI.png"
+    "https://ik.imagekit.io/ieeeGec/tr:w-1627,h-853,cm-extract,x-426,y-814/GECT_VVJgnJ5CI.png"
   if (!title) {
     title = defaultTitle
     defaultTitle = ""
