@@ -35,7 +35,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: public
-          key: ${{ runner.os }}-${{ GITHUB_SHA }}
+          key: ${{ runner.os }}-${{ github.sha }}
 
       - name: Gatsby Build
         run: npm run build

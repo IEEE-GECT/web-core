@@ -24,7 +24,7 @@ jobs:
         uses: actions/cache@v2
         with:
           path: public
-          key: ${{ runner.os }}-${{ GITHUB_SHA }}
+          key: ${{ runner.os }}-${{ github.sha }}
 
       - if: steps.build-cache.outputs.cache-hit == 'true'
         name: Deploy
