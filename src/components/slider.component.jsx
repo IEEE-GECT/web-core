@@ -26,6 +26,7 @@ const CoverflowEffect = () => {
         className="mySwiper"
       >
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+          <Link to="/e/zero2neuro">
           <div
             style={{
               position: "relative",
@@ -40,6 +41,7 @@ const CoverflowEffect = () => {
               alt="img"
             />
           </div>
+          </Link>
         </SwiperSlide>
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <div
