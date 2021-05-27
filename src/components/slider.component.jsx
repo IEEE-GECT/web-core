@@ -26,21 +26,17 @@ const CoverflowEffect = () => {
         className="mySwiper"
       >
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <Link to="/e/zero2neuro">
-          <div
-            style={{
-              position: "relative",
-            }}
-          >
-            <img
-              className="bg-auto"
-              style={{
-                borderRadius: "1rem",
-              }}
-              src="https://ik.imagekit.io/ieeeGec/pytorch-workshop_mlvGaXfxx.jpeg?tr=w-1080,h-1080,fo-auto"
-              alt="img"
-            />
-          </div>
+          <Link to="/e/corporate-roadies">
+            <div>
+              <img
+                className="bg-contain"
+                style={{
+                  borderRadius: "1rem",
+                }}
+                src="https://ik.imagekit.io/ieeeGec/pytorch-workshop_mlvGaXfxx.jpeg?tr=w-1080,h-1080,fo-auto"
+                alt="img"
+              />
+            </div>
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
