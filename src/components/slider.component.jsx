@@ -26,7 +26,7 @@ const CoverflowEffect = () => {
         className="mySwiper"
       >
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <Link to="/e/corporate-roadies">
+          <Link to="/e/zero2neuro">
             <div>
               <img
                 className="bg-contain"
