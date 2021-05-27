@@ -145,6 +145,7 @@ const SideBar = ({ route, setIsOpen }) => {
             <DropDownLink to="/e/corporate-roadies">
               Corporate Roadies
             </DropDownLink>
+            <DropDownLink to="/e/zero2neuro">Zero to Neuro</DropDownLink>
             <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
             <DropDownLink to="/e/rural-la-carte">Rural la carte</DropDownLink>
             <DropDownLink to="/e/level-up">Level Up</DropDownLink>

@@ -36,6 +36,22 @@ const CoverflowEffect = () => {
               style={{
                 borderRadius: "1rem",
               }}
+              src="https://ik.imagekit.io/ieeeGec/pytorch-workshop_mlvGaXfxx.jpeg?tr=w-1080,h-1080,fo-auto"
+              alt="img"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+          <div
+            style={{
+              position: "relative",
+            }}
+          >
+            <img
+              className="bg-auto"
+              style={{
+                borderRadius: "1rem",
+              }}
               src="https://ik.imagekit.io/ieeeGec/temstribune_final_eMI96E0sb.jpg"
               alt="img"
             />
