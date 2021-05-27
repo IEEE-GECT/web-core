@@ -47,7 +47,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/yohan_25WV6i0-o2.jpeg"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Yohan Sunil Tharakan</p>
@@ -58,7 +58,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/leah_x3bCw2OTQ.jpg?tr=w-1080,h-1920,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Leah Liz Paul</p>
@@ -69,7 +69,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/fathima_zTyiBI4EQ.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Fathima Shirin</p>
@@ -80,7 +80,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/paul_czTJ4J6L7.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Paul B Kalarikkal</p>
@@ -91,7 +91,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/ananya_Y2HU2d4fL.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Ananya M</p>
@@ -104,7 +104,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/20210204_175423_-_Amrutha_T_D_aa9gDGj-J.jpg?tr=w-1080,h-1080,fo-custom"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Amrutha T D</p>
@@ -115,7 +115,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/neha_1gmziapg1.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Neha Susan Manoj</p>
@@ -128,7 +128,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/abhijith_x_LXolGMN.jpeg"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Abhijith V</p>
@@ -139,7 +139,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/arya_WVzjw97ZZ.jpg?tr=w-1080,h-1350,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Arya Ramachandran</p>
@@ -150,7 +150,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/maria_wZYatfccj.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Maria Viji George</p>
@@ -161,7 +161,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/hazrath_jupQa3U9b.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Hazrath Rahman</p>
@@ -172,7 +172,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/aathira_dFQPKJmFy.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Aathiragouri S</p>
@@ -183,7 +183,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/roshan_hjnh3CMD7.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Roshan Silvester Lopez</p>
@@ -194,7 +194,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/dennis_qQptZ4WsyL.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Dennis Mathew Jose</p>
@@ -205,7 +205,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/malayil_orkTkOeah.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Malayil Vivekanandan</p>
@@ -216,7 +216,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/DSC_0202_-_Melvin_M_Thomas_DMTX_pj6p.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Melvin Thomas</p>
@@ -227,7 +227,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/Sai_Anand_-_Sai_Anand_e-4I8lTny.jpg"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Sai Anand</p>
@@ -238,7 +238,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG-20201025-WA0024-01_-_Aswin_Rajesh__mURgUYfTi.jpeg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Ashwin Rajesh</p>
@@ -249,7 +249,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/photo_-_Sreehari_Bijikumar__GHlOMioy.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Sreehari B</p>
@@ -261,7 +261,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/vinayak_L2wDMfgr_J.jpeg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Vinayak Sankar</p>
@@ -272,7 +272,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/ajmal_-_Mohammed_Ajmal_uq53aLd3mg.jpeg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Mohammed Ajmal</p>
@@ -283,7 +283,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG_20210129_183150_214_-_Divyasree_V_7UvuEeFJI.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Divyasree V</p>
@@ -294,7 +294,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG-20181114-WA0095_3-01-01_-_Krishnanand_V_P_gKOY4e2Mx.jpeg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Krishnanandh V P</p>
@@ -305,7 +305,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG_20200531_124312_-_22_Praveena_M_Das_fSyWFeUSLt.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Praveena M Das</p>
@@ -316,7 +316,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/20201030_233712_-_Niranjan_Neelakantan_AqffCCKW67.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Niranjan Neelakantan </p>
@@ -327,7 +327,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG_20210205_094953_-_Abijith_T_V_Do0v9UY1P.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Abhijith T V</p>
@@ -338,7 +338,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/biline_UTkL1V0b3.PNG?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Biline K C</p>
@@ -349,7 +349,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG_20210514_180345_tPVy0lf0s.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Rishika Raveendran</p>
@@ -369,7 +369,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/malayil_orkTkOeah.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Malayil Vivekanandan</p>
@@ -380,7 +380,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG-20200217-WA0081-01_-_Abil_Savio_hj2ZwHnczh.jpeg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Abil Savio</p>
@@ -390,7 +390,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG_20210204_154656_-_Dennis_Mathew_Jose_1p3dI-5Zni.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Dennis Mathew Jose</p>
@@ -400,7 +400,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/gokul_fRdnMOWX8.jpeg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Gokul P Dinesh</p>
@@ -410,7 +410,7 @@ export const Team = () => {
           <img
             className="object-cover w-20 h-20 mr-4 rounded-full shadow"
             src="https://ik.imagekit.io/ieeeGec/IMG_20210514_180345_tPVy0lf0s.jpg?tr=w-1080,h-1080,fo-auto"
-            alt="Person"
+            alt=""
           />
           <div className="flex flex-col justify-center text-left">
             <p className="text-medium font-bold">Rishika Raveendran</p>
