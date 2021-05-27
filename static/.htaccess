@@ -2,6 +2,12 @@ RewriteEngine on
 
 RewriteOptions inherit
 
+<If "%{HTTP_HOST} == 'ieee.gectcr.ac.in'">
+</If>
+<Else>
+  Redirect 301 /ieee http://ieee.gectcr.ac.in/
+</Else>
+
 ErrorDocument 404 /404.html
 
 <filesMatch ".(ico|jpg|jpeg|png|gif|avif|webp)$">
