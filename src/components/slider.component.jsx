@@ -63,63 +63,21 @@ const CoverflowEffect = () => {
       >
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
+            to="/e/postermaking"
+            imgSrc="https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto"
+          />
+        </SwiperSlide>
+
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+          <SlideBody
             to="/e/zero2neuro"
             imgSrc="https://ik.imagekit.io/ieeeGec/pytorch-workshop_mlvGaXfxx.jpeg?tr=w-1080,h-1080,fo-auto"
           />
         </SwiperSlide>
 
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        {/* <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody imgSrc="https://ik.imagekit.io/ieeeGec/temstribune_final_eMI96E0sb.jpg" />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/corporate-roadies"
-            imgSrc="https://ik.imagekit.io/ieeeGec/corporate-roadies_g6jexai0H.jpeg"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/wordsworld"
-            imgSrc="https://ik.imagekit.io/ieeeGec/wordsworld_3DLnjds-k-.jpeg"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/rural-la-carte"
-            imgSrc="https://ik.imagekit.io/ieeeGec/rural-la-carte_sPW2zo9lg.jpeg"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/level-up"
-            imgSrc="https://ik.imagekit.io/ieeeGec/level-up_UmQs43mpDp.jpg?tr=w-1080,h-1080,fo-auto"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/up-the-ante"
-            imgSrc="https://ik.imagekit.io/ieeeGec/up_the_ante_LV1EICeYl.jpeg"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/technocrat"
-            imgSrc="https://ik.imagekit.io/ieeeGec/technocrat_0WrpIllzjY.jpg?tr=w-1080,h-1080,fo-auto"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/kyuriosity"
-            imgSrc="https://ik.imagekit.io/ieeeGec/kyuriosity_uDS-6YD-Ej.jpg?tr=w-1080,h-1080,fo-auto"
-          />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   )
