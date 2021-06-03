@@ -9,15 +9,15 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("ymrIp2wg", { container: container.current })
+    createWidget("iE6R03TS", { container: container.current })
   }, [])
 
   return (
-    <Layout route="/e/zero2neuro">
+    <Layout route="/e/know-your-society">
       <Seo
-        title="Zero to Neuro with Pytorch"
-        description="Machines are learning, are you? | Workshop"
-        image="https://ik.imagekit.io/ieeeGec/pytorch-workshop_mlvGaXfxx.jpeg?tr=w-1080,h-1080,fo-auto"
+        title="Know Your Society"
+        description="Session on benifits of IAS/PELS"
+        image="https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto"
       />
 
       <div
