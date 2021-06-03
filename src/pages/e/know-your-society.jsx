@@ -17,7 +17,7 @@ const EventPage = () => {
       <Seo
         title="Know Your Society"
         description="Session on benifits of IAS/PELS"
-        image="https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto"
+        image="https://ik.imagekit.io/ieeeGec/know_your_society_pvHOAZo0-.png?tr=w-1080,h-1080,fo-auto"
       />
 
       <div
