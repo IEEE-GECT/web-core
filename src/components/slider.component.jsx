@@ -61,6 +61,13 @@ const CoverflowEffect = () => {
         navigation={Navigation}
         className="mySwiper"
       >
+
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+          <SlideBody 
+          to="/e/educe"
+          imgSrc="https://ik.imagekit.io/ieeecollege/educe_final_ZW9-xsdAo.jpg?tr=w-1080,h-1080,fo-auto" />{/*New event poster link*/ }
+        </SwiperSlide>
+
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody imgSrc="https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto" />
         </SwiperSlide>
@@ -79,16 +86,12 @@ const CoverflowEffect = () => {
           />
         </SwiperSlide>
 
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        {/*<SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/know-your-society"
             imgSrc="https://ik.imagekit.io/ieeeGec/know_your_society_pvHOAZo0-.png?tr=w-1080,h-1080,fo-auto"
           />
-        </SwiperSlide>
-
-        {/* <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody imgSrc="https://ik.imagekit.io/ieeeGec/temstribune_final_eMI96E0sb.jpg" />
-        </SwiperSlide> */}
+      </SwiperSlide>*/}
       </Swiper>
     </>
   )
