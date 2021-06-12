@@ -1,2 +1,0 @@
-(self.webpackChunkieee_gect=self.webpackChunkieee_gect||[]).push([[816],{6886:function(e,t,r){"use strict";r.r(t);var a=r(7294),c=r(4836),n=r(7445),u=r(4615);t.default=function(){var e=a.useRef();return a.useEffect((function(){(0,c.createWidget)("yE5vGoaO",{container:e.current})}),[]),a.createElement(n.Z,{route:"/e/rural-la-carte"},a.createElement(u.Z,{title:"Rural la carte"}),a.createElement("div",{style:{height:"calc(var(--vh, 1vh) * 100 - 5rem )"},ref:e}))}}}]);
-//# sourceMappingURL=component---src-pages-e-rural-la-carte-jsx-99d6f09cb7e5aa8c3106.js.map

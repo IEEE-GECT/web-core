@@ -1,2 +1,0 @@
-(self.webpackChunkieee_gect=self.webpackChunkieee_gect||[]).push([[344],{29:function(e,t,c){"use strict";c.r(t);var r=c(7294),n=c(4836),u=c(7445),a=c(4615);t.default=function(){var e=r.useRef();return r.useEffect((function(){(0,n.createWidget)("STUkQQhj",{container:e.current})}),[]),r.createElement(u.Z,{route:"/e/level-up"},r.createElement(a.Z,{title:"Level Up"}),r.createElement("div",{style:{height:"calc(var(--vh, 1vh) * 100 - 5rem )"},ref:e}))}}}]);
-//# sourceMappingURL=component---src-pages-e-level-up-jsx-f721ff2d1c5098ea83ad.js.map

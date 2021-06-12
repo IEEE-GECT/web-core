@@ -1,2 +1,0 @@
-(self.webpackChunkieee_gect=self.webpackChunkieee_gect||[]).push([[296],{2147:function(e,t,r){"use strict";r.r(t);var c=r(7294),n=r(4836),a=r(7445),u=r(4615);t.default=function(){var e=c.useRef();return c.useEffect((function(){(0,n.createWidget)("I9XaiGIp",{container:e.current})}),[]),c.createElement(a.Z,{route:"/e/wordsworld"},c.createElement(u.Z,{title:"Wordsworld"}),c.createElement("div",{style:{height:"calc(var(--vh, 1vh) * 100 - 5rem )"},ref:e}))}}}]);
-//# sourceMappingURL=component---src-pages-e-wordsworld-jsx-4560c93df3f279a41f5a.js.map
