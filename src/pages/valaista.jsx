@@ -1,7 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import AwesomeSlider from "react-awesome-slider"
-import "react-awesome-slider/dist/styles.css"
 import "../styles/valaista.styles.css"
 import { StaticImage } from "gatsby-plugin-image"
 
