@@ -110,12 +110,12 @@ const Valaista = () => (
               {" "}
               Feel free to explore what Valaista has in store.{" "}
             </p>
-            <a
+            {/* <a
               href="#"
               className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
             >
               Explore Now
-            </a>
+            </a> */}
           </div>
           <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
             <div className="container mx-auto w-full h-full">
