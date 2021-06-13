@@ -48,7 +48,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/images/icon.png`,
+        // icon: `src/images/icon.png`,
         icons: [
           {
             src: `icons/icon-48x48.png`,
@@ -104,7 +104,7 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     // Commented this plugin to prevent service worker as our server does not support https as of now
-    // Uncomment it when https is availables
+    // Uncomment it when https is available
     // {
     //   resolve: "gatsby-plugin-offline",
     //   options: {

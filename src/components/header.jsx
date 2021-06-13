@@ -130,12 +130,17 @@ const Header = ({ route }) => {
     <>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/chapters">Chapters</NavLink>
+      <DropDown to="/valaista" title="Valaista">
+        <DropDownLink to="/valaista">Home Page</DropDownLink>
+        <DropDownLink to="/e/inauguration">Inauguration</DropDownLink>
+      </DropDown>
       <DropDown to="/e/" title="Registrations">
         <DropDownLink to="/e/educe">EDUCE</DropDownLink>
         <DropDownLink to="/e/postermaking">Poster Making</DropDownLink>
         <DropDownLink to="/e/articlewriting">Article Writing</DropDownLink>
       </DropDown>
       <NavLink to="/execom">Execom</NavLink>
+      <NavLink to="/half-year-registration">Half Year Registration</NavLink>
     </>
   )
 
