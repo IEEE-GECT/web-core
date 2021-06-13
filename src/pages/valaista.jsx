@@ -165,7 +165,7 @@ const Valaista = () => (
                       7pm, 19 June, 2021
                     </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
-                      Aurora - A Space quolloqy
+                      Aurora - A Space colloquy
                     </h4>
                     <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                       Join experts and education specialists from Society for
