@@ -11,7 +11,9 @@ const Valaista = () => (
   <>
     <Seo
       title="Valaista | Aspire to Inspire"
-      fav="https://ik.imagekit.io/ieeeGec/va_Kd94t1-A-.jpeg"
+      fav="https://ik.imagekit.io/ieeeGec/tr:w-320,h-320,cm-extract,x-160,y-160/va_Kd94t1-A-.jpeg"
+      image="https://ik.imagekit.io/ieeeGec/tr:w-320,h-320,cm-extract,x-160,y-160/va_Kd94t1-A-.jpeg"
+      description="Technical Event Series"
     />
     <section>
       <div className="bg-black text-white py-10">

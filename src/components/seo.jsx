@@ -44,7 +44,13 @@ function SEO({ description, lang, meta, title, image, fav }) {
         lang,
       }}
       title={title}
-      link={[{ rel: "icon", type: "image/jpeg", href: fav }]}
+      link={[
+        {
+          rel: "icon",
+          type: fav ? "image/jpeg" : "image/png",
+          href: fav ? fav : "/favicon.png",
+        },
+      ]}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
