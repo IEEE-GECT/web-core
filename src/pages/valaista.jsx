@@ -39,7 +39,7 @@ const Valaista = () => (
           </div>
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-1/2 flex justify-center">
             <img
-              src="https://ik.imagekit.io/ieeeGec/rkrishnansir-final_psAghAhM3.jpeg"
+              src="https://ik.imagekit.io/ieeeGec/final-inaugration_PCX1vcaGP.jpeg"
               alt="Dr.K Radakrishnan"
               style={{ maxHeight: "550px" }}
             />
