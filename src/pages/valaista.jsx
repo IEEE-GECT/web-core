@@ -150,11 +150,18 @@ const Valaista = () => (
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Registeration for Aurora
                     </h4>
-                    <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                    <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100 mb-4">
                       Participate online. The links for your registered events
                       will be sent to you via email and whatsapp groups. Use
                       those links and show your talent.
                     </p>
+                    <Link
+                      to="/e/aurora"
+                      className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
+                      style={{ maxWidth: "130px" }}
+                    >
+                      Register for aurora
+                    </Link>
                   </div>
                 </div>
                 <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
