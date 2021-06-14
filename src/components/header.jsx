@@ -133,6 +133,7 @@ const Header = ({ route }) => {
       <DropDown to="/valaista" title="Valaista">
         <DropDownLink to="/valaista">Home Page</DropDownLink>
         <DropDownLink to="/e/inauguration">Inauguration</DropDownLink>
+        <DropDownLink to="/e/aurora">Aurora</DropDownLink>
       </DropDown>
       <DropDown to="/e/" title="Registrations">
         <DropDownLink to="/e/educe">EDUCE</DropDownLink>
