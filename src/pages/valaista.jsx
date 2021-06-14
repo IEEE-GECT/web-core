@@ -152,8 +152,10 @@ const Valaista = () => (
                     </h4>
                     <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100 mb-4">
                       Participate online. The links for your registered events
-                      will be sent to you via email and whatsapp groups. Use
-                      those links and show your talent.
+                      will be sent to you via email and whatsapp groups.
+                      <br></br>IEEE Members - 50 Rs.<br></br>
+                      Non-IEEE Members - 75 Rs.<br></br>Send payments via GPAY
+                      to 9048590640
                     </p>
                     <Link
                       to="/e/aurora"
