@@ -34,7 +34,7 @@ const Valaista = () => (
               className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
               style={{ maxWidth: "130px" }}
             >
-              Register
+              Register for Inauguration
             </Link>
           </div>
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-1/2 flex justify-center">
@@ -155,7 +155,7 @@ const Valaista = () => (
                       will be sent to you via email and whatsapp groups.
                       <br></br>IEEE Members - 50 Rs.<br></br>
                       Non-IEEE Members - 75 Rs.<br></br>Send payments via GPAY
-                      to 9048590640
+                      to 9188804155
                     </p>
                     <Link
                       to="/e/aurora"
