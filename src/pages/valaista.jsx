@@ -43,26 +43,6 @@ const Valaista = () => (
               alt="Dr.K Radakrishnan"
               style={{ maxHeight: "550px" }}
             />
-            {/* <div className="h-48 flex flex-wrap content-center">
-              <div>
-                <img
-                  className="md:inline-block mt-28 hidden xl:block"
-                  src="https://user-images.githubusercontent.com/54521023/116969935-c13d5b00-acd4-11eb-82b1-5ad2ff10fb76.png"
-                />
-              </div>
-              <div>
-                <img
-                  className="inline-block mt-24 md:mt-0 p-8 md:p-0"
-                  src="https://user-images.githubusercontent.com/54521023/116969931-bedb0100-acd4-11eb-99a9-ff5e0ee9f31f.png"
-                />
-              </div>
-              <div>
-                <img
-                  className="md:inline-block mt-28 hidden lg:block"
-                  src="https://user-images.githubusercontent.com/54521023/116969939-c1d5f180-acd4-11eb-8ad4-9ab9143bdb50.png"
-                />
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
@@ -145,7 +125,7 @@ const Valaista = () => (
                   <div className="order-1 w-5/12 hidden sm:block"></div>
                   <div className="order-1 w-full sm:w-5/12 px-1 py-4 text-left ml-1 sm:ml-0">
                     <p className="mb-3 text-base text-yellow-300">
-                      14-18 June, 2021
+                      14-17 June, 2021
                     </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Registeration for Aurora
@@ -162,7 +142,7 @@ const Valaista = () => (
                       className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
                       style={{ maxWidth: "130px" }}
                     >
-                      Register for aurora
+                      Registration Closed
                     </Link>
                   </div>
                 </div>
