@@ -166,6 +166,33 @@ const Valaista = () => (
                   </div>
                 </div>
 
+                <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                  <div className="order-1 w-5/12 hidden sm:block"></div>
+                  <div className="order-1 w-full sm:w-5/12 px-1 py-4 text-right">
+                    <p className="mb-3 text-base text-yellow-300">
+                      {" "}
+                      5.30 pm, 23 June, 2021
+                    </p>
+                    <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                      Mind to Mind - Mentoring Programme
+                    </h4>
+                    <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100 mb-4">
+                      This is a unique opportunity for all GECTians, wherein you
+                      will have access to the vast alumni network of GEC
+                      Thrissur that will help you grow professionally and
+                      personally by forming meaningful relations with our
+                      alumni.
+                    </p>
+                    <Link
+                      to="/e/mind-to-mind"
+                      className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
+                      style={{ maxWidth: "130px" }}
+                    >
+                      Register
+                    </Link>
+                  </div>
+                </div>
+
                 <div className="mb-8 flex justify-between items-center w-full right-timeline">
                   <div className="order-1 w-5/12 hidden sm:block"></div>
 
