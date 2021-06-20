@@ -63,16 +63,16 @@ const CoverflowEffect = () => {
       >
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
-            to="/e/inauguration"
-            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-938,h-938,cm-extract,x-2,y-166/rkrishnansir-final_psAghAhM3.jpeg"
+            to="/e/intro-to-robotics"
+            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-1035,h-1035,cm-extract,x-18,y-210/robotics_SQg_ht3Eo.jpeg"
           />
           {/*New event poster link*/}
         </SwiperSlide>
 
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
-            to="/e/aurora"
-            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-951,h-951,cm-extract,x-33,y-154/aurora_ObSZYsl6i.jpeg"
+            to="/e/inauguration"
+            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-938,h-938,cm-extract,x-2,y-166/rkrishnansir-final_psAghAhM3.jpeg"
           />
           {/*New event poster link*/}
         </SwiperSlide>
@@ -83,24 +83,6 @@ const CoverflowEffect = () => {
             imgSrc="https://ik.imagekit.io/ieeecollege/educe_final_ZW9-xsdAo.jpg?tr=w-1080,h-1080,fo-auto"
           />
           {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody imgSrc="https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto" />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/articlewriting"
-            imgSrc="https://ik.imagekit.io/ieeeGec/Enshrine-article_UTJ98OWWJ?tr=w-1080,h-1080,fo-auto"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/postermaking"
-            imgSrc="https://ik.imagekit.io/ieeeGec/enshrine-poster_jAlpeNZB7.jpeg?tr=w-1080,h-1080,fo-auto"
-          />
         </SwiperSlide>
 
         {/*<SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
