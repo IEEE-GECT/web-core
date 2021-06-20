@@ -9,15 +9,15 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("iE6R03TS", { container: container.current })
+    createWidget("IIgXL3Gw", { container: container.current })
   }, [])
 
   return (
-    <Layout route="/e/know-your-society">
+    <Layout route="/e/inauguration">
       <Seo
-        title="Know Your Society"
-        description="Session on benifits of IAS/PELS"
-        image="https://ik.imagekit.io/ieeeGec/know_your_society_pvHOAZo0-.png?tr=w-1080,h-1080,fo-auto"
+        title="Introduction to Robotics"
+        description="Robotics and Automation Society"
+        image="https://ik.imagekit.io/ieeeGec/tr:w-1035,h-1035,cm-extract,x-18,y-210/robotics_SQg_ht3Eo.jpeg"
       />
 
       <div

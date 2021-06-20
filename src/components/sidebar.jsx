@@ -150,9 +150,8 @@ const SideBar = ({ route, setIsOpen }) => {
             </DropDownLink>
           </DropDown>
           <DropDown to="/e/" title="Registrations">
+            <DropDownLink to="/e/intro-to-robotics">Robotics</DropDownLink>
             <DropDownLink to="/e/know-your-society">EDUCE</DropDownLink>
-            <DropDownLink to="/e/postermaking">Poster Making</DropDownLink>
-            <DropDownLink to="/e/articlewriting">Article Writing</DropDownLink>
           </DropDown>
           <NavLink to="/execom">Execom</NavLink>
           <NavLink to="/half-year-registration">Half Year Registration</NavLink>
