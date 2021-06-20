@@ -63,14 +63,6 @@ const CoverflowEffect = () => {
       >
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
-            to="/e/mind-to-mind"
-            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-1054,h-1054,cm-extract,x-16,y-137/mind-to-mind2_HQTWLd8Wi.jpg"
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
             to="/e/inauguration"
             imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-938,h-938,cm-extract,x-2,y-166/rkrishnansir-final_psAghAhM3.jpeg"
           />
