@@ -29,13 +29,13 @@ const Valaista = () => (
             {/* <p className="valaista text-sm md:text-base text-gray-50 mb-4">
               aspire to inspire
             </p> */}
-            <Link
+            {/* <Link
               to="/e/inauguration"
               className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
               style={{ maxWidth: "130px" }}
             >
               Register for Inauguration
-            </Link>
+            </Link> */}
           </div>
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-1/2 flex justify-center">
             <img
@@ -166,12 +166,11 @@ const Valaista = () => (
                   </div>
                 </div>
 
-                <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                <div className="mb-8 flex justify-between items-center w-full right-timeline">
                   <div className="order-1 w-5/12 hidden sm:block"></div>
-                  <div className="order-1 w-full sm:w-5/12 px-1 py-4 text-right">
+                  <div className="order-1 w-full sm:w-5/12 px-1 py-4 text-left ml-1 sm:ml-0">
                     <p className="mb-3 text-base text-yellow-300">
-                      {" "}
-                      5.30 pm, 23 June, 2021
+                      Rescheduled. Time will be announced soon
                     </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Mind to Mind - Mentoring Programme
@@ -190,6 +189,53 @@ const Valaista = () => (
                     >
                       Register
                     </Link>
+                  </div>
+                </div>
+
+                <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                  <div className="order-1 w-5/12 hidden sm:block"></div>
+                  <div className="order-1 w-full sm:w-5/12 px-1 py-4 text-right">
+                    <p className="mb-3 text-base text-yellow-300">
+                      {" "}
+                      21-25 June, 2021
+                    </p>
+                    <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                      Registration for Forge - 3D Printing training session
+                    </h4>
+                    <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100 mb-4">
+                      3-D printing is already shaking our age-old notion of what
+                      can and can’t be made. We are coming up with FORGE, the
+                      second event of the technical matrix Valaista, Aspire to
+                      Inspire. Let’s explore what’s up there in the world of
+                      additive manufacturing.
+                    </p>
+                    <Link
+                      to="/e/forge"
+                      className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
+                      style={{ maxWidth: "130px" }}
+                    >
+                      Register
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="mb-8 flex justify-between items-center w-full right-timeline">
+                  <div className="order-1 w-5/12 hidden sm:block"></div>
+                  <div className="order-1 w-full sm:w-5/12 px-1 py-4 text-left ml-1 sm:ml-0">
+                    <p className="mb-3 text-base text-yellow-300">
+                      7pm, 26 June, 2021
+                    </p>
+                    <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                      Forge - Session on 3D Printing
+                    </h4>
+                    <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100 mb-4">
+                      Workshop content: <br></br>📌3D Printing - Origin, Types
+                      and Basic Procedure. 📌A live demo involving: Designing on
+                      SketchUp. Slicing on Cura. Live demo of Dexbot+, the
+                      closed metal body 3D Printer, it's basic commands and
+                      functions. <br></br>📌3D Printing the designed model on
+                      Dexbot+.<br></br> 📌A Q&A session with the students
+                    </p>
                   </div>
                 </div>
 
