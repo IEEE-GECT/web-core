@@ -9,12 +9,16 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("DfioqIJa", { container: container.current })
+    createWidget("VyF68JTX", { container: container.current })
   }, [])
 
   return (
-    <Layout route="/e/up-the-ante">
-      <Seo title="Up the Ante" />
+    <Layout route="/e/educe">
+      <Seo
+        title="Educe"
+        description="In Association with Research Team"
+        image="https://ik.imagekit.io/ieeecollege/educe_final_ZW9-xsdAo.jpg?tr=w-1080,h-1080,fo-auto"
+      />
 
       <div
         style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}

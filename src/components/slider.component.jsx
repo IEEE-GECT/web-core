@@ -63,63 +63,42 @@ const CoverflowEffect = () => {
       >
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
-            to="/e/zero2neuro"
-            imgSrc="https://ik.imagekit.io/ieeeGec/pytorch-workshop_mlvGaXfxx.jpeg?tr=w-1080,h-1080,fo-auto"
+            to="/e/forge"
+            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-1026,h-1026,cm-extract,x-33,y-135/3dprinting3_q1pEAHkuH.jpg"
           />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody imgSrc="https://ik.imagekit.io/ieeeGec/temstribune_final_eMI96E0sb.jpg" />
+          {/*New event poster link*/}
         </SwiperSlide>
 
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
-            to="/e/corporate-roadies"
-            imgSrc="https://ik.imagekit.io/ieeeGec/corporate-roadies_g6jexai0H.jpeg"
+            to="/e/mind-to-mind"
+            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-1054,h-1054,cm-extract,x-16,y-137/mind-to-mind2_HQTWLd8Wi.jpg"
           />
+          {/*New event poster link*/}
         </SwiperSlide>
 
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
-            to="/e/wordsworld"
-            imgSrc="https://ik.imagekit.io/ieeeGec/wordsworld_3DLnjds-k-.jpeg"
+            to="/e/inauguration"
+            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-938,h-938,cm-extract,x-2,y-166/rkrishnansir-final_psAghAhM3.jpeg"
           />
+          {/*New event poster link*/}
         </SwiperSlide>
 
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
-            to="/e/rural-la-carte"
-            imgSrc="https://ik.imagekit.io/ieeeGec/rural-la-carte_sPW2zo9lg.jpeg"
+            to="/e/educe"
+            imgSrc="https://ik.imagekit.io/ieeecollege/educe_final_ZW9-xsdAo.jpg?tr=w-1080,h-1080,fo-auto"
           />
+          {/*New event poster link*/}
         </SwiperSlide>
 
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        {/*<SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
-            to="/e/level-up"
-            imgSrc="https://ik.imagekit.io/ieeeGec/level-up_UmQs43mpDp.jpg?tr=w-1080,h-1080,fo-auto"
+            to="/e/know-your-society"
+            imgSrc="https://ik.imagekit.io/ieeeGec/know_your_society_pvHOAZo0-.png?tr=w-1080,h-1080,fo-auto"
           />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/up-the-ante"
-            imgSrc="https://ik.imagekit.io/ieeeGec/up_the_ante_LV1EICeYl.jpeg"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/technocrat"
-            imgSrc="https://ik.imagekit.io/ieeeGec/technocrat_0WrpIllzjY.jpg?tr=w-1080,h-1080,fo-auto"
-          />
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/kyuriosity"
-            imgSrc="https://ik.imagekit.io/ieeeGec/kyuriosity_uDS-6YD-Ej.jpg?tr=w-1080,h-1080,fo-auto"
-          />
-        </SwiperSlide>
+      </SwiperSlide>*/}
       </Swiper>
     </>
   )

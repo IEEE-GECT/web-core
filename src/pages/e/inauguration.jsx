@@ -9,12 +9,16 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("Cls9F1XH", { container: container.current })
+    createWidget("fgKP3j3z", { container: container.current })
   }, [])
 
   return (
-    <Layout route="/e/technocrat">
-      <Seo title="Technocrat" />
+    <Layout route="/e/inauguration">
+      <Seo
+        title="Valaista Inauguration"
+        description="Dr. K Radhakrishnan, Former ISRO Chairmain | Technical Event Series"
+        image="https://ik.imagekit.io/ieeeGec/tr:w-942,h-942,cm-extract,x-15,y-166/rkrishnansir-final_psAghAhM3.jpeg"
+      />
 
       <div
         style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}

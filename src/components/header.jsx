@@ -130,17 +130,21 @@ const Header = ({ route }) => {
     <>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/chapters">Chapters</NavLink>
+      <DropDown to="/valaista" title="Valaista">
+        <DropDownLink to="/valaista">Home Page</DropDownLink>
+        <DropDownLink to="/e/inauguration">Inauguration</DropDownLink>
+        <DropDownLink to="/e/aurora">Aurora</DropDownLink>
+        <DropDownLink to="/e/mind-to-mind">
+          Mind to Mind - Mentorship Programme
+        </DropDownLink>
+        <DropDownLink to="/e/forge">Forge</DropDownLink>
+      </DropDown>
       <DropDown to="/e/" title="Registrations">
-        <DropDownLink to="/e/zero2neuro">Zero to Neuro</DropDownLink>
-        <DropDownLink to="/e/corporate-roadies">Corporate Roadies</DropDownLink>
-        <DropDownLink to="/e/wordsworld">Wordsworld</DropDownLink>
-        <DropDownLink to="/e/rural-la-carte">Rural la carte</DropDownLink>
-        <DropDownLink to="/e/level-up">Level Up</DropDownLink>
-        <DropDownLink to="/e/up-the-ante">Up the Ante</DropDownLink>
-        <DropDownLink to="/e/technocrat">Technocrat</DropDownLink>
-        <DropDownLink to="/e/kyuriosity">Kyuriosity</DropDownLink>
+        <DropDownLink to="/e/intro-to-robotics">Robotics</DropDownLink>
+        <DropDownLink to="/e/educe">EDUCE</DropDownLink>
       </DropDown>
       <NavLink to="/execom">Execom</NavLink>
+      <NavLink to="/half-year-registration">Half Year Registration</NavLink>
     </>
   )
 
