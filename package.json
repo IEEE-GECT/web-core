@@ -9,7 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@typeform/embed": "^1.6.1",
-    "gatsby": "^3.6.1",
+    "gatsby": "^3.11.0",
     "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-google-gtag": "^3.6.0",
     "gatsby-plugin-image": "^1.6.0",
