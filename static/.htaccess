@@ -1,11 +1,13 @@
 RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteOptions inherit
 
 <If "%{HTTP_HOST} == 'ieee.gectcr.ac.in'">
 </If>
 <Else>
-  Redirect 301 /ieee http://ieee.gectcr.ac.in/
+  Redirect 301 /ieee https://ieee.gectcr.ac.in/
 </Else>
 
 ErrorDocument 404 /404.html
