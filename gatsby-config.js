@@ -3,7 +3,7 @@ module.exports = {
     title: "IEEE | GEC Thrissur",
     description: "IEEE Website GEC Thrissur",
     author: "IEEE SB GEC Thrissur",
-    siteUrl: "http://ieee.gectcr.ac.in",
+    siteUrl: "https://ieee.gectcr.ac.in",
   },
   pathPrefix: "/web-core",
   plugins: [
@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `http://ieee.gectcr.ac.in`,
+        siteUrl: `https://ieee.gectcr.ac.in`,
       },
     },
     `gatsby-plugin-image`,
