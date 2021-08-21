@@ -239,6 +239,37 @@ const Valaista = () => (
                   </div>
                 </div>
 
+                <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                  <div className="order-1 w-5/12 hidden sm:block"></div>
+                  <div className="order-1 w-full sm:w-5/12 px-1 py-4 text-right">
+                    <p className="mb-3 text-base text-yellow-300">
+                      {" "}
+                      21-28 August, 2021
+                    </p>
+                    <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                      Registration for Glide - Session on Drone Technology
+                    </h4>
+                    <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100 mb-4">
+                      The Drone workshop, for all those drone enthusiasts to dig
+                      deeper into the technical aspects of drone technology.{" "}
+                      <br></br>
+                      Workshop Content <br></br>✨Introduction to drone
+                      technology. Engineering aspects Classification <br></br>
+                      ✨Anatomy and design of multi router drones Electronic
+                      design Dynamics in various mateorologic condition{" "}
+                      <br></br>✨Directorate of General Civil Aviation
+                      Regulations <br></br>✨Future of Drone technology
+                    </p>
+                    <Link
+                      to="/e/glide"
+                      className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
+                      style={{ maxWidth: "130px" }}
+                    >
+                      Register
+                    </Link>
+                  </div>
+                </div>
+
                 <div className="mb-8 flex justify-between items-center w-full right-timeline">
                   <div className="order-1 w-5/12 hidden sm:block"></div>
 
