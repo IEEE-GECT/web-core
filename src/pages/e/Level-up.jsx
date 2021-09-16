@@ -9,7 +9,7 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("QZd0Xv4A", { container: container.current })
+    createWidget("DimDp7zb", { container: container.current })
   }, [])
 
   return (
