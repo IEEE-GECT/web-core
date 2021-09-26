@@ -1,5 +1,5 @@
 import * as React from "react"
-import { createWidget } from "@typeform/embed"
+// import { createWidget } from "@typeform/embed"
 import "@typeform/embed/build/css/widget.css"
 
 import Layout from "../../components/layout"

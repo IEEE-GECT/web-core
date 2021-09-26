@@ -9,15 +9,15 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("u5LOGTvU", { container: container.current })
+    createWidget("HW0UQls2", { container: container.current })
   }, [])
 
   return (
-    <Layout route="/e/esthetique">
+    <Layout route="/e/mind-bender">
       <Seo
-        title="Esthetique"
-        description="UI Designing competition"
-        image="https://ik.imagekit.io/ieeeGec/esthetique_Rzw2WEQ_j.jpg?updatedAt=1632581218431&tr=w-581,h-581,fo-custom,cm-extract"
+        title="Mind Bender"
+        description="Crossword competition"
+        image="https://ik.imagekit.io/ieeeGec/mind-bender_W6fXZNLPKqh?updatedAt=1632657084494"
       />
 
       <div
