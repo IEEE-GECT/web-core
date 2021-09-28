@@ -153,6 +153,9 @@ const SideBar = ({ route, setIsOpen }) => {
             <DropDownLink to="/e/forge">Forge</DropDownLink>
           </DropDown>
           <DropDown to="/e/" title="Registrations">
+            <DropDownLink to="/e/construe">
+              Construe - Decoding Competition
+            </DropDownLink>
             <DropDownLink to="/e/mind-bender">
               Mind Bender - Crossword Competition
             </DropDownLink>
