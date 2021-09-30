@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { throttle } from "lodash"
 import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faCaretDown } from "@fortawesome/free-solid-svg-icons"
@@ -12,10 +13,10 @@ const Header = ({ route }) => {
   const [isOpen, setIsOpen] = React.useState(false) // for sidebar
 
   React.useEffect(() => {
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", throttle(handleScroll, 100))
 
     return () => {
-      window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener("scroll", throttle(handleScroll, 100))
     }
   }, [])
 
@@ -142,6 +143,9 @@ const Header = ({ route }) => {
         <DropDownLink to="/e/forge">Forge</DropDownLink>
       </DropDown>
       <DropDown to="/e/" title="Registrations">
+        <DropDownLink to="/e/treasure-hunt">
+          Needle In A Haystack - Treasure Hunt
+        </DropDownLink>
         <DropDownLink to="/e/construe">
           Construe - Decoding Competition
         </DropDownLink>
