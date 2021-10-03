@@ -17,7 +17,7 @@ const EventPage = () => {
       <Seo
         title="Techolympia"
         description="Making Sports Better with Technology"
-        image="https://ik.imagekit.io/ieeeGec/techolympia_EwutoEoLUGT.jpeg?updatedAt=1633270951689"
+        image="https://ik.imagekit.io/ieeeGec/techolympia-final_rNv1GUyvE.jpg?updatedAt=1633271236700"
       />
 
       <div

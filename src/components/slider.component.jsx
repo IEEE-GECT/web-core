@@ -63,6 +63,21 @@ const CoverflowEffect = () => {
       >
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
+            to="/e/techolympia"
+            imgSrc="https://ik.imagekit.io/ieeeGec/techolympia-final_rNv1GUyvE.jpg?updatedAt=1633271236700"
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+          <SlideBody
+            to="/e/arduino-basics"
+            imgSrc="https://ik.imagekit.io/ieeeGec/arduino-basic_f9BRKZGPGkC.jpeg?updatedAt=1633271617462"
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+          <SlideBody
             to="/e/treasure-hunt"
             imgSrc="https://ik.imagekit.io/ieeeGec/4-01_eV10TFVNH.png?updatedAt=1632986520314"
           />

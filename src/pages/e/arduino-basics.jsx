@@ -17,7 +17,7 @@ const EventPage = () => {
       <Seo
         title="Arduino Basics"
         description="Introduction to Arduino"
-        image=""
+        image="https://ik.imagekit.io/ieeeGec/arduino-basic_f9BRKZGPGkC.jpeg?updatedAt=1633271617462"
       />
 
       <div
