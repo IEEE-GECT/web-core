@@ -141,17 +141,8 @@ const SideBar = ({ route, setIsOpen }) => {
         <nav>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/chapters">Chapters</NavLink>
-          <DropDown to="/valaista" title="Valaista">
-            <DropDownLink to="/valaista">Home Page</DropDownLink>
-            <DropDownLink to="/e/aurea">AuRea</DropDownLink>
-            <DropDownLink to="/e/glide">Glide</DropDownLink>
-            <DropDownLink to="/e/inauguration">Inauguration</DropDownLink>
-            <DropDownLink to="/e/aurora">Aurora</DropDownLink>
-            <DropDownLink to="/e/mind-to-mind">
-              Mind to Mind - Mentorship Programme
-            </DropDownLink>
-            <DropDownLink to="/e/forge">Forge</DropDownLink>
-          </DropDown>
+          <NavLink to="/valaista">Valaista</NavLink>
+
           <DropDown to="/e/" title="Registrations">
             <DropDownLink to="/e/techolympia">Techolympia</DropDownLink>
             <DropDownLink to="/e/arduino-basics">Arduino Basics</DropDownLink>
@@ -170,8 +161,6 @@ const SideBar = ({ route, setIsOpen }) => {
             <DropDownLink to="/e/Level-up">
               Level Up - Xtreme Mock Test Series
             </DropDownLink>
-            <DropDownLink to="/e/intro-to-robotics">Robotics</DropDownLink>
-            <DropDownLink to="/e/educe">EDUCE</DropDownLink>
           </DropDown>
           <NavLink to="/execom">Execom</NavLink>
           <NavLink to="/register">Join IEEE</NavLink>

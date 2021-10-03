@@ -113,54 +113,6 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
 
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/aurea"
-            imgSrc="https://ik.imagekit.io/ieeeGec/slider_Hp43Pv6rZA?updatedAt=1630327585647&tr=w-1080,h-1080,fo-auto"
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/glide"
-            imgSrc="https://ik.imagekit.io/ieeeGec/drone-sq_MoXsdZcPR?updatedAt=1629461983619"
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/forge"
-            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-1026,h-1026,cm-extract,x-33,y-135/3dprinting3_q1pEAHkuH.jpg"
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/mind-to-mind"
-            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-1054,h-1054,cm-extract,x-16,y-137/mind-to-mind2_HQTWLd8Wi.jpg"
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/inauguration"
-            imgSrc="https://ik.imagekit.io/ieeeGec/tr:w-938,h-938,cm-extract,x-2,y-166/rkrishnansir-final_psAghAhM3.jpeg"
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
-          <SlideBody
-            to="/e/educe"
-            imgSrc="https://ik.imagekit.io/ieeecollege/educe_final_ZW9-xsdAo.jpg?tr=w-1080,h-1080,fo-auto"
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
         {/*<SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/know-your-society"
