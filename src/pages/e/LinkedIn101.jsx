@@ -15,9 +15,9 @@ const EventPage = () => {
   return (
     <Layout route="/e/LinkedIn101">
       <Seo
-        title="Arduino Basics"
-        description="Introduction to Arduino"
-        image="https://ik.imagekit.io/ieeeGec/LinkedIn_E9FH48BaV7l.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1642603629319&tr=w-1080%2Ch-1080%2Cfo-auto"
+        title="LinkedIn 101"
+        description="Know where to start"
+        image="https://ik.imagekit.io/ieeeGec/LinkedIn__1__PsDQ0m5VutC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1642605392157&tr=w-1080%2Ch-1080%2Cfo-auto"
       />
 
       <div
