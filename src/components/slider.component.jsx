@@ -65,7 +65,7 @@ const CoverflowEffect = () => {
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/LinkedIn101"
-            imgSrc="https://ieeegect.page.link/Slider1"
+            imgSrc="https://ik.imagekit.io/ieeeGec/LinkedIn__1__PsDQ0m5VutC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1642605392157&tr=w-1080%2Ch-1080%2Cfo-auto"
           />
           {/*New event poster link*/}
         </SwiperSlide>
