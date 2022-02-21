@@ -9,16 +9,12 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("z4Sbjk6E", { container: container.current })
+    createWidget("qAxpT6jn", { container: container.current })
   }, [])
 
   return (
     <Layout route="/register">
-      <Seo
-        title="IEEE Membership Form"
-        description="Join IEEE Now!"
-        
-      />
+      <Seo title="IEEE Membership Form" description="Join IEEE Now!" />
 
       <div
         style={{ height: "calc(var(--vh, 1vh) * 100 - 5rem )" }}
