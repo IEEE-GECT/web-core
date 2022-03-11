@@ -68,6 +68,7 @@ const CoverflowEffect = () => {
           />
           {/*New event poster link*/}
         </SwiperSlide>
+
           <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/space-trek"
