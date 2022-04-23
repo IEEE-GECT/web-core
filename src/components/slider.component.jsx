@@ -63,6 +63,14 @@ const CoverflowEffect = () => {
       >
           <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
+            to="/e/ros-bootcamp"
+            imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/photo_2022-04-23_16-31-00_vUCznDd-dO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650711685256"
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+
+          <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+          <SlideBody
             to="/e/labyrinth"
             imgSrc="https://ik.imagekit.io/ieeecollege/IMG_20220312_163315_004_m5tTXeBHd.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647083064292&tr=w-1080%2Ch-1080%2Cfo-auto"
           />
