@@ -19,6 +19,11 @@ export const Team = () => {
       position: "MD chair",
     },
     {
+      name: "Aravind Nair",
+      img: "https://ik.imagekit.io/fnsxnpbnzvj/IEEE_EXECOM/Aravind_p_OlbxMp-L.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1652256708532",
+      position: "ECC",
+    },
+    {
       name: "Nandana K",
       img: "https://ik.imagekit.io/fnsxnpbnzvj/IEEE_EXECOM/NANDANA_TREASURER_URQbinwlm.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646549598820",
       position: "Treasurer",
