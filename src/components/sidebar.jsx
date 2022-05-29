@@ -144,25 +144,10 @@ const SideBar = ({ route, setIsOpen }) => {
           <NavLink to="/valaista">Valaista</NavLink>
 
           <DropDown to="/e/" title="Registrations">
-          <DropDownLink to="/e/SPS-ComSoc-Inauguration">Register for Inaugural Event of SPS-ComSoc</DropDownLink>
-          <DropDownLink to="/e/LinkedIn101">LinkedIn 101</DropDownLink>
-            <DropDownLink to="/e/techolympia">Techolympia</DropDownLink>
-            <DropDownLink to="/e/arduino-basics">Arduino Basics</DropDownLink>
-            <DropDownLink to="/e/treasure-hunt">
-              Needle In A Haystack - Treasure Hunt
+            <DropDownLink to="/e/SPS-ComSoc-Inauguration">
+              Register for Inaugural Event of SPS-ComSoc
             </DropDownLink>
-            <DropDownLink to="/e/construe">
-              Construe - Decoding Competition
-            </DropDownLink>
-            <DropDownLink to="/e/mind-bender">
-              Mind Bender - Crossword Competition
-            </DropDownLink>
-            <DropDownLink to="/e/esthetique">
-              Esthetique - UI Designing Competition
-            </DropDownLink>
-            <DropDownLink to="/e/Level-up">
-              Level Up - Xtreme Mock Test Series
-            </DropDownLink>
+            <DropDownLink to="/e/eloquence">Eloquence</DropDownLink>
           </DropDown>
           <NavLink to="/execom">Execom</NavLink>
           <NavLink to="/register">Join IEEE</NavLink>

@@ -61,7 +61,15 @@ const CoverflowEffect = () => {
         navigation={Navigation}
         className="mySwiper"
       >
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+          <SlideBody
+            to="/e/eloquence"
+            imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/WhatsApp_Image_2022-05-29_at_3.03.34_PM__i2iDhNiT.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1653820018055"
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="/e/decifrare"
             imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/photo_2022-04-26_20-50-41_mB3Hl0NN0.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650986518363"
@@ -69,7 +77,7 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
 
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/ros-bootcamp"
             imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/photo_2022-04-23_16-31-00_vUCznDd-dO.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1650711685256"
@@ -77,7 +85,7 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
 
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/labyrinth"
             imgSrc="https://ik.imagekit.io/ieeecollege/IMG_20220312_163315_004_m5tTXeBHd.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1647083064292&tr=w-1080%2Ch-1080%2Cfo-auto"
@@ -85,7 +93,7 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
 
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/volunteer-call"
             imgSrc="https://ik.imagekit.io/ieeecollege/VCallWeb_vtmKq2iYg4cyo.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646998582371&tr=w-1080%2Ch-1080%2Cfo-auto"
@@ -93,7 +101,7 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
 
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/space-trek"
             imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/space_trek_3iRFrDQfY.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646824178153"
@@ -101,7 +109,7 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
 
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/inception"
             imgSrc="https://ik.imagekit.io/ieeecollege/inception_niPj_kmVa.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646750700002&tr=w-1080%2Ch-1080%2Cfo-auto"
@@ -109,7 +117,7 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
 
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 640 }}>
           <SlideBody
             to="/e/jam"
             imgSrc="https://ik.imagekit.io/ieeecollege/science_week2024_lYfOB1e_T.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646729012244&tr=w-1080%2Ch-1080%2Cfo-auto"
