@@ -17,7 +17,7 @@ const EventPage = () => {
       <Seo
         title="ELOQUENCE"
         description="Expound to Impress"
-        image="https://ik.imagekit.io/fnsxnpbnzvj/ieee/WhatsApp_Image_2022-05-29_at_3.03.34_PM__i2iDhNiT.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1653820018055"
+        image="https://ik.imagekit.io/fnsxnpbnzvj/ieee/eloquence_ginNYlbXD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1653831013014"
       />
 
       <div
