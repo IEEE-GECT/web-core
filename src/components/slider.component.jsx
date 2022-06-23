@@ -61,6 +61,14 @@ const CoverflowEffect = () => {
         navigation={Navigation}
         className="mySwiper"
       >
+          <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+          <SlideBody
+            to="/e/webinar"
+            imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/webinar_FjHeMIQ30.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655954695397"
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="/e/symposium"
