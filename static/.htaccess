@@ -8,6 +8,7 @@ RewriteOptions inherit
 </If>
 <Else>
   Redirect 301 /ieee https://ieee.gectcr.ac.in/
+  Redirect 301 /e/profecia https://docs.google.com/forms/d/e/1FAIpQLSfkB0DAAS0ZkvFo2yBzaR3Cdr7k9C9Y2TfJkeAQoKl6DDecuQ/viewform?usp=sf_link
 </Else>
 
 ErrorDocument 404 /404.html
