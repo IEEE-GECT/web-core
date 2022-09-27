@@ -61,14 +61,22 @@ const CoverflowEffect = () => {
         navigation={Navigation}
         className="mySwiper"
       >
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+          <SlideBody
+            to="https://forms.gle/wbJQvp9vaMV4sM1E7"
+            imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/IMG-20220927-WA0014_VP741GXap.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1664295787946"
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="/e/profecia"
             imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/IMG-20220919-WA0005_4LMpd5s6X.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663586798779"
           />
           {/*New event poster link*/}
         </SwiperSlide>
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="/e/recon"
             imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/Recon_xWdoO1CiH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1656668343309"
@@ -76,7 +84,7 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
 
-          <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="/e/webinar"
             imgSrc="https://ik.imagekit.io/fnsxnpbnzvj/ieee/webinar_FjHeMIQ30.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655954695397"
