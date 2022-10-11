@@ -1,24 +1,24 @@
 RewriteEngine on
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.\*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteOptions inherit
 
 <If "%{HTTP_HOST} == 'ieee.gectcr.ac.in'">
+Redirect 301 /e/revamp https://forms.gle/6m2PuyzkERxsvR7V8
 </If>
 <Else>
-  Redirect 301 /ieee https://ieee.gectcr.ac.in/
-  Redirect 301 /e/profecia https://docs.google.com/forms/d/e/1FAIpQLSfkB0DAAS0ZkvFo2yBzaR3Cdr7k9C9Y2TfJkeAQoKl6DDecuQ/viewform?usp=sf_link
+Redirect 301 /ieee https://ieee.gectcr.ac.in/
 </Else>
 
 ErrorDocument 404 /404.html
 
 <filesMatch ".(ico|jpg|jpeg|png|gif|avif|webp)$">
- Header set Cache-Control "max-age=86400, public"
+Header set Cache-Control "max-age=86400, public"
 </filesMatch>
 
 <filesMatch ".(css|js)$">
- Header set Cache-Control "max-age=86400, public"
+Header set Cache-Control "max-age=86400, public"
 </filesMatch>
 
 <IfModule mod_deflate.c>
