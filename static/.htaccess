@@ -7,6 +7,7 @@ RewriteOptions inherit
 <If "%{HTTP_HOST} == 'ieee.gectcr.ac.in'">
 Redirect 301 /e/revamp https://forms.gle/6m2PuyzkERxsvR7V8
 Redirect 301 /e/ui-ux https://docs.google.com/forms/d/e/1FAIpQLSevdetRhiYqVrRY2lM8GIp9j1yTCtTYIgmrRbb3t4jnMSzbtw/viewform
+Redirect 301 /e/autocad https://docs.google.com/forms/d/e/1FAIpQLScaVYZwT7Gjr33EsTk0Wx55-KRPx9Co_x_gdnf8C0HF1Cd7zA/viewform?usp=pp_url
 </If>
 <Else>
 Redirect 301 /ieee https://ieee.gectcr.ac.in/
