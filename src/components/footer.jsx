@@ -114,6 +114,22 @@ const Footer = () => {
             <div className="grid grid-cols-3">
               <div className="col-span-1">
                 <ul className="mt-2 space-y-2">
+                <li>
+                    <Link
+                      to="/chapters/#soc8"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      COMSOC
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/chapters/#soc9"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      SPS
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       to="/chapters/#soc7"

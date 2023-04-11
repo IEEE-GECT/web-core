@@ -183,6 +183,57 @@ const ChaptersPage = () => (
       </div>
     </div>
     {/* 7 */}
+    <div
+      id="soc8"
+      className="mx-auto mt-10 bg-white   lg:max-w-5xl lg:shadow-lg lg:rounded-lg lg:flex lg:justify-center"
+    >
+      <div className="p-4 lg:w-1/2">
+        <img
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
+          src="https://ik.imagekit.io/0ta3q23cu/COMSOC.jpg?updatedAt=1681194395271"
+          alt="COMSOC"
+        />
+      </div>
+      <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
+        <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
+          IEEE <span className="text-indigo-600">COMSOC</span>
+        </h2>
+        <p className="mt-4 text-gray-600">
+        IEEE Communications Society provides services to members for their technical
+        and professional advancement and forums for technical exchanges among professionals
+        in academia, industry, and public institutions. Complying with the ComSoc principles,
+        the SB at Government Engineering College Thrissur accelerates towards harmony through
+        communications and networking technology research, application, education,
+        and incubation of new ideas.
+        </p>
+      </div>
+    </div>
+    {/* 8 */}
+    <div
+      id="soc9"
+      className="mx-auto mt-10 bg-white   lg:max-w-5xl lg:shadow-lg lg:rounded-lg lg:flex lg:justify-center"
+    >
+      <div className="p-4 lg:w-1/2">
+        <img
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
+          src="https://ik.imagekit.io/0ta3q23cu/ieeSPS.png?updatedAt=1681194803920"
+          alt="COMSOC"
+        />
+      </div>
+      <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
+        <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
+          IEEE <span className="text-indigo-600">SPS</span>
+        </h2>
+        <p className="mt-4 text-gray-600">
+        IEEE Signal Processing Society provides services to members for their technical
+        and professional advancement and forums for technical exchanges among professionals
+        in academia, industry, and public institutions. Complying with the SPS principles,
+        the SB at Government Engineering College Thrissur accelerates towards harmony through
+        Signal Processing technology.
+        </p>
+      </div>
+    </div>
+    {/* 9 */}
   </Layout>
 )
 
