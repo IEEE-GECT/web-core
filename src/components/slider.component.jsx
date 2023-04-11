@@ -79,7 +79,7 @@ const CoverflowEffect = () => {
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="/e/techsprint"
-            imgSrc="https://ik.imagekit.io/0ta3q23cu/techsprintcard.jpg?updatedAt=1681191596619"
+            imgSrc="https://ik.imagekit.io/0ta3q23cu/techsprintcard.jpg?updatedAt=1681216118554"
             newPage
           />
           {/*New event poster link*/}
