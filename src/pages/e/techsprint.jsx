@@ -17,7 +17,8 @@ const EventPage = () => {
       <Seo
         title="Tech Sprint"
         description="Vaishak, Hardware Design Engineer at BTL India PVT. LTD. | Technical Event Series"
-        image="https://ik.imagekit.io/0ta3q23cu/techsprintcard.jpg?updatedAt=1681191596619"
+        image="https://ik.imagekit.io/0ta3q23cu/techsprintcard.jpg?updatedAt=1681216118554"
+        
       />
 
       <div
