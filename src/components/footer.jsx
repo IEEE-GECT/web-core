@@ -119,7 +119,7 @@ const Footer = () => {
                       to="/chapters/#soc8"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
-                      COMSOC
+                      ComSoc
                     </Link>
                   </li>
                   <li>

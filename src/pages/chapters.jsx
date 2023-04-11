@@ -196,7 +196,7 @@ const ChaptersPage = () => (
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
         <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
-          IEEE <span className="text-indigo-600">COMSOC</span>
+          IEEE <span className="text-indigo-600">ComSoc</span>
         </h2>
         <p className="mt-4 text-gray-600">
         IEEE Communications Society provides services to members for their technical
