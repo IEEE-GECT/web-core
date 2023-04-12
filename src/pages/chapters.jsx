@@ -225,11 +225,11 @@ const ChaptersPage = () => (
           IEEE <span className="text-indigo-600">SPS</span>
         </h2>
         <p className="mt-4 text-gray-600">
-        IEEE Signal Processing Society provides services to members for their technical
-        and professional advancement and forums for technical exchanges among professionals
-        in academia, industry, and public institutions. Complying with the SPS principles,
-        the SB at Government Engineering College Thrissur accelerates towards harmony through
-        Signal Processing technology.
+        With the mission to "advance and disseminate state-of-the-art scientific information
+        and resources; educate the signal processing community; and provide a venue for people 
+        to interact and exchange ideas", the SB at GECT serves its members through high quality 
+        publications, conferences, technical and educational activities, leadership opportunities
+         and to keep its members abreast of the latest information and to serve the public at large
         </p>
       </div>
     </div>
