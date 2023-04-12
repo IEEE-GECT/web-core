@@ -84,8 +84,7 @@ const CoverflowEffect = () => {
           />
           {/*New event poster link*/}
         </SwiperSlide>
-        
-        https://ik.imagekit.io/0ta3q23cu/techsprintcard.jpg?updatedAt=1681307812186
+  
 
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
