@@ -221,7 +221,7 @@ export const Team = () => {
       soc_name: "Robotics and Automation Society",
       members: [
         {
-          name: "Franklin",
+          name: "Franklin Fransis",
           img: "https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/Franklin_Francis.jpg?updatedAt=1681401004396",
           position: "Chairperson",
         },
