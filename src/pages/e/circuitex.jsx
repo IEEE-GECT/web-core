@@ -16,7 +16,7 @@ const EventPage = () => {
     <Layout route="/e/circuitex23">
       <Seo
         title="Circuitex"
-        description="Circuit Debugging Competition"
+        description="Circuit Debugging Competition | Power Up event series"
         image="https://ik.imagekit.io/0ta3q23cu/events/circuitex.jpg?updatedAt=1681476878703"
       />
 
