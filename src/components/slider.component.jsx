@@ -84,7 +84,36 @@ const CoverflowEffect = () => {
           />
           {/*New event poster link*/}
         </SwiperSlide>
+
+
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+          <SlideBody
+            to="/e/agm23"
+            imgSrc="https://ik.imagekit.io/nm1ondc9y/agm_23.jpg?updatedAt=1681446616993"
+            newPage
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+
   
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+          <SlideBody
+            to="/e/visionQuest"
+            imgSrc="https://ik.imagekit.io/nm1ondc9y/vision_quest.jpg?updatedAt=1681446615460"
+            newPage
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+          <SlideBody
+            to="/e/webinar"
+            imgSrc="https://ik.imagekit.io/nm1ondc9y/webinar_on_linked_in_jobs_and_ieee.jpg?updatedAt=1681446615217"
+            newPage
+          />
+          {/*New event poster link*/}
+        </SwiperSlide>
+
 
         <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
