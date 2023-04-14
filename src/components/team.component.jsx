@@ -156,7 +156,7 @@ export const Team = () => {
       soc_name: "Communication Society",
       members: [
         {
-          name: "Adhithya Anil",
+          name: "Adithya Anil",
           img: "https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/Adithya_Anil.jpg?updatedAt=1681400985903",
           position: "Chairperson",
         },
@@ -221,7 +221,7 @@ export const Team = () => {
       soc_name: "Robotics and Automation Society",
       members: [
         {
-          name: "Franklin Fransis",
+          name: "Franklin Francis",
           img: "https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/Franklin_Francis.jpg?updatedAt=1681401004396",
           position: "Chairperson",
         },
@@ -294,7 +294,7 @@ export const Team = () => {
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
           Meet the very versatile and dynamic Executive Committee Team of IEEE
-          SB GECT for the year 2022- 2023
+          SB GECT for the year 2023- 2024
         </p>
       </div>
       <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-4">
