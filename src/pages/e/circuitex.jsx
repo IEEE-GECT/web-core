@@ -9,16 +9,15 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("yZHXZVzv", { container: container.current })
+    createWidget("uaWu19so", { container: container.current })
   }, [])
 
   return (
-    <Layout route="/e/techsprint">
+    <Layout route="/e/circuitex23">
       <Seo
-        title="Tech Sprint"
-        description="Vaishak, Hardware Design Engineer at BTL India PVT. LTD. | Technical Event Series"
-        image="https://ik.imagekit.io/0ta3q23cu/events/techsprintcard.jpg?updatedAt=1681477302958"
-        
+        title="Circuitex"
+        description="Circuit Debugging Competition"
+        image="https://ik.imagekit.io/0ta3q23cu/events/circuitex.jpg?updatedAt=1681476878703"
       />
 
       <div
