@@ -85,7 +85,7 @@ const IndexPage = () => (
               </div>
               <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                 <h2 className="title-font font-medium text-3xl text-gray-900">
-                  7
+                  8
                 </h2>
                 <p className="leading-relaxed">Societies</p>
               </div>

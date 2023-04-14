@@ -140,14 +140,6 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      to="/chapters/#soc2"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      WIE
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
                       to="/chapters/#soc1"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
@@ -194,8 +186,30 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
+          <div>
+            <p className="font-semibold tracking-wide text-gray-800 ">
+            Affinity And Special Intrest Group
+            </p>
+            <div className="grid grid-cols-1">
+              <div className="col-span-1">
+                <ul className="mt-2 space-y-2">
+                  <li>
+                    <Link
+                      to="/chapters/#soc2"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+                      WIE
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
+
       </div>
+
       <div className="flex flex-col justify-between pt-5 pb-10 border-t sm:flex-row">
         <p className="text-sm text-gray-600">
           Developed and Designed by IEEE GECT
