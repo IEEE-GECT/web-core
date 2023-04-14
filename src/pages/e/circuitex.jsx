@@ -13,7 +13,7 @@ const EventPage = () => {
   }, [])
 
   return (
-    <Layout route="/e/circuitex23">
+    <Layout route="/e/circuitex">
       <Seo
         title="Circuitex"
         description="Circuit Debugging Competition | Power Up event series"
