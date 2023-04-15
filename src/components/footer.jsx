@@ -116,36 +116,14 @@ const Footer = () => {
                 <ul className="mt-2 space-y-2">
                 <li>
                     <Link
-                      to="/chapters/#soc8"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      ComSoc
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/chapters/#soc9"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      SPS
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/chapters/#soc7"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                    >
-                      TEMS
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
                       to="/chapters/#soc1"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       PES
                     </Link>
-                  </li>
+                  </li>   
+             
+             
                   <li>
                     <Link
                       to="/chapters/#soc3"
@@ -175,13 +153,38 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
+                    <LinkS
                       to="/chapters/#soc6"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       IAS
+                    </LinkS>
+                  </li>
+                  <li>
+                    <Link
+                      to="/chapters/#soc7"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      TEMS
+                    </Link>
+                  </li>     
+                  <li>
+                    <Link
+                      to="/chapters/#soc8"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      ComSoc
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/chapters/#soc9"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      SPS
+                    </Link>
+                  </li>
+            
                 </ul>
               </div>
             </div>
