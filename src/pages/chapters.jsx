@@ -184,6 +184,28 @@ const ChaptersPage = () => (
     </div>
     {/* 7 */}
     <div
+      id="soc7"
+      className="mx-auto mt-10 bg-white   lg:max-w-5xl lg:shadow-lg lg:rounded-lg lg:flex lg:justify-center"
+    >
+      <div className="p-4 lg:w-1/2">
+        <img
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
+          src="https://ik.imagekit.io/nm1ondc9y/logo-ieee-sight.png?updatedAt=1681575839754"
+          alt="SIGHT"
+        />
+      </div>
+      <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
+        <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
+          IEEE <span className="text-indigo-600">SIGHT</span>
+        </h2>
+        <p className="mt-4 text-gray-600">
+        The Special Interest Group on Humanitarian Technology program is a network of IEEE volunteers around the globe that partner with underserved communities and local organizations to leverage technology for sustainable development.
+        IEEE SIGHT is a global network of groups consisting of IEEE members and volunteers who identify and address local problems by applying their technical skills and partnering with their local communities.
+        </p>
+      </div>
+    </div>
+    {/* 8 */}
+    <div
       id="soc8"
       className="mx-auto mt-10 bg-white   lg:max-w-5xl lg:shadow-lg lg:rounded-lg lg:flex lg:justify-center"
     >
@@ -208,7 +230,7 @@ const ChaptersPage = () => (
         </p>
       </div>
     </div>
-    {/* 8 */}
+    {/* 9 */}
     <div
       id="soc9"
       className="mx-auto mt-10 bg-white   lg:max-w-5xl lg:shadow-lg lg:rounded-lg lg:flex lg:justify-center"
@@ -217,7 +239,7 @@ const ChaptersPage = () => (
         <img
           className="h-64 bg-cover lg:rounded-lg lg:h-full"
           src="https://ik.imagekit.io/0ta3q23cu/ieeSPS.png?updatedAt=1681194803920"
-          alt="COMSOC"
+          alt="SPS"
         />
       </div>
       <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
