@@ -77,7 +77,7 @@ const CoverflowEffect = () => {
       >
          <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
-            to="/e/circuitex"
+            to="https://forms.gle/dQWfYzLiV4DCeFnLA"
             imgSrc="https://ik.imagekit.io/0ta3q23cu/events/circuitex.jpg?updatedAt=1681476878703"
             newPage
           />
