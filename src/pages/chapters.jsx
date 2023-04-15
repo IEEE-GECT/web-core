@@ -7,30 +7,6 @@ const ChaptersPage = () => (
   <Layout route="/chapters">
     <Seo title="Chapters" />
 
-    <div
-      id="soc7"
-      className="mx-auto mt-10 bg-white   lg:max-w-5xl lg:shadow-lg lg:rounded-lg lg:flex lg:justify-center"
-    >
-      <div className="p-4 lg:w-1/2">
-        <img
-          className="h-64 bg-cover lg:rounded-lg lg:h-full"
-          src="https://tse2.mm.bing.net/th?id=OIP.aOF0x2AZ9v1tDkPfEvWVsgHaC5&pid=Api&P=0&w=463&h=182"
-          alt="TEMS"
-        />
-      </div>
-      <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
-        <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
-          IEEE <span className="text-indigo-600">TEMS</span>
-        </h2>
-        <p className="mt-4 text-gray-600">
-          IEEE Technology and Management Society aims at promoting the
-          involvement of managerial skills in engineering and technology. It
-          focuses on encouragement of aspiring entrepreneurs and management
-          enthusiasts with the right amount of support in terms of guidance and
-          capital
-        </p>
-      </div>
-    </div>
 
     {/* 1 */}
     <div
@@ -183,6 +159,31 @@ const ChaptersPage = () => (
       </div>
     </div>
     {/* 7 */}
+    
+    <div
+      id="soc7"
+      className="mx-auto mt-10 bg-white   lg:max-w-5xl lg:shadow-lg lg:rounded-lg lg:flex lg:justify-center"
+    >
+      <div className="p-4 lg:w-1/2">
+        <img
+          className="h-64 bg-cover lg:rounded-lg lg:h-full"
+          src="https://tse2.mm.bing.net/th?id=OIP.aOF0x2AZ9v1tDkPfEvWVsgHaC5&pid=Api&P=0&w=463&h=182"
+          alt="TEMS"
+        />
+      </div>
+      <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
+        <h2 className="text-4xl text-gray-800 font-bold pb-2 border-b-2 border-gray">
+          IEEE <span className="text-indigo-600">TEMS</span>
+        </h2>
+        <p className="mt-4 text-gray-600">
+          IEEE Technology and Management Society aims at promoting the
+          involvement of managerial skills in engineering and technology. It
+          focuses on encouragement of aspiring entrepreneurs and management
+          enthusiasts with the right amount of support in terms of guidance and
+          capital
+        </p>
+      </div>
+    </div>
     <div
       id="soc8"
       className="mx-auto mt-10 bg-white   lg:max-w-5xl lg:shadow-lg lg:rounded-lg lg:flex lg:justify-center"
