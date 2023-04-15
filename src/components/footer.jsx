@@ -201,6 +201,14 @@ const Footer = () => {
                       WIE
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/chapters/#soc5"
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
+                      SIGHT
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
