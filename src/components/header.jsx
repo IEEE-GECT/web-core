@@ -136,6 +136,7 @@ const Header = ({ route }) => {
         <DropDownLink to="/e/recon">Recon</DropDownLink>
         <DropDownLink to="/e/profecia">Profecia</DropDownLink>
         <DropDownLink to="/e/techsprint">Tech Sprint</DropDownLink>
+        <DropDownLink to="/e/circuitex">Circuitex</DropDownLink>
       </DropDown>
       <NavLink to="/execom">Execom</NavLink>
       <NavLink to="/register">Join IEEE</NavLink>
