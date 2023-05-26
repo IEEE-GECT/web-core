@@ -2,20 +2,24 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDoubleUp } from "@fortawesome/free-solid-svg-icons"
-import { tsParticles } from "tsparticles"
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+import { useCallback } from "react";
 
 import Header from "./header"
 import tsParticlesConfig from "./tsparticles.config"
 import Footer from "./footer"
 
 const Layout = ({ route, children }) => {
+  const particlesInit = useCallback(async engine => {
+    await loadFull(engine);
+  }, []);
+  const particlesLoaded = useCallback(async container => {
+    await console.log(container);
+}, []);
+  
   React.useEffect(() => {
-    tsParticles
-      .load("tsparticles", tsParticlesConfig)
-      .then()
-      .catch(error => {
-        console.error(error)
-      })
+
 
     const resize = () => {
       let vh = window.innerHeight * 0.01
@@ -47,7 +51,11 @@ const Layout = ({ route, children }) => {
         id="tsparticles"
         style={{ backgroundColor: "aliceblue" }}
       ></div>
-
+<Particles   id="tsparticles"
+            init={particlesInit}
+            loaded={particlesLoaded}
+            options= {tsParticlesConfig}/>
+  
       <div className="relative">
         <Header route={route} />
 

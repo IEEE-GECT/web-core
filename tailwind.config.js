@@ -1,11 +1,10 @@
 module.exports = {
-  purge: {
+  
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
     options: {
       keyframes: true,
     },
-  },
-  darkMode: false, // or 'media' or 'class'
+  
   theme: {
     extend: {
       colors: {

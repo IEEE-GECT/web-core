@@ -113,7 +113,6 @@ module.exports = {
     //     },
     //   },
     // },
-    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-postcss`,
   ],
 }

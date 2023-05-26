@@ -2,19 +2,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Swiper, SwiperSlide } from "swiper/react"
 import SwiperCore, { EffectCoverflow, Navigation, Pagination } from "swiper"
-
 import { Link } from "gatsby"
-
 import "swiper/swiper-bundle.min.css"
-
 SwiperCore.use([EffectCoverflow, Navigation, Pagination])
-
 const CoverflowEffect = () => {
   const [width, setWidth] = React.useState(0)
   React.useEffect(() => {
     setWidth(window.innerWidth)
   }, [])
-
   const SlideBody = props => {
     if (props.to)
       return props.newPage ? (
@@ -66,20 +61,17 @@ const CoverflowEffect = () => {
 
   return (
     <>
-      <Swiper
-        slidesPerView={width > 640 ? 3 : 1}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={Navigation}
-        className="mySwiper"
-      >
-
-{/*------------------------------------------------------------*/}
-
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+   <Swiper
+      spaceBetween={50}
+      slidesPerView={width > 640 ? 3 : 1}
+      pagination={{
+        clickable: true,
+        
+      }}
+      className="mySwiper"
+      
+    >
+       <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="https://or9rzh0e5df.typeform.com/to/CjqYXT2F"
             imgSrc="https://ik.imagekit.io/nm1ondc9y/enigma.jpg?updatedAt=1685107189758"
@@ -228,7 +220,7 @@ const CoverflowEffect = () => {
           />
           {/*New event poster link*/}
         </SwiperSlide>
-      </Swiper>
+    </Swiper>
     </>
   )
 }
