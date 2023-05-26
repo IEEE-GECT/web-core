@@ -79,7 +79,7 @@ const CoverflowEffect = () => {
 {/*------------------------------------------------------------*/}
 
 
-            <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
+        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="https://or9rzh0e5df.typeform.com/to/CjqYXT2F"
             imgSrc="https://ik.imagekit.io/nm1ondc9y/enigma.jpg?updatedAt=1685107189758"

@@ -207,12 +207,12 @@ export const Team = () => {
       members: [
         {
           name: "Kevin Shibu",
-          img: "https://ik.imagekit.io/fnsxnpbnzvj/IEEE_EXECOM/Sruthy_S_Nair_-_Chair_IAS_vsvJ4SWwD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646549561901",
+          img: "https://ik.imagekit.io/nm1ondc9y/Kevin_Shibu.jpg?updatedAt=1685107592824",
           position: "Chairperson",
         },
         {
           name: "Adwaitha M R",
-          img: "https://ik.imagekit.io/fnsxnpbnzvj/IEEE_EXECOM/PRANAV_BABU_SECRETARY_IAS_dWsx6ik92.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1646549530335",
+          img: "https://ik.imagekit.io/nm1ondc9y/Adwaitha_M_R.jpg?updatedAt=1685107593067",
           position: "Secretary",
         },
       ],
