@@ -44,6 +44,7 @@
   "resolutions": {
     "graphql": "15.8.0"
   },
+  
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
