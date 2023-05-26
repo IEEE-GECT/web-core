@@ -11,17 +11,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Using node_modules cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
       - name: Using build cache
         id: build-cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: public
           key: ${{ runner.os }}-${{ github.sha }}
