@@ -153,12 +153,12 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <LinkS
+                    <Link
                       to="/chapters/#soc6"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       IAS
-                    </LinkS>
+                    </Link>
                   </li>
                   <li>
                     <Link
