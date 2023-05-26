@@ -76,62 +76,6 @@ const CoverflowEffect = () => {
         className="mySwiper"
       >
 
-{/*------------------------------------------------------------*/}
-
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
-          <SlideBody
-            to="https://or9rzh0e5df.typeform.com/to/CjqYXT2F"
-            imgSrc="https://ik.imagekit.io/nm1ondc9y/enigma.jpg?updatedAt=1685107189758"
-            newPage
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
-          <SlideBody
-            to="https://bit.ly/pesdayeventecosafe"
-            imgSrc="https://ik.imagekit.io/0ta3q23cu/events/Ecosafe.jpg?updatedAt=1681570818678"
-            newPage
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
-          <SlideBody
-            to="https://bit.ly/Web-Wiz"
-            imgSrc="https://ik.imagekit.io/nm1ondc9y/webwiz.jpg?updatedAt=1681551593092"
-            newPage
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
-          <SlideBody
-            to="http://bit.ly/ieeeelectroclash"
-            imgSrc="https://ik.imagekit.io/nm1ondc9y/electroclash.jpg?updatedAt=1681551593051"
-            newPage
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-        <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
-          <SlideBody
-            to="https://forms.gle/dQWfYzLiV4DCeFnLA"
-            imgSrc="https://ik.imagekit.io/nm1ondc9y/circuitex.jpg?updatedAt=1681551593030"
-            newPage
-          />
-          {/*New event poster link*/}
-        </SwiperSlide>
-
-
-
-
-
-
-{/*----------------------------------------------------------------- */}
-
          <SwiperSlide style={{ maxWidth: 640, maxHeight: 600 }}>
           <SlideBody
             to="/e/techsprint"
