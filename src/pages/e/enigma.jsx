@@ -9,11 +9,11 @@ const EventPage = () => {
   const container = React.useRef()
 
   React.useEffect(() => {
-    createWidget("yZHXZVzv", { container: container.current })
+    createWidget("CjqYXT2F", { container: container.current })
   }, [])
 
   return (
-    <Layout route="/e/techsprint">
+    <Layout route="/e/enigma">
       <Seo
         title="Enigma"
         description="Enigma, Technical Event Series"
