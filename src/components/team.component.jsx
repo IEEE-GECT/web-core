@@ -207,7 +207,7 @@ export const Team = () => {
       members: [
         {
           name: "Kevin Shibu",
-          img: "https://ik.imagekit.io/nm1ondc9y/Kevin_Shibu.jpg?updatedAt=1685107592824",
+          img:" https://ik.imagekit.io/nm1ondc9y/Kevin_Shibu.jpg?updatedAt=1685107592824",
           position: "Chairperson",
         },
         {
