@@ -60,7 +60,16 @@ const CoverflowEffect = () => {
   }
 
   return (
-    <>
+    <div className="pt-10 pb-5 px-2 sm:px-10">
+    <div className="rounded-lg shadow-2xl glass-effect">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-12 mx-auto sm:py-16">
+          <h1 className="font-medium text-3xl mb-8 text-gray-900 text-left ml-8 ">
+            Upcoming Events
+          </h1>
+
+          <div className="flex justify-center align-center ">
+            <div className="min-w-full md:w-4/6">
    <Swiper
       spaceBetween={50}
       slidesPerView={width > 640 ? 3 : 1}
@@ -221,7 +230,15 @@ const CoverflowEffect = () => {
           {/*New event poster link*/}
         </SwiperSlide>
     </Swiper>
-    </>
+    <p className="text-xs pt-1 sm:text-sm">
+                  Click on Event Poster to Register
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   )
 }
 
