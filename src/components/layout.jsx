@@ -20,7 +20,6 @@ const Layout = ({ route, children }) => {
   
   React.useEffect(() => {
 
-
     const resize = () => {
       let vh = window.innerHeight * 0.01
       document.documentElement.style.setProperty("--vh", `${vh}px`)
@@ -46,12 +45,8 @@ const Layout = ({ route, children }) => {
 
   return (
     <>
-      <div
-        className="fixed inset-0"
-        id="tsparticles"
-        style={{ backgroundColor: "aliceblue" }}
-      ></div>
-<Particles   id="tsparticles"
+
+        <Particles   id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
             options= {tsParticlesConfig}/>
@@ -63,12 +58,7 @@ const Layout = ({ route, children }) => {
           <div className="text-center flex-grow">
             <main>{children}</main>
           </div>
-
           {route.startsWith("/e/") ? "" : <GoToTop />}
-
-          {/* <footer className="p-3 text-center bg-gray-100 w-full">
-            © {new Date().getFullYear()}, IEEE GEC Thrissur
-          </footer> */}
           <Footer />
         </div>
       </div>

@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { Team } from "../components/team.component"
+import {Team} from "../pages/team.component"
 
 const ExecomPage = () => (
   <Layout route="/execom">
@@ -13,7 +13,7 @@ const ExecomPage = () => (
 
     <div className="pt-5 pb-10 px-2 sm:px-10">
       <div className="rounded-lg shadow-2xl glass-effect">
-        <Team />
+        <Team/>
       </div>
     </div>
   </Layout>
