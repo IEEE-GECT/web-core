@@ -13,11 +13,8 @@ what is events.components.jsx                             => Done, deleted.
 change the 2nd component of homepage from tems to chapter intorduction => done
 the header photo with one from current year                            => done
 dynamic rendering of socities                                          => done
-dynamic rendering of events  slider                                    => done
-dynamic rendering of EXECOM                 
-
-
-remove old events from prominent areas                   
+dynamic rendering of events  slider                                    => done              
+remove old events from prominent areas                                 => done                
 
 
 
