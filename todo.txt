@@ -1,18 +1,18 @@
-pes.society.team.jsx  => contains old team?
-shopcatt use?
-components/cards/registercomponent is fully commented
-components/ex is an example
-what is events.components.jsx 
+pes.society.team.jsx  => contains old team?               => Done, deleted.
+shopcatt use?                                             => Done, deleted.
+components/cards/registercomponent is fully commented     => Done, deleted.
+components/cards/registercomponent styles unnncesary      => Done, deleted.
+components/ex is an example                               => Done, deleted.
+what is events.components.jsx                             => Done, deleted.
 
 
 
 
 
 
-change the 2nd component of homepage from tems to chapter intorduction
-the header photo with one from current year
-remove old events from prominent areas, after enough events are available
-make all images to one place
+change the 2nd component of homepage from tems to chapter intorduction => done
+the header photo with one from current year                            => done
+remove old events from prominent areas                   
 
 
 
@@ -26,7 +26,8 @@ make all images to one place
 
 
 
-To add an event : typeform
+    To add an event : typeform
+-----------------------------------
 add the event in pages/e/eventname
 change the names,image in appropriate areas
 add the last part of type form link
@@ -35,6 +36,9 @@ add an item in slider component
 add an item in header registrations
 add an item in sidebarregistrations
 
+
+
 To add an event: google form or others
+--------------------------------------
 add item to slider,header and sidebar
 add an entry in htacess

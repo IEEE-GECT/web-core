@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Seo title="" />
     <div className="relative -mt-20" style={{ height: `100vh` }}>
       <StaticImage
-        src="../images/group.jpg"
+        src="../images/group.webp"
         quality={100}
         placeholder="blurred"
         formats={["AUTO", "WEBP", "AVIF"]}
@@ -28,7 +28,7 @@ const IndexPage = () => (
         </h1>
       </div>
     </div>
-
+  
     <div className="pt-10 pb-5 px-2 sm:px-10">
       <div className="rounded-lg shadow-2xl glass-effect">
         <section className="text-gray-600 body-font">
@@ -47,12 +47,6 @@ const IndexPage = () => (
             </div>
           </div>
         </section>
-      </div>
-    </div>
-
-    <div className="pt-5 pb-5 px-2 sm:px-10">
-      <div className="rounded-lg shadow-2xl glass-effect">
-        <Content />
       </div>
     </div>
 
@@ -113,6 +107,14 @@ const IndexPage = () => (
         </section>
       </div>
     </div>
+
+    <div className="pt-5 pb-5 px-2 sm:px-10">
+      <div className="rounded-lg shadow-2xl glass-effect">
+        <Content />
+      </div>
+    </div>
+
+   
   </Layout>
 )
 
