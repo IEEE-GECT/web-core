@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import {Team} from "../pages/team.component"
+import Team from "../pages/team.component"
 
 const ExecomPage = () => (
   <Layout route="/execom">
