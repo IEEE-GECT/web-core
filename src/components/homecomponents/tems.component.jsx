@@ -2,6 +2,9 @@ import * as React from "react"
 
 export const Content = () => {
   return (
+    <div className="pt-5 pb-5 px-2 sm:px-10">
+    <div className="rounded-lg shadow-2xl glass-effect">
+  
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
@@ -105,5 +108,7 @@ export const Content = () => {
         </div>
       </div>
     </div>
+    </div>
+  </div>
   )
 }
