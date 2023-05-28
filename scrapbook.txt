@@ -1,1 +1,5 @@
-to do : tynamic rendering of events, from a list with event name, ink and image
+to do : dynamic rendering of events, from a list with event name, ink and image
+
+=> Implement Blogging.
+
+I think component -> hero-section not needed
