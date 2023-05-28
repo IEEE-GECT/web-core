@@ -132,6 +132,7 @@ const CoverflowEffect = () => {
           />
         </SwiperSlide>
       ))}
+      
     </Swiper>
     <p className="text-xs pt-1 sm:text-sm">
                   Click on Event Poster to Register
