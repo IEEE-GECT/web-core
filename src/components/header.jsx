@@ -139,6 +139,7 @@ const Header = ({ route }) => {
         <DropDownLink to="https://bit.ly/pesdayeventecosafe">Ecosafe</DropDownLink>
       </DropDown>
       <NavLink to="/execom">Execom</NavLink>
+      <NavLink to="/blogs">blogs</NavLink>
       <NavLink to="/register">Join IEEE</NavLink>
     </>
   )
