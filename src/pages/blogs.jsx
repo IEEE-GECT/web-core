@@ -1,27 +1,27 @@
 import * as React from "react"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import '../styles/blogs.css'
+import { Link } from "gatsby"
 
 let blogposts=[
     {
         title:"How A Touch Display Works",
         description:"IEEE SB GECBH is a student branch of IEEE, the world's largest technical professional organization  the world's largest technical professional organization the world's largest technical professional organization",
         image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
-        link:"/blog/how-a-touch-displays-works",
+        link:"/blogs/how-a-touch-displays-works",
     },
         {
         title:"How A Touch Display Works",
         description:"IEEE SB GECBH is a student branch of IEEE, the world's largest technical professional organization the world's largest technical professional organization the world's largest technical professional organization",
         image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
-        link:"/blog/how-a-touch-displays-works",
+        link:"/blogs/how-a-touch-displays-works",
     },
         {
         title:"How A Touch Display Works",
         description:"IEEE SB GECBH is a student branch of IEEE, the world's largest technical professional organization the world's largest technical professional organization the world's largest technical professional organization",
         image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
-        link:"/blog/how-a-touch-displays-works",
+        link:"/blogs/how-a-touch-displays-works",
     },
 ]
 
@@ -43,7 +43,8 @@ const BlogPage = () => (
                 <div className="blogpostcontent">
                     <h2 className="blogheading">{blogpost.title}</h2>
                     <p className="blogdescription">{blogpost.description}</p>
-                    <a className="readmorebtn" href={blogpost.link}>Read More</a>
+                    {/* <a className="readmorebtn" href="/blogs/how-a-touch-displays-works">Read More</a> */}
+                    <Link to="/blogs/how-a-touch-displays-works" className="readmorebtn">Read More</Link>
                     </div>
                     </div>
         )
@@ -53,5 +54,7 @@ const BlogPage = () => (
     </div>
   </Layout>
 )
+
+
 
 export default BlogPage
