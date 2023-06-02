@@ -13,13 +13,13 @@ let blogposts=[
     },
         {
         title:"How A Touch Display Works",
-        description:"IEEE SB GECBH is a student branch of IEEE, the world's largest technical professional organization the world's largest technical professional organization the world's largest technical professional organization",
+        description:"IEEE SB GECBH is a student branch of IEEE, th jhdfgv kjerg e world's largest technical professional organization the world's largest technical professional organization the world's largest technical professional organization",
         image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
         link:"/blogs/how-a-touch-displays-works",
     },
         {
         title:"How A Touch Display Works",
-        description:"IEEE SB GECBH is a student branch of IEEE, the world's largest technical professional organization the world's largest technical professional organization the world's largest technical professional organization",
+        description:"IEEE al professional organization the world's largest technical professional organization the world's largest technical professional organization",
         image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
         link:"/blogs/how-a-touch-displays-works",
     },

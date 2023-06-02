@@ -4,26 +4,6 @@ team.component should be deleted, members also deleted
 making a centralized event list that changes dider,header and sidebar
 
 
-
-
-
-      `What just happened when you clicked or swiped on your screen using your finger which eventually led to this page right here..?
-       Has it ever occurred to you that while you scroll through reels and shorts on different apps, your body chemistry is the prime 
-       part of the “ working of touch screen” and not any other component? Well if you haven't thought about this, i'm glad i could light 
-       the matter on to you and if you already have, buddy! you've reached the right corner of the internet.`,
-
-       ` As most of you must know, the touch screen of a smartphone essentially consists of a protective , insulating glass exterior and an 
-       LCD screen at the bottom which produces the content . What we forget is the several sheets present between them.One of them is lined
-        with rows of conducting material which carry Alternative electric current. Imagine the same but in columns, that's how another sheet 
-        is. Both of them are separated by a thin insulating layer. As you can imagine, one aligned on top of another makes a grid. Let's call
-         the points the column and rows intersect as nodes. `,
-
-         `The phone's battery draws electrons along the first layer and some electrons accumulate at every node which inturn creates a small electric field.
-          You can say that the nodes act as capacitors since they store charges. Something you have to keep in your mind is that your body is a great conductor
-          and is constantly transmitting electric currents (since 70 percent of its mass is water which is loaded with ions which have a net electric charge).
-          As you must have guessed, your finger acts as a third electric line here. It interacts with the existing electric field which further induces a weak
-          electric current that travels through your finger and back to the phone. This changes the charge in the affected nodes. `,
-      
-          `The voltage measurements along the second layer tells the phone's microprocessor which part of the screen is being touched. This is why your phone acts
-           bizarre when water is splattered on the screen(acting like multiple places are touched at once). While, if you are wearing a glove or some kind of insulator
-            the current doesn't flow through your hand thus producing no effect.`
+make footer creation dynamic
+remove tems from homepageadd gallery
+show see all button in slider after 10 items

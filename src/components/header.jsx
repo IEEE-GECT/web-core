@@ -131,7 +131,6 @@ const Header = ({ route }) => {
     <>
       <NavLink to="/">Home</NavLink>
       <NavLink to="/chapters">Chapters</NavLink>
-      <NavLink to="/valaista">Valaista</NavLink>
       <DropDown to="/e/" title="Registrations">
       <DropDownLink to="/e/enigma">Enigma</DropDownLink>
         <DropDownLink to="/e/techsprint">Tech Sprint</DropDownLink>

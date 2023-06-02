@@ -1,16 +1,17 @@
 .blogcarousel{
     display: flex;
     flex-direction:row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
  .blogcard{
     width: 400px;
-    height: 600px;
     margin: 10px;
+    padding: 3px;
     border-radius: 10px;
-    background-color: rgba(134, 134, 134, 0.808);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgba(230, 230, 230, 0.808);
+    box-shadow: 3 3 10px rgba(0,0,0,0.5);
 }
 .blogcard:hover{
     box-shadow: 0 0 40px rgba(0,0,0,0.5);
@@ -18,7 +19,7 @@
 }
 
 .blogcardimage{
-    height: 50%;
+
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
@@ -27,8 +28,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 50%;
     padding: 10px;
+  
 }
 .blogheading{
     font-size: 20px;
@@ -39,9 +40,13 @@
 }
 .blogdescription{
     font-size: 16px;
+    line-height: 22px;
     text-align: justify;
     margin: 10px;
     color: rgb(255, 255, 255);
+    color: black;
+    height: 130px;
+    overflow: scroll;
 }
 
 .readmorebtn{
@@ -54,4 +59,8 @@
     cursor: pointer;
     font-size:20    px;
     font-weight: bold;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
 }
