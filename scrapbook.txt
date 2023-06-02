@@ -1,1 +1,9 @@
-to do : tynamic rendering of events, from a list with event name, ink and image
+I think component -> hero-section not needed
+team.component should be deleted, members also deleted
+
+making a centralized event list that changes dider,header and sidebar
+
+
+make footer creation dynamic
+remove tems from homepageadd gallery
+show see all button in slider after 10 items

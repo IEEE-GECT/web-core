@@ -1,0 +1,66 @@
+.blogcarousel{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+ .blogcard{
+    width: 400px;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgba(230, 230, 230, 0.808);
+    box-shadow: 3 3 10px rgba(0,0,0,0.5);
+}
+.blogcard:hover{
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    transform: scale(1.01);
+}
+
+.blogcardimage{
+
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.blogpostcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+  
+}
+.blogheading{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    color: rgb(8, 118, 126);
+}
+.blogdescription{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    color: black;
+    height: 130px;
+    overflow: scroll;
+}
+
+.readmorebtn{
+    background-color: rgb(8, 118, 126);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+    font-size:20    px;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}

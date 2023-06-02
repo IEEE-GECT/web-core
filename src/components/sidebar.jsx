@@ -141,7 +141,6 @@ const SideBar = ({ route, setIsOpen }) => {
         <nav>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/chapters">Chapters</NavLink>
-          <NavLink to="/valaista">Valaista</NavLink>
 
           <DropDown to="/e/" title="Registrations">
             <DropDownLink to="/e/techsprint">Tech Sprint</DropDownLink>
@@ -150,6 +149,7 @@ const SideBar = ({ route, setIsOpen }) => {
             <DropDownLink to="https://bit.ly/pesdayeventecosafe">Ecosafe</DropDownLink>
           </DropDown>
           <NavLink to="/execom">Execom</NavLink>
+          <NavLink to="/blogs">blogs</NavLink>
           <NavLink to="/register">Join IEEE</NavLink>
         </nav>
       </div>

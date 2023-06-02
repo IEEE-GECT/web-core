@@ -1,0 +1,101 @@
+#blogbox{
+  width: clamp(500px, 80vw, 1000px);
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogImage{
+    width:clamp(300px, 30vw, 500px);
+}
+
+h1{
+    font-size:clamp(2rem, 5vw, 3rem);
+    padding:1rem;
+    text-align:center;
+    font-weight:600;
+}
+
+.postdescriptiont{
+    font-size:1.2rem;
+    padding:clamp(0.5rem, 2vw, 1.5rem);
+    text-align:center;
+    font-weight:600;
+}
+
+.postimage{
+    width: 50%;
+    border-radius:0.5rem;
+}
+
+.blogbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    padding:5px;
+    font-size:16px;
+    text-align: left;
+    font-family: Arial, Helvetica;
+    font-weight: lighter;
+}
+
+
+.MainHeading{
+    font-size:clamp(1.5rem, 5vw, 3rem);
+    padding:1rem;
+    text-align:left;
+    color:var(--primary-color);
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+
+}
+
+.SubHeading{
+    font-size:1.75rem;
+    padding:1rem;
+    text-align:left;
+    font-weight:bolder;
+}
+
+.MiniSubHeading{
+    font-size:1rem;
+    padding:1rem;
+    text-align:left;
+    font-weight:bolder;
+    font-family: Arial, Helvetica;
+}
+
+
+.ClosingQoutes{
+    font-size:1rem;
+    padding:1rem;
+    text-align:center;
+    font-weight:bold;
+    font-family:  Helvetica;
+}
+
+@media only screen and (max-width: 600px) {
+        #blogbox{
+            width:95vw;
+            margin: 0 auto;
+            background-color: rgb(235, 235, 235);
+            padding:5px;
+          }
+          .postimage img{
+            width: 80%;
+            border-radius:0.5rem;
+        }
+
+        .blogImage{
+            width:80%;
+            margin: 5px auto;
+            align-self: center;
+        }
+          
+    }
