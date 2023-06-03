@@ -6,12 +6,13 @@ import Seo from "../../components/seo"
 let blogdata={
   link:"/blogs/how-a-touch-displays-works",
   title:"How A Touch Display Works",
+  author:'Anena Samrin',
+  autohorpos:'TEMS secretary',
+  authorimg:"https://ik.imagekit.io/0ta3q23cu/blogs/anenaa_ioPm_1sEI?updatedAt=1685775012813",
   description:`Touch Displays revolutionized the way we interact with our devices. From the first touch screen in 1965 to the modern day touch screens,
                 the technology has come a long way. In this blog, we will be discussing the working of a touch display.`,
-  image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
+  image:"https://ik.imagekit.io/0ta3q23cu/blogs/tuch_display.jpg?updatedAt=1685774963438",
   content : [
-
-
     <div className="blogbody">
    
     
@@ -39,6 +40,7 @@ let blogdata={
             node. This accumulation creates a small electric field, with the nodes acting as capacitors by storing charges.
             Now, here's where your body chemistry comes into play.
         </p>
+        <img src="https://ik.imagekit.io/0ta3q23cu/blogs/human_water.jpg?updatedAt=1685775072628" alt="touchscreen" className="blogImage" />
         <p>
             As an excellent conductor, your body constantly transmits electric currents due to its high water content and
             ions with a net electric charge. When you touch the screen with your finger, it acts as a third electric line
@@ -53,8 +55,6 @@ let blogdata={
             splattering on the screen or wearing insulating gloves, can disrupt this process.
         </p>
  
-        <img src="https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto" alt="touchscreen" className="blogImage" />
-    
         <p>
             While capacitive touch screens dominate the smartphone industry, it's worth mentioning resistive touch screens.
             These screens comprise two layers: a flexible top layer, often made of plastic, and a rigid bottom layer,
@@ -75,19 +75,23 @@ let blogdata={
             We hope this blog post has sparked your curiosity, just as the nodes on the screen come alive when touched. Stay
             tuned for more exciting content next week!
         </p>
+        <div className="sources">
+            <h3 className="MiniSubHeading">Read more</h3>
+              <ul>
+                <li><a href="https://www.youtube.com/watch?v=yU5kPoc7sL4&ab_channel=BRIGHTSIDE"> Brighside Youtube Channel</a></li>
+              <li>  <a href="https://www.technoarete.org/common_abstract/pdf/0/v6/i1/Ext_13290.pdf"> Touch Screen Technology, IFERP journal </a></li>
+              </ul>  
+
+        </div>
         </div>
         ,
-    
-           
+  ],
 
-
-
-  ]
 }
 
 const EventPage = () => {
   return (
-    <Layout route="/blogs/how-a-touch-displays-works">
+    <Layout route={blogdata.link}>
     <Seo
       title={blogdata.title}
       image={blogdata.image}
@@ -96,7 +100,14 @@ const EventPage = () => {
       <div className="rounded-lg shadow-2xl glass-effect">
      <div id="blogbox">
      <div className="postheading"><h1>{blogdata.title}</h1></div>
-        <div className="postdescriptiont"> <p>{blogdata.description}</p></div>
+        <div className="postdescriptiont"> 
+           <p>{blogdata.description}</p> 
+           <div className="authordata">
+                 <img className="authorimage" src={blogdata.authorimg} alt={blogdata.author} />
+                 {blogdata.author}<br></br>
+                 {blogdata.autohorpos}
+           </div>
+        </div>
         <img className="postimage" src={blogdata.image} alt={blogdata.title} />
         <div className="postcontent">{blogdata.content}</div>
      </div>

@@ -8,19 +8,7 @@ let blogposts=[
     {
         title:"How A Touch Display Works",
         description:"IEEE SB GECBH is a student branch of IEEE, the world's largest technical professional organization  the world's largest technical professional organization the world's largest technical professional organization",
-        image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
-        link:"/blogs/how-a-touch-displays-works",
-    },
-        {
-        title:"How A Touch Display Works",
-        description:"IEEE SB GECBH is a student branch of IEEE, th jhdfgv kjerg e world's largest technical professional organization the world's largest technical professional organization the world's largest technical professional organization",
-        image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
-        link:"/blogs/how-a-touch-displays-works",
-    },
-        {
-        title:"How A Touch Display Works",
-        description:"IEEE al professional organization the world's largest technical professional organization the world's largest technical professional organization",
-        image:"https://ik.imagekit.io/ieeeGec/enshrine_c4A2eLU1E.jpg?tr=w-1080,h-1080,fo-auto",
+        image:"https://ik.imagekit.io/0ta3q23cu/blogs/tuch_display.jpg?updatedAt=1685774963438",
         link:"/blogs/how-a-touch-displays-works",
     },
 ]
@@ -29,12 +17,12 @@ const BlogPage = () => (
   <Layout route="/blogs">
     <Seo
       title="blogs"
-      image="https://8s9ot3736652r3v5s22dfc81-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/Consensus-Kills-Business-Innovation-600x315-cropped.jpg"
+      image="https://ik.imagekit.io/0ta3q23cu/blogs/tuch_display.jpg?updatedAt=1685774963438"
     />
 
     <div className="pt-5 pb-10 px-2 sm:px-10">
       <div className="rounded-lg shadow-2xl glass-effect">
-        <h1 className="h1" >blogs</h1>
+        <h1 className="h1" >Blogs</h1>
         <div className="blogcarousel">
        { blogposts.map((blogpost)=>{
         return (
