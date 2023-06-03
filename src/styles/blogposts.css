@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('./fontfiles/Poppins-Black.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'poppins-text';
+    src: url('./fontfiles//Poppins-Light.ttf') format('truetype');
+  }
+  body {
+    font-family: poppins-text, sans-serif;
+  }
+
 #blogbox{
   width: clamp(500px, 80vw, 1000px);
   margin: 0 auto;
@@ -20,12 +33,31 @@ h1{
 }
 
 .postdescriptiont{
-    font-size:1.2rem;
+    font-size:1rem;
     padding:clamp(0.5rem, 2vw, 1.5rem);
     text-align:center;
-    font-weight:600;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.postdescriptiont p{
+    width: 80%;
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+}
+.authorimage{
+    width:60px;
+    border-radius:50%;
 }
 
+.authordata{
+    width:20%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
 .postimage{
     width: 50%;
     border-radius:0.5rem;
@@ -47,16 +79,17 @@ p{
 
 
 .MainHeading{
+    width: 100%;
     font-size:clamp(1.5rem, 5vw, 3rem);
     padding:1rem;
     text-align:left;
     color:var(--primary-color);
-    font-weight: bold;
     font-family: Arial, Helvetica;
 
 }
 
 .SubHeading{
+    width: 100%;
     font-size:1.75rem;
     padding:1rem;
     text-align:left;
@@ -64,6 +97,7 @@ p{
 }
 
 .MiniSubHeading{
+    width: 100%;
     font-size:1rem;
     padding:1rem;
     text-align:left;
@@ -73,11 +107,30 @@ p{
 
 
 .ClosingQoutes{
-    font-size:1rem;
+    font-size:18px;
     padding:1rem;
+    margin-top: 40px;
     text-align:center;
-    font-weight:bold;
+    font-style: oblique;
+    font-weight:lighter;
     font-family:  Helvetica;
+}
+
+ul {
+    font-size: large;
+    text-align: left;
+}
+a {
+    color: rgb(0, 48, 104);
+}
+a:hover{
+    color: rgb(0, 48, 104);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.sources{
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -96,6 +149,16 @@ p{
             width:80%;
             margin: 5px auto;
             align-self: center;
+        }
+
+        .postdescriptiont{
+            flex-direction: column;
+        }
+
+        .authordata{
+            width:90%;
+            flex-direction: row;
+            justify-content: space-between;
         }
           
     }
