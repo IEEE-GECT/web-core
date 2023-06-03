@@ -1,7 +1,6 @@
 .blogcarousel{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -63,4 +62,10 @@
 
 ::-webkit-scrollbar{
     width: 0px;
+}
+
+@media screen and (max-width: 768px){
+    .blogcarousel{
+        justify-content: space-evenly;
+    }
 }

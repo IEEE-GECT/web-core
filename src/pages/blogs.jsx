@@ -7,8 +7,10 @@ import { Link } from "gatsby"
 let blogposts=[
     {
         title:"How A Touch Display Works",
-        description:"IEEE SB GECBH is a student branch of IEEE, the world's largest technical professional organization  the world's largest technical professional organization the world's largest technical professional organization",
-        image:"https://ik.imagekit.io/0ta3q23cu/blogs/tuch_display.jpg?updatedAt=1685774963438",
+        description:`Have you ever wondered about the intricate workings of your smartphone's touch screen? Delve into the fascinating world of 
+        touch screen technology and explore how your body chemistry plays a crucial role in its functioning. learn about the hidden 
+        layers and nodes that make touch screens come alive!`,
+        image:"https://ik.imagekit.io/0ta3q23cu/blogs/touch_screen_main_img.png?updatedAt=1685790369752",
         link:"/blogs/how-a-touch-displays-works",
     },
 ]

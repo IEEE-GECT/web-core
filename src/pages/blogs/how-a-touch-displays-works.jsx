@@ -5,7 +5,7 @@ import Seo from "../../components/seo"
 
 let blogdata={
   link:"/blogs/how-a-touch-displays-works",
-  title:"How A Touch Display Works",
+  title:"How A Touch Display Works ?",
   author:'Anena Samrin',
   autohorpos:'TEMS secretary',
   authorimg:"https://ik.imagekit.io/0ta3q23cu/blogs/anenaa_ioPm_1sEI?updatedAt=1685775012813",
@@ -70,11 +70,6 @@ let blogdata={
             nodes, enable seamless navigation and interaction on our smartphones. Next time you swipe or tap on your screen,
             remember the science that makes it all possible!
         </p>
-    
-        <p className="ClosingQoutes">
-            We hope this blog post has sparked your curiosity, just as the nodes on the screen come alive when touched. Stay
-            tuned for more exciting content next week!
-        </p>
         <div className="sources">
             <h3 className="MiniSubHeading">Read more</h3>
               <ul>
@@ -83,6 +78,12 @@ let blogdata={
               </ul>  
 
         </div>
+    
+        <p className="ClosingQoutes" >
+            We hope this blog post has sparked your curiosity, just as the nodes on the screen come alive when touched. Stay
+            tuned for more exciting content next week!
+        </p>
+   
         </div>
         ,
   ],

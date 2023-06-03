@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('./fontfiles/Poppins-Black.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'poppins-text';
+    src: url('./fontfiles//Poppins-Light.ttf') format('truetype');
+  }
+  body {
+    font-family: poppins-text, sans-serif;
+  }
+
 #blogbox{
   width: clamp(500px, 80vw, 1000px);
   margin: 0 auto;
@@ -30,17 +43,17 @@ h1{
     align-items: center;
 }
 .postdescriptiont p{
-    width: 70%;
+    width: 80%;
     color: rgb(54, 54, 54);
     font-weight: 500;
 }
 .authorimage{
-    width:100px;
+    width:60px;
     border-radius:50%;
 }
 
 .authordata{
-    width:30%;
+    width:20%;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -71,7 +84,6 @@ p{
     padding:1rem;
     text-align:left;
     color:var(--primary-color);
-    font-weight: bold;
     font-family: Arial, Helvetica;
 
 }
@@ -95,10 +107,12 @@ p{
 
 
 .ClosingQoutes{
-    font-size:1rem;
+    font-size:18px;
     padding:1rem;
+    margin-top: 40px;
     text-align:center;
-    font-weight:bold;
+    font-style: oblique;
+    font-weight:lighter;
     font-family:  Helvetica;
 }
 
@@ -135,6 +149,16 @@ a:hover{
             width:80%;
             margin: 5px auto;
             align-self: center;
+        }
+
+        .postdescriptiont{
+            flex-direction: column;
+        }
+
+        .authordata{
+            width:90%;
+            flex-direction: row;
+            justify-content: space-between;
         }
           
     }
