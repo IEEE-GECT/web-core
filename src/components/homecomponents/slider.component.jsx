@@ -60,6 +60,11 @@ const CoverflowEffect = () => {
   }
 
   let slideritems = [
+    {
+      to:"/e/enshrine",
+      imgSrc:"https://ik.imagekit.io/0ta3q23cu/events/enshrine.jpg?updatedAt=1686138488167",
+      newPage:true,
+    },
 
     {
       to: "e/enigma",
@@ -101,6 +106,8 @@ const CoverflowEffect = () => {
     imgSrc:"https://ik.imagekit.io/nm1ondc9y/webinar_on_linked_in_jobs_and_ieee.jpg?updatedAt=1681446615217",
     newPage:true,
   },
+
+
 
 
   ]
