@@ -9,6 +9,7 @@ const CoverflowEffect = () => {
   const [width, setWidth] = React.useState(0)
   React.useEffect(() => {
     setWidth(window.innerWidth)
+    
   }, [])
   const SlideBody = props => {
     if (props.to)
