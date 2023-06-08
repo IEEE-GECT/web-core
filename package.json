@@ -28,7 +28,7 @@
     "react-server-dom-webpack": "^0.0.1",
     "react-tsparticles": "^2.9.3",
     "swiper": "^9.3.2",
-    "tsparticles": "^2.9.3"
+    "tsparticles": "^2.10.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
