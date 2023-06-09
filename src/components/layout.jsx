@@ -14,6 +14,10 @@ const Layout = ({ route, children }) => {
   const particlesInit = useCallback(async engine => {
     await loadFull(engine);
   }, []);
+  const particlesLoaded = useCallback(async container => {
+    await console.log(container);
+}, []);
+  
   React.useEffect(() => {
 
     const resize = () => {
@@ -24,7 +28,7 @@ const Layout = ({ route, children }) => {
   }, [])
 
   const GoToTop = () => {
-    return route.startsWith("/e/") ? "" :(
+    return (
       <button
         className="fixed right-4 md:right-6 bottom-6 md:bottom-8 rounded-full p-6 bg-ieee-blue focus:outline-none shadow-lg"
         aria-label="Go-to-top"
@@ -44,6 +48,7 @@ const Layout = ({ route, children }) => {
 
         <Particles   id="tsparticles"
             init={particlesInit}
+            loaded={particlesLoaded}
             options= {tsParticlesConfig}/>
   
       <div className="relative">
@@ -53,7 +58,7 @@ const Layout = ({ route, children }) => {
           <div className="text-center flex-grow">
             <main>{children}</main>
           </div>
-          <GoToTop />
+          {route.startsWith("/e/") ? "" : <GoToTop />}
           <Footer />
         </div>
       </div>

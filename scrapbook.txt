@@ -1,6 +1,1 @@
-making a centralized event list that changes dider,header and sidebar
-make footer creation dynamic
-remove tems from homepage
-add gallery
-show see all button in slider after 10 items
-better implemetation of blogs
+to do : tynamic rendering of events, from a list with event name, ink and image

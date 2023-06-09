@@ -25,7 +25,6 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-hook-form": "^7.6.8",
-    "react-server-dom-webpack": "^0.0.1",
     "react-tsparticles": "^2.9.3",
     "swiper": "^9.3.2",
     "tsparticles": "^2.9.3"
@@ -45,6 +44,7 @@
   "resolutions": {
     "graphql": "15.8.0"
   },
+  
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

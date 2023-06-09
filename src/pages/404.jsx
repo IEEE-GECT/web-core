@@ -26,7 +26,7 @@ const NotFoundPage = () => (
         </div>
         <div className="max-w-lg hidden lg:block">
           <StaticImage
-            src="../images/sad-cat.webp"
+            src="../images/sad-cat.png"
             placeholder="blurred"
             formats={["AUTO", "WEBP", "AVIF"]}
             quality={100}
