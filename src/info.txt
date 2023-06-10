@@ -1,0 +1,26 @@
+--------------- To add a blog ------------- 
+ 1. Create a new file in the blogs folder with the name of the blog as the file name.
+ 2. copy the content of the shell file from the same folder into the new file.
+ 3. replace and fill the content of the file with the blog content.
+ 4. add images by uploading images to imagekit, and then adding the imagekit url to the image tag in the blog.
+ 5. add the blog data to the blogs.jsx file in the pages folder.
+ Note : the URL should not have spaces/capital letters, and should be the same in both pages.
+
+
+ -------------- To add an Event through TypeForm -------------
+    1. Create a new file in the e folder in pages with the name of the event as the file name.
+    2. copy the content of the shell file from the same folder into the new file.
+    3. replace the typeform url with the last part of the new typeform url.
+    4. replace other datas as necessary.
+    5. add the new event into 
+        5.1 sidebar.jsx in the components folder.
+        5.2 header.jsx in the components folder.
+        5.3 slider.jsx in the components folder with image from imagekit.
+
+--------------- To add an event other than typeform ---------- 
+    1. copy and add the FULL URL in 
+        1.1 sidebar.jsx in the components folder.
+        1.2 header.jsx in the components folder.
+        1.3 slider.jsx in the components folder with image from imagekit.
+             
+

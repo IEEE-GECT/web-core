@@ -33,6 +33,7 @@
 .blogheading{
     font-size: 20px;
     font-weight: bold;
+    height: 100px;
     text-align: center;
     margin: 10px;
     color: rgb(8, 118, 126);

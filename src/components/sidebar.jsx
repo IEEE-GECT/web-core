@@ -148,6 +148,7 @@ const SideBar = ({ route, setIsOpen }) => {
             <DropDownLink to="/e/techsprint">Tech Sprint</DropDownLink>
           </DropDown>
           <NavLink to="/execom">Execom</NavLink>
+          <NavLink to="/blogs">Blogs</NavLink>
           <NavLink to="/register">Join IEEE</NavLink>
         </nav>
       </div>
