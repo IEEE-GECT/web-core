@@ -19,12 +19,12 @@ let blogposts=[
       journey of self-discovery and growth. Embark on a remarkable path towards improved 
       mental health and holistic well-being.`,
       image: "https://ik.imagekit.io/0ta3q23cu/blogs/vr150/thumbimg.jpg?updatedAt=1686412217918",
-      link: "/blogs/vrhealth",
+      link: "/blogs/vr-150",
   },
 ]
 
 const BlogPage = () => (
-  <Layout route="/blogs">
+  <Layout route="/blogs/">
     <Seo
       title="blogs"
       image="https://ik.imagekit.io/0ta3q23cu/blogs/tuch_display.jpg?updatedAt=1685774963438"

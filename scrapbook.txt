@@ -1,1 +1,0 @@
-to do : tynamic rendering of events, from a list with event name, ink and image

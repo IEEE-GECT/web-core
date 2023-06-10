@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 let blogdata = {
-    link: "/blogs/vrhealth",
+    link: "/blogs/vr-150",
     title: "Mindset Revolution- Empower Mental Health through Virtual Reality.",
     author: 'Bhadra Nair',
     autohorpos: 'ComSoc secretary',
@@ -15,20 +15,20 @@ let blogdata = {
     image: "https://ik.imagekit.io/0ta3q23cu/blogs/vr150/thumbimg.jpg?updatedAt=1686412217918",
     content: [
         <div className="blogbody">
-           <h2 className="MainHeading">Introduction</h2>
-             <p>
-                Hey college comrades! Get ready to revolutionize your mental well-being with virtual reality
-                (VR). Step into a world of tranquility and conquer your fears like never before.
+            <h2 className="MainHeading">Introduction</h2>
+            <p>
+                Hey college comrades! Get ready to revolutionise your mental well-being with virtual reality
+                (VR). Step into a world of tranquillity and conquer your fears like never before.
                 Escape the pressures of college life and find solace in captivating virtual environments. With
                 VR, you can transport yourself to serene beaches and enchanted forests, all from the
                 comfort of your dorm room. Take a break from the grind and recharge your mind.
                 But VR goes beyond escapism. It's a powerful tool for therapy. Face your fears through
                 exposure therapy in a safe environment. Conquer anxiety disorders, phobias, and
+                post-traumatic stress as your confidence soars. Imagine delivering a virtual presentation on
+                a stage, empowering you for real-world success.
             </p>
             <img src="https://ik.imagekit.io/0ta3q23cu/blogs/vr150/depressedghost.jpg?updatedAt=1686412217843" alt="touchscreen" className="blogImage" />
             <p>
-                post-traumatic stress as your confidence soars. Imagine delivering a virtual presentation on
-                a stage, empowering you for real-world success.
                 Stress and anxiety are common college companions, but VR has your back. Sensors track
                 your heart rate and breathing, guiding you towards serenity. Engage in breathing exercises
                 and guided meditation within enchanting landscapes. Watch stress melt away and focus
@@ -36,7 +36,7 @@ let blogdata = {
             </p>
             <img src="https://ik.imagekit.io/0ta3q23cu/blogs/vr150/vrdoc.jpg?updatedAt=1686412217892" alt="touchscreen" className="blogImage" />
             <p>
-                Virtual socialization is another VR marvel. Engage in multiplayer games and form bonds with
+                Virtual socialisation is another VR marvel. Engage in multiplayer games and form bonds with
                 virtual friends, breaking free from isolation. Walk in someone else's shoes through immersive
                 simulations, fostering empathy and deep connections.
                 Remember, VR complements professional therapy, but it's not a substitute. As technology
@@ -65,9 +65,9 @@ let blogdata = {
 
             </div>
             <p className="ClosingQoutes" >
-            We hope this blog post has sparked your curiosity, just as the nodes on the screen come alive when touched. Stay
-            tuned for more exciting content next week!
-        </p>
+                We hope this blog post has sparked your curiosity, just as the nodes on the screen come alive when touched. Stay
+                tuned for more exciting content next week!
+            </p>
 
         </div>
         ,
