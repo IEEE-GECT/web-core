@@ -4,7 +4,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 let blogdata = {
-    link: "/blogs/mindset-revolution-empower-mental-health-through-virtual-reality",
+    link: "/blogs/vrhealth",
     title: "Mindset Revolution- Empower Mental Health through Virtual Reality.",
     author: 'Bhadra Nair',
     autohorpos: 'ComSoc secretary',

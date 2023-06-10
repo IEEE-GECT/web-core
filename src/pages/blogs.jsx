@@ -19,7 +19,7 @@ let blogposts=[
       journey of self-discovery and growth. Embark on a remarkable path towards improved 
       mental health and holistic well-being.`,
       image: "https://ik.imagekit.io/0ta3q23cu/blogs/vr150/thumbimg.jpg?updatedAt=1686412217918",
-      link:"/blogs/mindset-revolution-empower-mental-health-through-virtual-reality",
+      link: "/blogs/vrhealth",
   },
 ]
 
