@@ -1,1 +1,3 @@
-to do : tynamic rendering of events, from a list with event name, ink and image
+a single Json file in the root of the src folder from which all data 
+  1. event name and image to sidebar, header and slider // irrespective of  typeform/other
+  2. blog list to blogs page
