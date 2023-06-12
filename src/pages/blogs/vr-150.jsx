@@ -17,7 +17,7 @@ let blogdata = {
         <div className="blogbody">
             <h2 className="MainHeading">Introduction</h2>
             <p>
-                Hey college comrades! Get ready to revolutionise your mental well-being with virtual reality
+                Hey  college comrades! Get ready to revolutionise your mental well-being with virtual reality
                 (VR). Step into a world of tranquillity and conquer your fears like never before.
                 Escape the pressures of college life and find solace in captivating virtual environments. With
                 VR, you can transport yourself to serene beaches and enchanted forests, all from the
