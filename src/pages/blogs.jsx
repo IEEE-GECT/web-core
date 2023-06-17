@@ -18,7 +18,7 @@ let blogposts=[
       description:`Discover how VR merges therapy and technology, empowering students on a transformative
       journey of self-discovery and growth. Embark on a remarkable path towards improved 
       mental health and holistic well-being.`,
-      image: "https://ik.imagekit.io/0ta3q23cu/blogs/vr150/thumbimg.jpg?updatedAt=1686412217918",
+      image: "https://ik.imagekit.io/0ta3q23cu/blogs/vrposterimg.jpg?updatedAt=1687021517617",
       link: "/blogs/vr-150",
   },
 ]

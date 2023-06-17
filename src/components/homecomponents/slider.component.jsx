@@ -60,6 +60,22 @@ const CoverflowEffect = () => {
   }
 
   let slideritems = [
+    {
+      to: "https://forms.gle/QbB6wMoxHLS55zGa7",
+      imgSrc: "https://ik.imagekit.io/0ta3q23cu/events/tagit.webp?updatedAt=1687020740231",
+      newPage: true,
+    },
+    {
+      to: "https://bit.ly/Print-xyz",
+      imgSrc: " https://ik.imagekit.io/0ta3q23cu/events/print.xyz.jpg?updatedAt=1687021069074",
+      newPage: true,
+    },
+   
+    {
+      to: "https://bit.ly/IEEE_Evidence_Escapade_",
+      imgSrc: "https://ik.imagekit.io/0ta3q23cu/events/escapeevidence_pitaMLXR8?updatedAt=1687020833815",
+      newPage: true,
+    },
 
     {
       to: "e/enigma",
