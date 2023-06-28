@@ -32,7 +32,7 @@
   "devDependencies": {
     "autoprefixer": "^10.2.6",
     "ftp-deploy": "^2.4.1",
-    "gatsby-plugin-postcss": "^6.10.0",
+    "gatsby-plugin-postcss": "^6.11.0",
     "gh-pages": "^ 5.0.0",
     "postcss": "^8.4.24",
     "prettier": "2.8.8 ",
