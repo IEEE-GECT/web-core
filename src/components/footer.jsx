@@ -114,16 +114,15 @@ const Footer = () => {
             <div className="grid grid-cols-3">
               <div className="col-span-1">
                 <ul className="mt-2 space-y-2">
-                <li>
+                  <li>
                     <Link
                       to="/chapters/#soc1"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       PES
                     </Link>
-                  </li>   
-             
-             
+                  </li>
+
                   <li>
                     <Link
                       to="/chapters/#soc3"
@@ -167,7 +166,7 @@ const Footer = () => {
                     >
                       TEMS
                     </Link>
-                  </li>     
+                  </li>
                   <li>
                     <Link
                       to="/chapters/#soc8"
@@ -184,7 +183,6 @@ const Footer = () => {
                       SPS
                     </Link>
                   </li>
-            
                 </ul>
               </div>
             </div>
@@ -192,7 +190,7 @@ const Footer = () => {
 
           <div>
             <p className="font-semibold tracking-wide text-gray-800 ">
-            Affinity And Special Intrest Group
+              Affinity And Special Intrest Group
             </p>
             <div className="grid grid-cols-1">
               <div className="col-span-1">
@@ -200,7 +198,8 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/chapters/#soc2"
-                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+                      className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+                    >
                       WIE
                     </Link>
                   </li>
@@ -216,9 +215,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
 
       <div className="flex flex-col justify-between pt-5 pb-10 border-t sm:flex-row">

@@ -1,10 +1,9 @@
 module.exports = {
-  
-    content: ["./src/**/*.{js,jsx,ts,tsx}"],
-    options: {
-      keyframes: true,
-    },
-  
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  options: {
+    keyframes: true,
+  },
+
   theme: {
     extend: {
       colors: {

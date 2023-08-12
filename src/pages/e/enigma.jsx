@@ -18,7 +18,6 @@ const EventPage = () => {
         title="Enigma"
         description="Enigma, Technical Event Series"
         image="https://ik.imagekit.io/nm1ondc9y/enigma.png?updatedAt=1685192203489"
-        
       />
 
       <div

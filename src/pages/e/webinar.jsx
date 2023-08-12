@@ -18,7 +18,6 @@ const EventPage = () => {
         title="Webinar on LinkedIn Jobs and IEEE"
         description="Vishnu S, head of content at tal64 | Technical Event Series"
         image="https://ik.imagekit.io/nm1ondc9y/webinar_on_linked_in_jobs_and_ieee.jpg?updatedAt=1681446615217"
-        
       />
 
       <div
