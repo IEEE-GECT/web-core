@@ -13,7 +13,7 @@ const ExecomPage = () => (
 
     <div className="pt-5 pb-10 px-2 sm:px-10">
       <div className="rounded-lg shadow-2xl glass-effect">
-        <Team/>
+        <Team />
       </div>
     </div>
   </Layout>

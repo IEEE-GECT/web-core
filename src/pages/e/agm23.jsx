@@ -18,7 +18,6 @@ const EventPage = () => {
         title="Annual General Meeting 2023"
         description=""
         image="https://ik.imagekit.io/nm1ondc9y/agm_23.jpg?updatedAt=1681446616993"
-        
       />
 
       <div
