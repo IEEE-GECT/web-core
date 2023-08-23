@@ -18,7 +18,7 @@ let core_members = [
   },
   {
     name: "Akhil T",
-    img: "https://ik.imagekit.io/fnsxnpbnzvj/IEEE_EXECOM/Aravind_p_OlbxMp-L.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1652256708532",
+    img:"https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/akhil%20tec.jpg?updatedAt=1691859629933",
     position: "ECC",
   },
   {
@@ -233,7 +233,7 @@ let societies = [
     soc_name: "Women In Engineering",
     members: [
       {
-        name: "Gopika Pulikalath",
+        name: "Gopika pulikunnath",
         img: "https://ik.imagekit.io/0ta3q23cu/EXECOM_Members/Gopika_Pulikunnath.jpg?updatedAt=1681400976219",
         position: "Chairperson",
       },

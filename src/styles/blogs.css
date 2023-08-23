@@ -85,7 +85,7 @@
 }
 
 .scholarshipcard {
-    width: clamp(300px, 80%, 800px);
+    width: clamp(300px, 90%, 800px);
     margin: 10px;
     padding: 15px;
     border-radius: 10px;
@@ -141,5 +141,15 @@
 @media screen and (max-width: 768px) {
     .blogcarousel {
         justify-content: space-evenly;
+    }
+    .scholorshipdataitem{
+        display: flex;
+        flex-direction: column;
+    }
+    .itemdata{
+        width: 95%;
+    }
+    .itemheading{
+        width: 95%;
     }
 }
