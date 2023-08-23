@@ -34,7 +34,7 @@
     "ftp-deploy": "^2.4.1",
     "gatsby-plugin-postcss": "^6.11.0",
     "gh-pages": "^ 5.0.0",
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.28",
     "prettier": "3.0.2",
     "tailwindcss": "^3.3.2"
   },
