@@ -61,6 +61,12 @@ const CoverflowEffect = () => {
 
   let slideritems = [
     {
+      to: "https://www.instagram.com/p/CxihbvtPISA/?igshid=MzRlODBiNWFlZA==",
+      imgSrc:
+        "https://ik.imagekit.io/nm1ondc9y/Hack2.0.jpg?updatedAt=1695554220447",
+      newPage: true,
+    },
+    {
       to: "https://forms.gle/QbB6wMoxHLS55zGa7",
       imgSrc:
         "https://ik.imagekit.io/0ta3q23cu/events/tagit.webp?updatedAt=1687020740231",
