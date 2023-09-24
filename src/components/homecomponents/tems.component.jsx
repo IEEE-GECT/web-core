@@ -1,6 +1,6 @@
 import * as React from "react"
 
-export const Content = () => {
+const Content = () => {
   return (
     <div className="pt-5 pb-5 px-2 sm:px-10">
       <div className="rounded-lg shadow-2xl glass-effect">
@@ -111,3 +111,4 @@ export const Content = () => {
     </div>
   )
 }
+export default Content
