@@ -6,11 +6,11 @@ import Seo from "../../components/seo"
 let blogdata={
   link:"/blogs/aditya_l1",
   title:"Aditya L1: India's Quest to Touch the Sun.",
-  author:'',
+  author:'CHAITHANYA M C',
   autohorpos:'',
-  authorimg:"",
-  description:`
-              `,
+  authorimg:"https://ik.imagekit.io/0ta3q23cu/blogs/adithyaL1/chaithanya.jpg?updatedAt=1698664023813",
+  description:` Named after the Sun, Aditya L1 is a groundbreaking project undertaken by the Indian Space Research Organisation (ISRO). 
+  In this blog, we will delve into the details of the mission, its objectives, and the importance of studying our nearest star, the Sun.`,
   image:"https://ik.imagekit.io/nm1ondc9y/aditya_l1.jpg?updatedAt=1698661705900",
   content : [
     <div className="blogbody">
@@ -22,8 +22,6 @@ let blogdata={
 
          Space exploration has always captivated humanity's imagination, and India has been making significant strides in this field over the years.
          One such endeavor that has been grabbing headlines is the Aditya L1 mission. 
-         Named after the Sun, Aditya L1 is a groundbreaking project undertaken by the Indian Space Research Organisation (ISRO). 
-         In this blog, we will delve into the details of the mission, its objectives, and the importance of studying our nearest star, the Sun.
 
         </p>
         <h3 className="SubHeading">Aditya L1 Mission: A Brief Overview</h3>
