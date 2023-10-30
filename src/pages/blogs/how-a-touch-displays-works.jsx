@@ -9,11 +9,11 @@ let blogdata = {
   author: "Anena Samrin",
   autohorpos: "TEMS secretary",
   authorimg:
-    "https://ik.imagekit.io/0ta3q23cu/blogs/anenaa_ioPm_1sEI?updatedAt=1685775012813",
+    "https://ik.imagekit.io/0ta3q23cu/blogs/touch_screen/anenaa_ioPm_1sEI?updatedAt=1687951042149",
   description: `Touch Displays revolutionized the way we interact with our devices. From the first touch screen in 1965 to the modern day touch screens,
                 the technology has come a long way. In this blog, we will be discussing the working of a touch display.`,
   image:
-    "https://ik.imagekit.io/0ta3q23cu/blogs/tuch_display.jpg?updatedAt=1685774963438",
+    "https://ik.imagekit.io/0ta3q23cu/blogs/touch_screen/touch_screen_main_img.png?updatedAt=1687951046276",
   content: [
     <div className="blogbody">
       <h2 className="MainHeading">Introduction</h2>

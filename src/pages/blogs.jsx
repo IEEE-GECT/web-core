@@ -22,7 +22,7 @@ let blogposts = [
         touch screen technology and explore how your body chemistry plays a crucial role in its functioning. learn about the hidden 
         layers and nodes that make touch screens come alive!`,
     image:
-      "https://ik.imagekit.io/0ta3q23cu/blogs/touch_screen_main_img.png?updatedAt=1685790369752",
+      "https://ik.imagekit.io/0ta3q23cu/blogs/touch_screen/touch_screen_main_img.png?updatedAt=1687951046276",
     link: "/blogs/how-a-touch-displays-works",
   },
   {
@@ -33,6 +33,15 @@ let blogposts = [
     image:
       "https://ik.imagekit.io/0ta3q23cu/blogs/vr150/vrposterimg.jpg?updatedAt=1687950996710",
     link: "/blogs/vr-150",
+  },
+  {
+    title: "Aditya L1: India's Quest to Touch the Sun.",
+    description: `Space exploration has always captivated humanity's imagination, and India has been making
+     significant strides in this field over the years.One such endeavor that has been grabbing headlines is the Aditya L1 mission. 
+    Named after the Sun, Aditya L1 is a groundbreaking project undertaken by ISRO. `,
+    image:
+      "https://ik.imagekit.io/nm1ondc9y/aditya_l1.jpg?updatedAt=1698661705900",
+    link: "/blogs/aditya_l1",
   },
 ]
 

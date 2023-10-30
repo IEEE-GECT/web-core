@@ -1,6 +1,8 @@
 .blogcarousel {
+    width: 95vw;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -14,7 +16,7 @@
 }
 
 .blogcard {
-    width: 400px;
+    width:clamp(300px, 25vw, 400px);
     margin: 10px;
     padding: 3px;
     border-radius: 10px;
