@@ -6,6 +6,62 @@ import "../styles/blogs.css"
 
 let scholarships = [
   {
+    name: "IEEE Aerospace and Electronic Systems Society Engineering Scholarship",
+    description:
+      "This scholarship recognizes students pursuing studies in Electrical Engineering at the undergraduate level, and systems engineering at the graduate level.",
+    eligibility: [
+      "IEEE student members studying electrical/electronic engineering at the undergraduate level or first professional degree, and systems engineering at the graduate level",
+      "Cumulative GPA of 2.8 or above",
+    ],
+    fund: {
+      graduate: "$10,000 USD and a certificate",
+      undergraduate: "Two awards of $10,000 USD each and a certificate",
+    },
+    more_info:
+      "https://ieee-aess.org/awards/education-awards/engineering-scholarship",
+  },
+  {
+    name: "Richaard E.Merwin Scholarship",
+    description:
+      "to recognize and reward active student volunteer leaders in student branches or chapters who show promise in their academic and professional efforts.",
+    eligibility: "Graduate students, and those in the final two years of an undergraduate program in electrical or computer engineering, computer science, or a well-defined computer related field of engineering who are active members of a student branch or chapter are eligible.",
+    frequency: "twice per year",
+    fund: "US$1000",
+    Criteria: "Evaluation criteria include participation in student IEEE branch/chapter activities (30%), academic achievement (30%), extracurricular activities (10%), letter of recommendation from student branch/chapter advisor (20%), and quality of Student Ambassador vision statement (10%)",
+    apply:
+      "https://www.computer.org/volunteering/awards/scholarships/merwin",
+  },
+  {
+    name: "Upsilon Pi Epsilon Scholarship",
+    description:
+      "raise the importance of academic achievement in our future computer professionals.",
+    eligibility: "All graduate and undergraduate students who are IEEE Computer Society members and full-time students at an academic institution are eligible. Student winners of the Computer Society’s Richard Merwin or UPE/CS award for the previous year (13 months) are not eligible.   ",
+    frequency: "Annually",
+    fund: "$1,000",
+    apply:
+      " https://www.computer.org/volunteering/awards/scholarships/upe-student-award",
+  },
+  {
+    name: "Lance Stafford Larson Student Award",
+    description:
+      "The Larson family, which includes IEEE Past President Robert Larson, created this award to encourage students to develop excellence in their communication skills and to motivate students toward achievement in the field of Computer Science.      ",
+    eligibility: "All IEEE student members. There will be one award for undergraduates and a second for graduate students.",
+    frequency: "Annually",
+    fund: "$500",
+    apply:
+      "https://www.computer.org/volunteering/awards/scholarships/larson",
+  },
+  {
+    name: "IEEE McMurray Award for Industry Achievements in Power Electronics",
+    description:
+      "The IEEE McMurray Award for Industry Achievements in Power Electronics recognizes the work of engineers working in the field of power electronics, which has shown or is likely to show a major impact on the industry, and the resulting products possibly on society.",
+    eligibility: "The award recipient must be an active member of IEEE. ",
+    frequency: "Annually",
+    fund: "$500",
+    apply:
+      "https://students.ieee.org/ieee-mcmurray-award-for-industry-achievements-in- power-electronics/",
+  },
+  {
     name: "IEEE PES India Scholarship Award",
     description:
       "Express a willingness to consider a career in power and energy engineering",
@@ -89,21 +145,7 @@ let scholarships = [
     apply: "https://ieeecss.org/awards/ccta-best-student-paper-award",
     funding: "IEEE Control Systems Society",
   },
-  {
-    name: "IEEE Aerospace and Electronic Systems Society Engineering Scholarship",
-    description:
-      "This scholarship recognizes students pursuing studies in Electrical Engineering at the undergraduate level, and systems engineering at the graduate level.",
-    eligibility: [
-      "IEEE student members studying electrical/electronic engineering at the undergraduate level or first professional degree, and systems engineering at the graduate level",
-      "Cumulative GPA of 2.8 or above",
-    ],
-    fund: {
-      graduate: "$10,000 USD and a certificate",
-      undergraduate: "Two awards of $10,000 USD each and a certificate",
-    },
-    more_info:
-      "https://ieee-aess.org/awards/education-awards/engineering-scholarship",
-  },
+  
   {
     name: "IEEE Broadcast Technology Society / AFCCE Jules Cohen Memorial Scholarships",
     description:
@@ -175,6 +217,8 @@ const Scholorships = () => (
     />
     <div className="pagebg ">
       <h1 className="h1">Scholarships List</h1>
+      <h5>IEEE, the world’s largest technical professional volunteer-led organization, has a lot of scope for IEEE Student Members to involve and get recognized. Applying for scholarships, awards and grants are one of the perks for the dedicated volunteers.
+</h5>
 
       {scholarships.map((scholarship, index) => makeCard(scholarship, index))}
     </div>
