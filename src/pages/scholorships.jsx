@@ -62,7 +62,7 @@ let scholarships = [
       "https://students.ieee.org/ieee-mcmurray-award-for-industry-achievements-in- power-electronics/",
   },
   {
-    name: "IEEE PES India Scholarship Award",
+    name: "IEEE PES India Scholarship Award { not available from 2022}",
     description:
       "Express a willingness to consider a career in power and energy engineering",
     eligibility: [
