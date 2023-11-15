@@ -1,6 +1,6 @@
 .blogcarousel {
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
@@ -16,9 +16,9 @@
 }
 
 .blogcard {
-    width:clamp(300px, 25vw, 400px);
+    width:clamp(300px, 23vw, 500px);
     margin: 10px;
-    margin-left: auto;
+    margin-left: clamp(10px,auto, auto);
     margin-right: auto;
     padding: 3px;
     border-radius: 10px;

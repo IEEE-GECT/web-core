@@ -7,6 +7,17 @@ import { Link } from "gatsby"
 let blogposts = [
   {
     title:
+      "Pegasus : The World’s Most Invasive Spyware",
+    description: ` A spyware that can access your phone and all its secrets through a single call, 
+                   even if you leave it unanswered. Unbelievable right? Delve deep into the world
+                    of Pegasus to know more.
+    `,
+    image:
+      "https://ik.imagekit.io/0ta3q23cu/blogs/pegasus/hero.jpg?updatedAt=1700063694882",
+    link: "/blogs/pegasus",
+  },
+  {
+    title:
       "Riding the Wave of Innovation: Unlocking the Boundless Potential of Wave Energy?",
     description: `Embark on a journey fueled by the relentless power of ocean waves, as wave energy takes
                  center stage in shaping a sustainable future.In this blog ,we will dive deep into the realm of
