@@ -15,8 +15,6 @@ let blogdata={
   content : [
     <div className="blogbody">
         <h2 className="MainHeading">Microbial DNA: Decoding the Subterranean Saga</h2>
-
-   
         <h3 className="SubHeading">Introduction:</h3>
         <p>
 
@@ -24,11 +22,7 @@ let blogdata={
         a seamless journey awaits—where the delicate whispers of genetic code intertwine with the robust machinery of technology. 
 
         </p>
-        <img
-        src="https://ik.imagekit.io/nm1ondc9y/IMG-20231126-WA0001.jpg?updatedAt=1700970700745"
-        alt=""
-        className="blogImage"
-      />
+      
         <h3 className="SubHeading">Technological Symphony: Mapping the Subsurface Odyssey</h3>
         <p>Geospatial World opens a window into the technological marvels shaping subsurface engineering. Ground Penetrating Radar (GPR), Electromagnetic Location (EML), 
             and Building Information Modelling (BIM) stand as the architects of this underground realm. 
@@ -44,23 +38,26 @@ let blogdata={
         SUE, akin to a skilled cartographer, meticulously plots the underground networks of cables, pipelines, and tunnels. 
         A real-time 3D tapestry materializes, transforming chaos into order, offering unparalleled insights into the intricate infrastructure below the ground.
         </p>
-        <img
-        src="https://ik.imagekit.io/nm1ondc9y/IMG-20231126-WA0004.jpg?updatedAt=1700970700731"
-        alt="conspicuous twisted stalk particles observed on the surface of the incubated rock chips" 
-        className="blogImage"
-      />
+       
+        <figure>
+            <img src="https://ik.imagekit.io/nm1ondc9y/IMG-20231126-WA0003.jpg?updatedAt=1700970700709" alt="Coring Sites of the IODP drilling expedition 347" class="blogImage" />
+           <figcaption>Fig a) Coring Sites of the IODP drilling expedition 347 with the specific holes sampled</figcaption>
+          <figcaption>Fig b) The picture of the neighbor section of sediment samples used in the study</figcaption>
+        </figure>
         <p>
         In the realm of civil engineering, microbial DNA assumes a pivotal role. 
         Beyond scientific intrigue, understanding microbial communities in the subsurface environment holds pragmatic significance. 
         Imagine harnessing this understanding to identify optimal routes for underground utilities, foreseeing potential challenges, and optimizing infrastructure projects.
          Microbial DNA becomes more than a composer; it becomes a guide for the architects of our modern world.
         </p>
-        <img
-        src="https://ik.imagekit.io/nm1ondc9y/IMG-20231126-WA0003.jpg?updatedAt=1700970700709"
-        alt="a)Coring Sites of the IODP drilling expedition 347 with the specific holes sampled b)
-        The picture of the neighbour section of sediment samples used in the study"
-        className="blogImage"
-      />
+    
+        <figure>
+            <img src="https://ik.imagekit.io/nm1ondc9y/IMG-20231126-WA0002.jpg?updatedAt=1700970700741" alt="Four combination of grinding beads" class="blogImage" />
+            <figcaption>Fig a) Four combination of grinding beads</figcaption>
+            <figcaption>Fig b) Specific parameter for each combination of grinding beads</figcaption>
+        </figure>
+
+
         <h3 className="SubHeading">Future Vistas: Harnessing DNA for Engineering Marvels</h3>
         <p>
         Looking ahead, the prospect of integrating artificial functional motifs onto bacterial surfaces using microbial DNA opens avenues for biosynthesis, environmental protection, and advancements in human health.
@@ -68,12 +65,11 @@ let blogdata={
         The future promises not just innovation but a harmonious collaboration between nature's code and human ingenuity—a convergence shaping industries and technologies yet to be explored fully.
             
         </p>
+       
 
-        <img
-        src="https://ik.imagekit.io/nm1ondc9y/IMG-20231126-WA0002.jpg?updatedAt=1700970700741"
-        alt="a)Four combination of grinding beads b)Specific parameter for each combination of grinding beads"
-        className="blogImage"
-      />
+
+
+      
         <h3 className="SubHeading">Conclusion</h3>
         <p> 
 
