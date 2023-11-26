@@ -11,7 +11,7 @@ let blogdata={
   authorimg:"https://ik.imagekit.io/nm1ondc9y/Noorjahan%20K.p.jpg?updatedAt=1700972103352",
   description:` In the silent realms of scientific discovery, Microbial DNA stands as Earth's virtuoso composer, crafting a symphony with ancient whispers from subterranean life. 
   Can it unravel the enigmatic saga beneath our feet, revealing secrets as astonishing as the wonders hidden in the depths of our planet?`,
-  image:"https://ik.imagekit.io/nm1ondc9y/MICROBIALDNA.jpg?updatedAt=1700969644062",
+  image:"https://ik.imagekit.io/nm1ondc9y/MicrobialDNA.jpg?updatedAt=1700974336216",
   content : [
     <div className="blogbody">
         <h2 className="MainHeading">Microbial DNA: Decoding the Subterranean Saga</h2>
@@ -38,25 +38,26 @@ let blogdata={
         SUE, akin to a skilled cartographer, meticulously plots the underground networks of cables, pipelines, and tunnels. 
         A real-time 3D tapestry materializes, transforming chaos into order, offering unparalleled insights into the intricate infrastructure below the ground.
         </p>
-       
+        <br></br>
         <figure>
             <img src="https://ik.imagekit.io/nm1ondc9y/IMG-20231126-WA0003.jpg?updatedAt=1700970700709" alt="Coring Sites of the IODP drilling expedition 347" class="blogImage" />
            <figcaption>Fig a) Coring Sites of the IODP drilling expedition 347 with the specific holes sampled</figcaption>
           <figcaption>Fig b) The picture of the neighbor section of sediment samples used in the study</figcaption>
         </figure>
+        <br></br>
         <p>
         In the realm of civil engineering, microbial DNA assumes a pivotal role. 
         Beyond scientific intrigue, understanding microbial communities in the subsurface environment holds pragmatic significance. 
         Imagine harnessing this understanding to identify optimal routes for underground utilities, foreseeing potential challenges, and optimizing infrastructure projects.
          Microbial DNA becomes more than a composer; it becomes a guide for the architects of our modern world.
         </p>
-    
+        <br></br>
         <figure>
             <img src="https://ik.imagekit.io/nm1ondc9y/IMG-20231126-WA0002.jpg?updatedAt=1700970700741" alt="Four combination of grinding beads" class="blogImage" />
             <figcaption>Fig a) Four combination of grinding beads</figcaption>
             <figcaption>Fig b) Specific parameter for each combination of grinding beads</figcaption>
         </figure>
-
+        <br></br>
 
         <h3 className="SubHeading">Future Vistas: Harnessing DNA for Engineering Marvels</h3>
         <p>
