@@ -4,6 +4,7 @@
 [![Deploy](https://github.com/IEEE-GECT/web-core/actions/workflows/deploy.yml/badge.svg)](https://github.com/IEEE-GECT/web-core/actions/workflows/deploy.yml)
 
 ## Hosted [here👈](http://ieee.gectcr.ac.in)
+## Also   [here👈](https://ieee-gect.github.io/web-core/) 
 
 ## 🚀 Quick start
 
