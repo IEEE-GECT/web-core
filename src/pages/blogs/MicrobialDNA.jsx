@@ -6,9 +6,9 @@ import Seo from "../../components/seo"
 let blogdata={
   link:"/blogs/MicrobialDNA",
   title:"Microbial DNA: Decoding the Subterranean Saga",
-  author:'',
-  autohorpos:'',
-  authorimg:"",
+  author:'Noorjahan K P',
+  autohorpos:'Secretary, WIE AG GECT',
+  authorimg:"https://ik.imagekit.io/nm1ondc9y/Noorjahan%20K.p.jpg?updatedAt=1700972103352",
   description:` In the silent realms of scientific discovery, Microbial DNA stands as Earth's virtuoso composer, crafting a symphony with ancient whispers from subterranean life. 
   Can it unravel the enigmatic saga beneath our feet, revealing secrets as astonishing as the wonders hidden in the depths of our planet?`,
   image:"https://ik.imagekit.io/nm1ondc9y/MICROBIALDNA.jpg?updatedAt=1700969644062",
