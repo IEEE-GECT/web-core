@@ -1,14 +1,6 @@
-@font-face {
-    font-family: 'poppins';
-    src: url('./fontfiles/Poppins-Black.ttf') format('truetype');
-  }
 
-  @font-face {
-    font-family: 'poppins-text';
-    src: url('./fontfiles//Poppins-Light.ttf') format('truetype');
-  }
   body {
-    font-family: poppins-text, sans-serif;
+    font-family: sans-serif;
   }
 
 #blogbox{
