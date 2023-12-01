@@ -59,7 +59,7 @@ let blogposts = [
     description: `In the silent realms of scientific discovery, Microbial DNA stands as Earth's virtuoso composer, crafting a symphony with ancient whispers from subterranean life. 
     Can it unravel the enigmatic saga beneath our feet, revealing secrets as astonishing as the wonders hidden in the depths of our planet? `,
     image:
-      "https://ik.imagekit.io/nm1ondc9y/MicrobialDNA.jpg?updatedAt=1700974336216",
+      "https://ik.imagekit.io/nm1ondc9y/microbial%20dna.jpg?updatedAt=1701450533977",
     link: "/blogs/MicrobialDNA",
   },
 ]

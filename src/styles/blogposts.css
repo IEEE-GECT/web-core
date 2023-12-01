@@ -1,6 +1,7 @@
 
   body {
     font-family: sans-serif;
+    
   }
 
 #blogbox{
@@ -10,7 +11,7 @@
   padding:10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 }
 
 .blogImage{
@@ -53,6 +54,7 @@ h1{
 .postimage{
     width: 50%;
     border-radius:0.5rem;
+    align-self: center;
 }
 
 .blogbody{
@@ -127,7 +129,7 @@ a:hover{
 
 @media only screen and (max-width: 600px) {
         #blogbox{
-            width:95vw;
+            width: 95vw;
             margin: 0 auto;
             background-color: rgb(235, 235, 235);
             padding:5px;
