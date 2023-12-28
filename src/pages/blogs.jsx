@@ -62,6 +62,13 @@ let blogposts = [
       "https://ik.imagekit.io/nm1ondc9y/microbial%20dna.jpg?updatedAt=1701450533977",
     link: "/blogs/MicrobialDNA",
   },
+  {
+    title: "Gravitational Waves: The Ripples of Spacetime",
+    description: `Gravitational waves are ripples in the fabric of spacetime, caused by the most violent and energetic processes in the Universe. `,
+    image:
+      "https://ik.imagekit.io/iam6kb9qx/gravitationalwaves.jpg?updatedAt=1703738487111",
+    link: "/blogs/gravit_waves",
+  },
 ]
 
 const BlogPage = () => (
