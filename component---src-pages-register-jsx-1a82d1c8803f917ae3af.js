@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkieee_gect=self.webpackChunkieee_gect||[]).push([[858],{8266:function(e,t,i){i.r(t);var r=i(7294),c=i(6762),n=i(2059);t.default=()=>((0,r.useEffect)((()=>{window.location.href="https://www.ieee.org/"}),[]),r.createElement(c.Z,{route:"/register"},r.createElement(n.Z,{title:"IEEE Membership Form",description:"Join IEEE Now!"}),r.createElement("p",null,"Redirecting...")))}}]);
+//# sourceMappingURL=component---src-pages-register-jsx-1a82d1c8803f917ae3af.js.map
